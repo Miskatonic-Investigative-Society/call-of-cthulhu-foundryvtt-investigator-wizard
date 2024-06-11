@@ -1,0 +1,38 @@
+{
+  "id": "call-of-cthulhu-foundryvtt-investigator-wizard",
+  "title": "Call of Cthulhu - FoundryVTT - Investigator Wizard",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "CoC7",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "investigator-wizard",
+      "label": "Investigator Wizard",
+      "path": "packs/investigator-wizard",
+      "type": "Item",
+      "system": "CoC7",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "description": "This content package comes with the Archetypes, Occupations, Setups, and Skills to speed up using the investigator wizard.",
+  "authors": [
+    {
+      "name": "Miskatonic Investigative Society"
+    }
+  ],
+  "url": "https://github.com/Miskatonic-Investigative-Society/call-of-cthulhu-foundryvtt-investigator-wizard"
+}
