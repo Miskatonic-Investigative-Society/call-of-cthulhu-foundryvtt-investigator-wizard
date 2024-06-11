@@ -13,7 +13,7 @@ If you have any suggestions or feedback, please visit us on Discord in the `#cha
 
 For the list of changes, see: [CHANGELOG](https://github.com/Miskatonic-Investigative-Society/call-of-cthulhu-foundryvtt-investigator-wizard/blob/develop/.github/CHANGELOG.md).
 
-## Issues.
+## Usage.
 
 Install the CoC7 system in Foundry VTT from the Game Systems tab, using the following manifest:
 `https://github.com/Miskatonic-Investigative-Society/CoC7-FoundryVTT/releases/latest/download/system.json`
@@ -22,6 +22,10 @@ Install this module in Foundry VTT from the Add-on Modules tab tab, using the fo
 `https://github.com/Miskatonic-Investigative-Society/call-of-cthulhu-foundryvtt-investigator-wizard/releases/latest/download/module.json`
 
 In your world under Game Settings click Manage Modules, tick "Call of Cthulhu - FoundryVTT - Investigator Wizard", and Save Module Settings
+
+## Issues.
+
+If you find any issues with the module please raise a bug report https://github.com/Miskatonic-Investigative-Society/call-of-cthulhu-foundryvtt-investigator-wizard/issues
 
 ## Licenses.
 
