@@ -7,7 +7,7 @@
 
 ## Overview.
 
-An implementation of the Call of Cthulhu 7th Edition game system for [Foundry Virtual Tabletop](http://foundryvtt.com). This provides sheets and system in addition to some compendiums as examples.
+This content package comes with the basic Archetypes, Occupations, Setups, and Skills to speed up using the investigator wizard, for use with the [Call of Cthulhu 7th Edition implementation for Foundry Virtual Tabletop.](https://github.com/Miskatonic-Investigative-Society/CoC7-FoundryVTT)
 
 If you have any suggestions or feedback, please visit us on Discord in the `#chaosium` channel on the [Foundry Discord Server](discord.gg/foundryvtt)
 
