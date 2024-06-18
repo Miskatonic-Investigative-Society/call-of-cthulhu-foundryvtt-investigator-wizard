@@ -1,4 +1,4 @@
-## Version 1.0.1
+## Version 1.0.2
 
 Fix Fighting skills set to Firearms specialization
 - Fighting (Axe)

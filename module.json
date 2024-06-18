@@ -1,7 +1,7 @@
 {
   "id": "call-of-cthulhu-foundryvtt-investigator-wizard",
   "title": "Call of Cthulhu - FoundryVTT - Investigator Wizard",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "compatibility": {
     "minimum": "11",
     "verified": "12"
