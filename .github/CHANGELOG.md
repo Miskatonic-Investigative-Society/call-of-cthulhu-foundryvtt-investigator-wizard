@@ -1,3 +1,7 @@
+## Version 1.0.4
+
+Add in Cthulhu by Gaslight Pulp era support
+
 ## Version 1.0.3
 
 Updates for The Cthulhu by Gaslight Investigators Guide
