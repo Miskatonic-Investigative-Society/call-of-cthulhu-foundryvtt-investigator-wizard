@@ -1,3 +1,7 @@
+## Version 1.0.5
+
+Replace setup backstory headings to be translatable CoC ID strings
+
 ## Version 1.0.4
 
 Add in Cthulhu by Gaslight Pulp era support
