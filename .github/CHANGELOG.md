@@ -1,3 +1,8 @@
+## Version 1.0.6
+
+- Change Fighting Throw to Throw
+- Add Reputation skill and include in Regency Setups
+
 ## Version 1.0.5
 
 Replace setup backstory headings to be translatable CoC ID strings
@@ -32,4 +37,4 @@ Fix Fighting skills set to Firearms specialization
 
 ## Version 1.0.0
 
-Inital release
+Initial release

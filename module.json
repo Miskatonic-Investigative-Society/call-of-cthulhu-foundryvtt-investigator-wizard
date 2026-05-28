@@ -1,17 +1,19 @@
 {
   "id": "call-of-cthulhu-foundryvtt-investigator-wizard",
   "title": "Call of Cthulhu - FoundryVTT - Investigator Wizard",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "compatibility": {
-    "minimum": "11",
-    "verified": "13"
+    "minimum": "12",
+    "verified": "14"
   },
   "relationships": {
     "systems": [
       {
         "id": "CoC7",
         "type": "system",
-        "compatibility": {}
+        "compatibility": {
+          "minimum": "8.10"
+        }
       }
     ]
   },
@@ -36,5 +38,5 @@
   ],
   "url": "https://github.com/Miskatonic-Investigative-Society/call-of-cthulhu-foundryvtt-investigator-wizard",
   "manifest": "https://github.com/Miskatonic-Investigative-Society/call-of-cthulhu-foundryvtt-investigator-wizard/releases/latest/download/module.json",
-  "download": "https://github.com/Miskatonic-Investigative-Society/call-of-cthulhu-foundryvtt-investigator-wizard/releases/download/1.0.5/module.zip"
+  "download": "https://github.com/Miskatonic-Investigative-Society/call-of-cthulhu-foundryvtt-investigator-wizard/releases/download/1.0.6/module.zip"
 }

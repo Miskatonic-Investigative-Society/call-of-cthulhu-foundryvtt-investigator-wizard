@@ -8,7 +8,7 @@ assignees: ''
 
 <!--- Provide a general summary of the issue in the Title above. -->
 ### Are you creating an issue on the correct repository?
-This module only contains prenamed Items the system https://github.com/Miskatonic-Investigative-Society/CoC7-FoundryVTT/issues can use. If the issue is related to the functionality of the Investigator Wizard that will probably be the best place to raise the issue.
+This module only contains pre-made Items the system https://github.com/Miskatonic-Investigative-Society/CoC7-FoundryVTT/issues can use. If the issue is related to the functionality of the Investigator Wizard that will probably be the best place to raise the issue.
 
 ### Prerequisites.
 
