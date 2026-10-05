@@ -1,0 +1,33 @@
+{
+  "name": "Leggere e Scrivere (Latino)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 79 (edizione inglese)</p>"
+    },
+    "skillName": "Latino",
+    "specialization": "Leggere e Scrivere",
+    "base": "1",
+    "properties": {
+      "push": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.read-and-write-latin",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAgesPulp": true,
+          "darkAges": true
+        }
+      }
+    }
+  },
+  "_id": "RE02HlXddZj3Xja0",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/quill-ink.svg",
+  "_key": "!items!RE02HlXddZj3Xja0",
+  "effects": []
+}

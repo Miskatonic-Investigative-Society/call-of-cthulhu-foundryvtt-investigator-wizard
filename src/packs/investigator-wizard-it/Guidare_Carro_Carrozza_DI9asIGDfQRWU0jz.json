@@ -1,0 +1,31 @@
+{
+  "name": "Guidare Carro / Carrozza",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "skillName": "Guidare Carro / Carrozza",
+    "specialization": "",
+    "base": "20",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.drive-auto",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "reignOfTerror": true
+        }
+      }
+    }
+  },
+  "_id": "DI9asIGDfQRWU0jz",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/cartwheel.svg",
+  "_key": "!items!DI9asIGDfQRWU0jz",
+  "effects": []
+}

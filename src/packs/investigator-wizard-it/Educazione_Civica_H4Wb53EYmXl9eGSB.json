@@ -1,0 +1,31 @@
+{
+  "name": "Educazione Civica",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Through the Ages - Invictus», pagina 10 (edizione inglese)</p>"
+    },
+    "skillName": "Educazione Civica",
+    "specialization": "",
+    "base": "10",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.civics",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "invictus": true
+        }
+      }
+    }
+  },
+  "_id": "H4Wb53EYmXl9eGSB",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/shaking-hands.svg",
+  "_key": "!items!H4Wb53EYmXl9eGSB",
+  "effects": []
+}

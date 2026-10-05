@@ -1,0 +1,42 @@
+{
+  "name": "Scienza (Generico)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 73 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 116 (edizione inglese)</p><p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 92 (edizione inglese)</p><p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 80 (edizione inglese)</p>"
+    },
+    "skillName": "Generico",
+    "specialization": "Scienza",
+    "base": "1",
+    "properties": {
+      "push": true,
+      "requiresname": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.science-any",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "gasLight": true,
+          "gasLightPulp": true,
+          "darkAgesPulp": true,
+          "darkAges": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "modernPulp": true,
+          "modern": true,
+          "reignOfTerror": true
+        }
+      }
+    }
+  },
+  "_id": "uaAv95jXJIaQ08rl",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/materials-science.svg",
+  "_key": "!items!uaAv95jXJIaQ08rl",
+  "effects": []
+}

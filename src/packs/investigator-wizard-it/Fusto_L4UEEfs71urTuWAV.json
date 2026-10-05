@@ -1,0 +1,35 @@
+{
+  "name": "Fusto",
+  "type": "archetype",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 16 (edizione inglese)</p>"
+    },
+    "coreCharacteristics": {
+      "str": true
+    },
+    "skills": [
+      "i.skill.climb",
+      "i.skill.fighting-brawl",
+      "i.skill.intimidate",
+      "i.skill.listen",
+      "i.skill.mechanical-repair",
+      "i.skill.psychology",
+      "i.skill.swim",
+      "i.skill.throw"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.archetype.beefcake",
+        "lang": "it",
+        "priority": 5
+      }
+    }
+  },
+  "_id": "L4UEEfs71urTuWAV",
+  "img": "icons/svg/invisible.svg",
+  "_key": "!items!L4UEEfs71urTuWAV",
+  "effects": []
+}

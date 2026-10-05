@@ -1,0 +1,37 @@
+{
+  "name": "Studioso",
+  "type": "archetype",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 20 (edizione inglese)</p>"
+    },
+    "coreCharacteristics": {
+      "edu": true
+    },
+    "skills": [
+      "i.skill.accounting",
+      "i.skill.anthropology",
+      "i.skill.science-cryptography",
+      "i.skill.history",
+      "i.skill.language-any",
+      "i.skill.library-use",
+      "i.skill.medicine",
+      "i.skill.natural-world",
+      "i.skill.occult",
+      "i.skill.science-any"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.archetype.scholar",
+        "lang": "it",
+        "priority": 5
+      }
+    }
+  },
+  "_id": "1RkbINKGbg0IGIGK",
+  "img": "icons/svg/invisible.svg",
+  "_key": "!items!1RkbINKGbg0IGIGK",
+  "effects": []
+}

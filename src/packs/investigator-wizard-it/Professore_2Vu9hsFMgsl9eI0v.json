@@ -1,0 +1,60 @@
+{
+  "name": "Professore",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 41 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 88 (edizione inglese)</p><p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 32 (edizione inglese)</p>"
+    },
+    "type": {
+      "lovecraftian": true,
+      "pulp": true
+    },
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 4,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 20,
+      "max": 70
+    },
+    "groups": [],
+    "personal": 4,
+    "skills": [
+      "i.skill.library-use",
+      "i.skill.language-any",
+      "i.skill.language-own",
+      "i.skill.psychology"
+    ],
+    "personalText": "altre abilità come specializzazioni accademiche o personali"
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.professor",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "investigators": true,
+          "darkAges": true,
+          "darkAgesPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "invictus": true,
+          "modern": true,
+          "modernPulp": true,
+          "pulp": true,
+          "regency": true,
+          "regencyPulp": true
+        }
+      }
+    }
+  },
+  "_id": "2Vu9hsFMgsl9eI0v",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!2Vu9hsFMgsl9eI0v",
+  "effects": []
+}

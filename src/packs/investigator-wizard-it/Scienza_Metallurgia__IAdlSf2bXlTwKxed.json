@@ -1,0 +1,32 @@
+{
+  "name": "Scienza (Metallurgia)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "skillName": "Metallurgia",
+    "specialization": "Scienza",
+    "base": "1",
+    "properties": {
+      "push": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.science-metallurgy",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "invictus": true
+        }
+      }
+    }
+  },
+  "_id": "IAdlSf2bXlTwKxed",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/melting-metal.svg",
+  "_key": "!items!IAdlSf2bXlTwKxed",
+  "effects": []
+}

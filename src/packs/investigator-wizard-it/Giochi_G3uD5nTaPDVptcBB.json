@@ -1,0 +1,32 @@
+{
+  "name": "Giochi",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Regency Cthulhu», pagina 38 (edizione inglese)</p>"
+    },
+    "skillName": "Giochi",
+    "specialization": "",
+    "base": "10",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.gaming",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "regencyPulp": true,
+          "regency": true
+        }
+      }
+    }
+  },
+  "_id": "G3uD5nTaPDVptcBB",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/poker-hand.svg",
+  "_key": "!items!G3uD5nTaPDVptcBB",
+  "effects": []
+}

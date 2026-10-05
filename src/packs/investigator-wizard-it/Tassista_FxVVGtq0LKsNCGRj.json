@@ -1,0 +1,70 @@
+{
+  "name": "Tassista",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 79 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 10,
+      "max": 40
+    },
+    "groups": [
+      {
+        "options": 2,
+        "skills": [
+          "i.skill.charm",
+          "i.skill.fast-talk",
+          "i.skill.intimidate",
+          "i.skill.persuade"
+        ]
+      }
+    ],
+    "personal": 1,
+    "skills": [
+      "i.skill.drive-auto",
+      "i.skill.listen",
+      "i.skill.mechanical-repair",
+      "i.skill.navigate",
+      "i.skill.spot-hidden"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.taxi-driver",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "investigators": true,
+          "darkAges": true,
+          "darkAgesPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "invictus": true,
+          "modern": true,
+          "modernPulp": true,
+          "pulp": true
+        }
+      }
+    }
+  },
+  "_id": "FxVVGtq0LKsNCGRj",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!FxVVGtq0LKsNCGRj",
+  "effects": []
+}

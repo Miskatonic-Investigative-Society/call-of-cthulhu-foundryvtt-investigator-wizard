@@ -1,0 +1,83 @@
+{
+  "name": "Soldato",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 41 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 90 (edizione inglese)</p><p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 32 (edizione inglese)</p>"
+    },
+    "type": {
+      "pulp": true
+    },
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      },
+      "str": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      }
+    },
+    "creditRating": {
+      "min": 9,
+      "max": 30
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.climb",
+          "i.skill.swim"
+        ]
+      },
+      {
+        "options": 2,
+        "skills": [
+          "i.skill.first-aid",
+          "i.skill.mechanical-repair",
+          "i.skill.language-any"
+        ]
+      }
+    ],
+    "personal": 0,
+    "skills": [
+      "i.skill.dodge",
+      "i.skill.fighting-any",
+      "i.skill.firearms-any",
+      "i.skill.stealth",
+      "i.skill.survival-any"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.soldier",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "investigators": true,
+          "darkAges": true,
+          "darkAgesPulp": true,
+          "invictus": true,
+          "modern": true,
+          "modernPulp": true,
+          "pulp": true,
+          "regency": true,
+          "regencyPulp": true
+        }
+      }
+    }
+  },
+  "_id": "1fD2QBTgXUR8fsAs",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!1fD2QBTgXUR8fsAs",
+  "effects": []
+}

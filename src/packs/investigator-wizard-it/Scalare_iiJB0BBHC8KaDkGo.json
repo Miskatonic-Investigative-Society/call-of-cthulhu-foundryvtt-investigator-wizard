@@ -1,0 +1,31 @@
+{
+  "name": "Scalare",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "skillName": "Scalare",
+    "specialization": "",
+    "base": "(@DEX+@STR)/5",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.climb",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "invictus": true
+        }
+      }
+    }
+  },
+  "_id": "iiJB0BBHC8KaDkGo",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/mountain-road.svg",
+  "_key": "!items!iiJB0BBHC8KaDkGo",
+  "effects": []
+}

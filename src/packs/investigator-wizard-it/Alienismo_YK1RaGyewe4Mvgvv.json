@@ -1,0 +1,32 @@
+{
+  "name": "Alienismo",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 89 (edizione inglese)</p>"
+    },
+    "skillName": "Alienismo",
+    "specialization": "",
+    "base": "1",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.alienism",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "gasLight": true,
+          "gasLightPulp": true
+        }
+      }
+    }
+  },
+  "_id": "YK1RaGyewe4Mvgvv",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/inner-self.svg",
+  "_key": "!items!YK1RaGyewe4Mvgvv",
+  "effects": []
+}

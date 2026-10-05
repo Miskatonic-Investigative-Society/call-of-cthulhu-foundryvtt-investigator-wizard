@@ -1,0 +1,32 @@
+{
+  "name": "Scienza (Astrologia)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "skillName": "Astrologia",
+    "specialization": "Scienza",
+    "base": "1",
+    "properties": {
+      "push": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.science-astrology",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "invictus": true
+        }
+      }
+    }
+  },
+  "_id": "hnYkt3d3I1pNCyy7",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/night-sky.svg",
+  "_key": "!items!hnYkt3d3I1pNCyy7",
+  "effects": []
+}

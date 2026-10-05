@@ -1,0 +1,61 @@
+{
+  "name": "Intrattenitore",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Down Darker Trails», pagina 19 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "app": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 9,
+      "max": 60
+    },
+    "groups": [
+      {
+        "options": 2,
+        "skills": [
+          "i.skill.charm",
+          "i.skill.fast-talk",
+          "i.skill.intimidate",
+          "i.skill.persuade"
+        ]
+      }
+    ],
+    "personal": 2,
+    "skills": [
+      "i.skill.art-craft-any",
+      "i.skill.disguise",
+      "i.skill.listen",
+      "i.skill.psychology"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.entertainer",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true
+        }
+      }
+    }
+  },
+  "_id": "4W1AgIepbtzQyBzo",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!4W1AgIepbtzQyBzo",
+  "effects": []
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Cacciatore",
+  "type": "archetype",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 19 (edizione inglese)</p>"
+    },
+    "coreCharacteristics": {
+      "con": true,
+      "int": true
+    },
+    "skills": [
+      "i.skill.animal-handling",
+      "i.skill.fighting-any",
+      "i.skill.firearms-rifle-shotgun",
+      "i.skill.firearms-handgun",
+      "i.skill.first-aid",
+      "i.skill.listen",
+      "i.skill.natural-world",
+      "i.skill.navigate",
+      "i.skill.spot-hidden",
+      "i.skill.stealth",
+      "i.skill.survival-any",
+      "i.skill.swim",
+      "i.skill.track"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.archetype.hunter",
+        "lang": "it",
+        "priority": 5
+      }
+    }
+  },
+  "_id": "rsIlFB8IYHEcodPS",
+  "img": "icons/svg/invisible.svg",
+  "_key": "!items!rsIlFB8IYHEcodPS",
+  "effects": []
+}

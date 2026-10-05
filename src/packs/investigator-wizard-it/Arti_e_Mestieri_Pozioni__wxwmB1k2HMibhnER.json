@@ -1,0 +1,34 @@
+{
+  "name": "Arti e Mestieri (Pozioni)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 74 (edizione inglese)</p><p>Vedi «Cthulhu Through the Ages - Invictus», pagina 10 (edizione inglese)</p>"
+    },
+    "skillName": "Pozioni",
+    "specialization": "Arti e Mestieri",
+    "base": "5",
+    "properties": {
+      "push": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.art-craft-potions",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAgesPulp": true,
+          "darkAges": true,
+          "invictus": true
+        }
+      }
+    }
+  },
+  "_id": "wxwmB1k2HMibhnER",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/caro-asercion/round-potion.svg",
+  "_key": "!items!wxwmB1k2HMibhnER",
+  "effects": []
+}

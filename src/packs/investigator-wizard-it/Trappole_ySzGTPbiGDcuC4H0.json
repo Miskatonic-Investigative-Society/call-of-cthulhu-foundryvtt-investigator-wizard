@@ -1,0 +1,32 @@
+{
+  "name": "Trappole",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Down Darker Trails», pagina 28 (edizione inglese)</p>"
+    },
+    "skillName": "Trappole",
+    "specialization": "",
+    "base": "10",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.trap",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true
+        }
+      }
+    }
+  },
+  "_id": "ySzGTPbiGDcuC4H0",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/wolf-trap.svg",
+  "_key": "!items!ySzGTPbiGDcuC4H0",
+  "effects": []
+}

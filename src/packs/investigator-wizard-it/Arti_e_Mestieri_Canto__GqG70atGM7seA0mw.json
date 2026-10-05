@@ -1,0 +1,35 @@
+{
+  "name": "Arti e Mestieri (Canto)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 89 (edizione inglese)</p><p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 74 (edizione inglese)</p>"
+    },
+    "skillName": "Canto",
+    "specialization": "Arti e Mestieri",
+    "base": "5",
+    "properties": {
+      "push": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.art-craft-singer",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "gasLight": true,
+          "gasLightPulp": true,
+          "darkAgesPulp": true,
+          "darkAges": true
+        }
+      }
+    }
+  },
+  "_id": "GqG70atGM7seA0mw",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/sing.svg",
+  "_key": "!items!GqG70atGM7seA0mw",
+  "effects": []
+}

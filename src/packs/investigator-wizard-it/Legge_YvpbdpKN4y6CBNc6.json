@@ -1,0 +1,41 @@
+{
+  "name": "Legge",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 67 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 109 (edizione inglese)</p><p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 91 (edizione inglese)</p>"
+    },
+    "skillName": "Legge",
+    "specialization": "",
+    "base": "5",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.law",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "gasLight": true,
+          "gasLightPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "modernPulp": true,
+          "modern": true,
+          "pulp": true,
+          "regencyPulp": true,
+          "regency": true,
+          "reignOfTerror": true
+        }
+      }
+    }
+  },
+  "_id": "YvpbdpKN4y6CBNc6",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/3d-hammer.svg",
+  "_key": "!items!YvpbdpKN4y6CBNc6",
+  "effects": []
+}

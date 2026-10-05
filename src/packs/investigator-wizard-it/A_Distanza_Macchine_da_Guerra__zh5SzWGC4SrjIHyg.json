@@ -1,0 +1,34 @@
+{
+  "name": "A Distanza (Macchine da Guerra)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 79 (edizione inglese)</p>"
+    },
+    "skillName": "Macchine da Guerra",
+    "specialization": "A Distanza",
+    "base": "10",
+    "properties": {
+      "ranged": true,
+      "combat": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.ranged-war-engine",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAgesPulp": true,
+          "darkAges": true
+        }
+      }
+    }
+  },
+  "_id": "zh5SzWGC4SrjIHyg",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/trebuchet.svg",
+  "_key": "!items!zh5SzWGC4SrjIHyg",
+  "effects": []
+}

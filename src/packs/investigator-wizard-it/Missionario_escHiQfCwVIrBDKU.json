@@ -1,0 +1,73 @@
+{
+  "name": "Missionario",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 84 (edizione inglese)</p><p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 31 (edizione inglese)</p>"
+    },
+    "type": {
+      "pulp": true
+    },
+    "occupationSkillPoints": {
+      "app": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 0,
+      "max": 30
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.charm",
+          "i.skill.fast-talk",
+          "i.skill.intimidate",
+          "i.skill.persuade"
+        ]
+      }
+    ],
+    "personal": 2,
+    "skills": [
+      "i.skill.art-craft-any",
+      "i.skill.first-aid",
+      "i.skill.mechanical-repair",
+      "i.skill.medicine",
+      "i.skill.natural-world"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.missionary",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "investigators": true,
+          "darkAges": true,
+          "darkAgesPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "invictus": true,
+          "modern": true,
+          "modernPulp": true,
+          "pulp": true,
+          "regency": true,
+          "regencyPulp": true
+        }
+      }
+    }
+  },
+  "_id": "escHiQfCwVIrBDKU",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!escHiQfCwVIrBDKU",
+  "effects": []
+}

@@ -1,0 +1,82 @@
+{
+  "name": "Configurazione anni '20",
+  "type": "setup",
+  "system": {
+    "description": {
+      "value": "<p>Configurazione predefinita per i personaggi ambientati negli anni '20.</p>"
+    },
+    "items": [
+      "i.skill.accounting",
+      "i.skill.anthropology",
+      "i.skill.appraise",
+      "i.skill.archaeology",
+      "i.skill.art-craft-any",
+      "i.skill.charm",
+      "i.skill.climb",
+      "i.skill.credit-rating",
+      "i.skill.cthulhu-mythos",
+      "i.skill.disguise",
+      "i.skill.dodge",
+      "i.skill.drive-auto",
+      "i.skill.electrical-repair",
+      "i.skill.fast-talk",
+      "i.skill.fighting-brawl",
+      "i.skill.throw",
+      "i.skill.firearms-handgun",
+      "i.skill.firearms-rifle-shotgun",
+      "i.skill.first-aid",
+      "i.skill.history",
+      "i.skill.intimidate",
+      "i.skill.jump",
+      "i.skill.language-own",
+      "i.skill.language-any",
+      "i.skill.law",
+      "i.skill.library-use",
+      "i.skill.listen",
+      "i.skill.locksmith",
+      "i.skill.mechanical-repair",
+      "i.skill.medicine",
+      "i.skill.natural-world",
+      "i.skill.navigate",
+      "i.skill.occult",
+      "i.skill.persuade",
+      "i.skill.pilot-any",
+      "i.skill.psychoanalysis",
+      "i.skill.psychology",
+      "i.skill.ride",
+      "i.skill.science-any",
+      "i.skill.sleight-of-hand",
+      "i.skill.spot-hidden",
+      "i.skill.stealth",
+      "i.skill.survival-any",
+      "i.skill.swim",
+      "i.skill.track",
+      "i.weapon.brawl"
+    ],
+    "bioSections": [
+      "CoC7.InvestigatorWizard.PersonalDescription",
+      "CoC7.CoCIDFlag.keys.rt..backstory-ideology-and-beliefs",
+      "CoC7.CoCIDFlag.keys.rt..backstory-significant-people",
+      "CoC7.CoCIDFlag.keys.rt..backstory-meaningful-locations",
+      "CoC7.CoCIDFlag.keys.rt..backstory-treasured-possessions",
+      "CoC7.CoCIDFlag.keys.rt..backstory-traits",
+      "CoC7.CoCIDFlag.keys.rt..backstory-injuries-and-scars"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.setup.s-setup",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true
+        }
+      }
+    }
+  },
+  "_id": "3kYN9SHZqJLCjNgx",
+  "img": "icons/svg/item-bag.svg",
+  "_key": "!items!3kYN9SHZqJLCjNgx",
+  "effects": []
+}

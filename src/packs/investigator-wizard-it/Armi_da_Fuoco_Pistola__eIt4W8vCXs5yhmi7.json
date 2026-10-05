@@ -1,0 +1,40 @@
+{
+  "name": "Armi da Fuoco (Pistola)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 64 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 107 (edizione inglese)</p><p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 91 (edizione inglese)</p>"
+    },
+    "skillName": "Pistola",
+    "specialization": "Armi da Fuoco",
+    "base": "20",
+    "properties": {
+      "firearm": true,
+      "combat": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.firearms-handgun",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "gasLight": true,
+          "gasLightPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "modernPulp": true,
+          "modern": true,
+          "pulp": true
+        }
+      }
+    }
+  },
+  "_id": "eIt4W8vCXs5yhmi7",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/john-colburn/pistol-gun.svg",
+  "_key": "!items!eIt4W8vCXs5yhmi7",
+  "effects": []
+}

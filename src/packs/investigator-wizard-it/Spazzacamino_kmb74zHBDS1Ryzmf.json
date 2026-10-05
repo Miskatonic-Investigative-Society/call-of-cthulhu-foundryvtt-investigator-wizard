@@ -1,0 +1,80 @@
+{
+  "name": "Spazzacamino",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 85 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "str": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      },
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      }
+    },
+    "creditRating": {
+      "min": 10,
+      "max": 20
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.charm",
+          "i.skill.fast-talk"
+        ]
+      },
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.mechanical-repair",
+          "i.skill.natural-world"
+        ]
+      },
+      {
+        "options": 3,
+        "skills": [
+          "i.skill.climb",
+          "i.skill.art-craft-any",
+          "i.skill.drive-auto",
+          "i.skill.operate-heavy-machinery",
+          "i.skill.pilot-boat",
+          "i.skill.ride"
+        ]
+      }
+    ],
+    "personal": 1,
+    "skills": [
+      "i.skill.fighting-brawl",
+      "i.skill.intimidate"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.chimney-sweep",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "gasLight": true,
+          "gasLightPulp": true
+        }
+      }
+    }
+  },
+  "_id": "kmb74zHBDS1Ryzmf",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!kmb74zHBDS1Ryzmf",
+  "effects": []
+}

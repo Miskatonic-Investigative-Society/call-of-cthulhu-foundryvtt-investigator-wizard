@@ -1,0 +1,42 @@
+{
+  "name": "Valutare",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 57 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 99 (edizione inglese)</p><p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 89 (edizione inglese)</p><p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 74 (edizione inglese)</p>"
+    },
+    "skillName": "Valutare",
+    "specialization": "",
+    "base": "5",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.appraise",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "gasLight": true,
+          "gasLightPulp": true,
+          "darkAgesPulp": true,
+          "darkAges": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "modernPulp": true,
+          "modern": true,
+          "pulp": true,
+          "regencyPulp": true,
+          "regency": true
+        }
+      }
+    }
+  },
+  "_id": "AFpOxOFbH2EUupYY",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/glass-ball.svg",
+  "_key": "!items!AFpOxOFbH2EUupYY",
+  "effects": []
+}

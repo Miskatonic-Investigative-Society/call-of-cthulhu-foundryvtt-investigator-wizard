@@ -1,0 +1,33 @@
+{
+  "name": "Arti e Mestieri (Servizio Domestico)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 89 (edizione inglese)</p>"
+    },
+    "skillName": "Servizio Domestico",
+    "specialization": "Arti e Mestieri",
+    "base": "5",
+    "properties": {
+      "push": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.art-craft-domestic-service",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "gasLight": true,
+          "gasLightPulp": true
+        }
+      }
+    }
+  },
+  "_id": "m4TzL1lbtK2RiIyl",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/two-shadows.svg",
+  "_key": "!items!m4TzL1lbtK2RiIyl",
+  "effects": []
+}

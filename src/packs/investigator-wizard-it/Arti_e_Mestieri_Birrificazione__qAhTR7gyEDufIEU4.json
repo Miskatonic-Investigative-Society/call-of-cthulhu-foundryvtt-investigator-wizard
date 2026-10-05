@@ -1,0 +1,33 @@
+{
+  "name": "Arti e Mestieri (Birrificazione)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 74 (edizione inglese)</p>"
+    },
+    "skillName": "Birrificazione",
+    "specialization": "Arti e Mestieri",
+    "base": "5",
+    "properties": {
+      "push": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.art-craft-brewer",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAgesPulp": true,
+          "darkAges": true
+        }
+      }
+    }
+  },
+  "_id": "qAhTR7gyEDufIEU4",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/beer-stein.svg",
+  "_key": "!items!qAhTR7gyEDufIEU4",
+  "effects": []
+}

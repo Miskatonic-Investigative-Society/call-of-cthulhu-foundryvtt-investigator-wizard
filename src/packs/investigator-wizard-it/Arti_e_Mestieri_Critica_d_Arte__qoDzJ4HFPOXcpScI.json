@@ -1,0 +1,33 @@
+{
+  "name": "Arti e Mestieri (Critica d'Arte)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "skillName": "Critica d'Arte",
+    "specialization": "Arti e Mestieri",
+    "base": "5",
+    "properties": {
+      "push": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.art-craft-art-appreciation",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "regencyPulp": true,
+          "regency": true
+        }
+      }
+    }
+  },
+  "_id": "qoDzJ4HFPOXcpScI",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/paint-brush.svg",
+  "_key": "!items!qoDzJ4HFPOXcpScI",
+  "effects": []
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Uso delle Corde",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Down Darker Trails», pagina 26 (edizione inglese)</p>"
+    },
+    "skillName": "Uso delle Corde",
+    "specialization": "",
+    "base": "5",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.rope-use",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true
+        }
+      }
+    }
+  },
+  "_id": "6ygIDfROELCyQPAf",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/lasso.svg",
+  "_key": "!items!6ygIDfROELCyQPAf",
+  "effects": []
+}

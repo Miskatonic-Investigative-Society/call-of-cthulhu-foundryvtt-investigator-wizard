@@ -1,0 +1,53 @@
+{
+  "name": "Fabbro",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 79 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "str": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 1,
+      "max": 20
+    },
+    "personal": 1,
+    "skills": [
+      "i.skill.accounting",
+      "i.skill.animal-handling",
+      "i.skill.art-craft-blacksmithing",
+      "i.skill.fighting-brawl",
+      "i.skill.mechanical-repair",
+      "i.skill.operate-heavy-machinery",
+      "i.skill.spot-hidden"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.blacksmith",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "gasLight": true,
+          "gasLightPulp": true
+        }
+      }
+    }
+  },
+  "_id": "Wp9QbZD2HR1r5Kh9",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!Wp9QbZD2HR1r5Kh9",
+  "effects": []
+}

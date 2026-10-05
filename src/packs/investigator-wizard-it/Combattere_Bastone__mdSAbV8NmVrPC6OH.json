@@ -1,0 +1,34 @@
+{
+  "name": "Combattere (Bastone)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 76 (edizione inglese)</p>"
+    },
+    "skillName": "Bastone",
+    "specialization": "Combattere",
+    "base": "25",
+    "properties": {
+      "fighting": true,
+      "combat": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.fighting-staff",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAgesPulp": true,
+          "darkAges": true
+        }
+      }
+    }
+  },
+  "_id": "mdSAbV8NmVrPC6OH",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/wizard-staff.svg",
+  "_key": "!items!mdSAbV8NmVrPC6OH",
+  "effects": []
+}

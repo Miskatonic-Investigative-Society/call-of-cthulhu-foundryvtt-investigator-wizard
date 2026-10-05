@@ -1,0 +1,43 @@
+{
+  "name": "Cercatore di brividi",
+  "type": "archetype",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 22 (edizione inglese)</p>"
+    },
+    "coreCharacteristics": {
+      "dex": true,
+      "pow": true
+    },
+    "skills": [
+      "i.skill.art-craft-any",
+      "i.skill.charm",
+      "i.skill.climb",
+      "i.skill.diving",
+      "i.skill.drive-auto",
+      "i.skill.fast-talk",
+      "i.skill.jump",
+      "i.skill.mechanical-repair",
+      "i.skill.navigate",
+      "i.skill.pilot-any",
+      "i.skill.ride",
+      "i.skill.stealth",
+      "i.skill.survival-any",
+      "i.skill.swim",
+      "i.skill.throw"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.archetype.thrill-seeker",
+        "lang": "it",
+        "priority": 5
+      }
+    }
+  },
+  "_id": "ns8H0yueY783yGq8",
+  "img": "icons/svg/invisible.svg",
+  "_key": "!items!ns8H0yueY783yGq8",
+  "effects": []
+}

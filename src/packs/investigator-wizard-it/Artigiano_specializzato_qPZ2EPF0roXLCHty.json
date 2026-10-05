@@ -1,0 +1,50 @@
+{
+  "name": "Artigiano specializzato",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 88 (edizione inglese)</p>"
+    },
+    "type": {
+      "pulp": true
+    },
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 4,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 9,
+      "max": 30
+    },
+    "groups": [],
+    "personal": 2,
+    "skills": [
+      "i.skill.art-craft-any",
+      "i.skill.climb",
+      "i.skill.drive-auto",
+      "i.skill.electrical-repair",
+      "i.skill.mechanical-repair",
+      "i.skill.operate-heavy-machinery"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.skill-trader",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "gasLight": true,
+          "gasLightPulp": true
+        }
+      }
+    }
+  },
+  "_id": "qPZ2EPF0roXLCHty",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!qPZ2EPF0roXLCHty",
+  "effects": []
+}

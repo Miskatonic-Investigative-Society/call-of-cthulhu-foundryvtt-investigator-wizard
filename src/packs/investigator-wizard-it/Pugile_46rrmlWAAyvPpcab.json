@@ -1,0 +1,55 @@
+{
+  "name": "Pugile",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 88 (edizione inglese)</p>"
+    },
+    "type": {
+      "pulp": true
+    },
+    "occupationSkillPoints": {
+      "str": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 5,
+      "max": 20
+    },
+    "groups": [],
+    "personal": 2,
+    "skills": [
+      "i.skill.dodge",
+      "i.skill.fighting-brawl",
+      "i.skill.intimidate",
+      "i.skill.jump",
+      "i.skill.psychology",
+      "i.skill.spot-hidden"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.boxer",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "gasLight": true,
+          "gasLightPulp": true
+        }
+      }
+    }
+  },
+  "_id": "46rrmlWAAyvPpcab",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!46rrmlWAAyvPpcab",
+  "effects": []
+}

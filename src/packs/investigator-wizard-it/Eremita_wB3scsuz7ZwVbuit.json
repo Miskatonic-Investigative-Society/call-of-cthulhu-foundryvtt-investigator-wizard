@@ -1,0 +1,56 @@
+{
+  "name": "Eremita",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 60 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "pow": {
+        "multiplier": 4,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 0,
+      "max": 30
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.listen",
+          "i.skill.spot-hidden"
+        ]
+      }
+    ],
+    "personal": 1,
+    "skills": [
+      "i.skill.insight",
+      "i.skill.natural-world",
+      "i.skill.occult",
+      "i.skill.persuade",
+      "i.skill.religion",
+      "i.skill.stealth"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.hermit",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAges": true,
+          "darkAgesPulp": true
+        }
+      }
+    }
+  },
+  "_id": "wB3scsuz7ZwVbuit",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!wB3scsuz7ZwVbuit",
+  "effects": []
+}

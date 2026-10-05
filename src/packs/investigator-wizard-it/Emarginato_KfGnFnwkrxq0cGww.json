@@ -1,0 +1,40 @@
+{
+  "name": "Emarginato",
+  "type": "archetype",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 20 (edizione inglese)</p>"
+    },
+    "coreCharacteristics": {
+      "con": true,
+      "int": true
+    },
+    "skills": [
+      "i.skill.art-craft-any",
+      "i.skill.animal-handling",
+      "i.skill.fighting-any",
+      "i.skill.first-aid",
+      "i.skill.intimidate",
+      "i.skill.language-any",
+      "i.skill.listen",
+      "i.skill.medicine",
+      "i.skill.navigate",
+      "i.skill.stealth",
+      "i.skill.survival-any",
+      "i.skill.track"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.archetype.outsider",
+        "lang": "it",
+        "priority": 5
+      }
+    }
+  },
+  "_id": "KfGnFnwkrxq0cGww",
+  "img": "icons/svg/invisible.svg",
+  "_key": "!items!KfGnFnwkrxq0cGww",
+  "effects": []
+}

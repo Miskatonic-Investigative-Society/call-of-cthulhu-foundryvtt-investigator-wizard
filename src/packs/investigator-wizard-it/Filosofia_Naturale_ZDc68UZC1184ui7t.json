@@ -1,0 +1,32 @@
+{
+  "name": "Filosofia Naturale",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Regency Cthulhu», pagina 39 (edizione inglese)</p>"
+    },
+    "skillName": "Filosofia Naturale",
+    "specialization": "",
+    "base": "1",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.natural-philosophy",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "regencyPulp": true,
+          "regency": true
+        }
+      }
+    }
+  },
+  "_id": "ZDc68UZC1184ui7t",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/gift-of-knowledge.svg",
+  "_key": "!items!ZDc68UZC1184ui7t",
+  "effects": []
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Scienza (Geografia)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "skillName": "Geografia",
+    "specialization": "Scienza",
+    "base": "1",
+    "properties": {
+      "push": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.science-geography",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "invictus": true
+        }
+      }
+    }
+  },
+  "_id": "KZ1RuXbhX9JrZuzG",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/earth-spit.svg",
+  "_key": "!items!KZ1RuXbhX9JrZuzG",
+  "effects": []
+}

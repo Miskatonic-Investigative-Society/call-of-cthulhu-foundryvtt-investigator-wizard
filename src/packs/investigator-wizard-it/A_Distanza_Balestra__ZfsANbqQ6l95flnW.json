@@ -1,0 +1,34 @@
+{
+  "name": "A Distanza (Balestra)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 79 (edizione inglese)</p>"
+    },
+    "skillName": "Balestra",
+    "specialization": "A Distanza",
+    "base": "10",
+    "properties": {
+      "ranged": true,
+      "combat": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.ranged-crossbow",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAgesPulp": true,
+          "darkAges": true
+        }
+      }
+    }
+  },
+  "_id": "ZfsANbqQ6l95flnW",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/carl-olsen/crossbow.svg",
+  "_key": "!items!ZfsANbqQ6l95flnW",
+  "effects": []
+}

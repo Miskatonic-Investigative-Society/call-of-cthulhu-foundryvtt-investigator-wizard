@@ -1,0 +1,68 @@
+{
+  "name": "Membro del clero",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 40 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 74 (edizione inglese)</p><p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 32 (edizione inglese)</p>"
+    },
+    "type": {
+      "pulp": true
+    },
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 4,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 9,
+      "max": 60
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.charm",
+          "i.skill.fast-talk",
+          "i.skill.intimidate",
+          "i.skill.persuade"
+        ]
+      }
+    ],
+    "personal": 1,
+    "skills": [
+      "i.skill.accounting",
+      "i.skill.history",
+      "i.skill.library-use",
+      "i.skill.listen",
+      "i.skill.language-any",
+      "i.skill.psychology"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.clergy-member-of-the",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "investigators": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "invictus": true,
+          "modern": true,
+          "modernPulp": true,
+          "pulp": true,
+          "regency": true,
+          "regencyPulp": true
+        }
+      }
+    }
+  },
+  "_id": "zvbHtFd6EJbBYxe6",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!zvbHtFd6EJbBYxe6",
+  "effects": []
+}

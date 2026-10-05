@@ -1,0 +1,83 @@
+{
+  "name": "Stuntman",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 91 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "str": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      },
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      }
+    },
+    "creditRating": {
+      "min": 10,
+      "max": 50
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.electrical-repair",
+          "i.skill.mechanical-repair"
+        ]
+      },
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.diving",
+          "i.skill.drive-auto",
+          "i.skill.pilot-any",
+          "i.skill.ride"
+        ]
+      }
+    ],
+    "personal": 0,
+    "skills": [
+      "i.skill.climb",
+      "i.skill.dodge",
+      "i.skill.fighting-any",
+      "i.skill.first-aid",
+      "i.skill.jump",
+      "i.skill.swim"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.stuntman",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "investigators": true,
+          "darkAges": true,
+          "darkAgesPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "invictus": true,
+          "modern": true,
+          "modernPulp": true,
+          "pulp": true
+        }
+      }
+    }
+  },
+  "_id": "XHvgXhhn9EmQ2OA9",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!XHvgXhhn9EmQ2OA9",
+  "effects": []
+}

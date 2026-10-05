@@ -1,0 +1,44 @@
+{
+  "name": "Primo Soccorso",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 65 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 107 (edizione inglese)</p><p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 91 (edizione inglese)</p><p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 76 (edizione inglese)</p><p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 37 (edizione inglese)</p>"
+    },
+    "skillName": "Primo Soccorso",
+    "specialization": "",
+    "base": "30",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.first-aid",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "gasLight": true,
+          "gasLightPulp": true,
+          "darkAgesPulp": true,
+          "darkAges": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "invictus": true,
+          "modernPulp": true,
+          "modern": true,
+          "pulp": true,
+          "regencyPulp": true,
+          "regency": true,
+          "reignOfTerror": true
+        }
+      }
+    }
+  },
+  "_id": "6QS4fQlVGNtgDiGW",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/first-aid-kit.svg",
+  "_key": "!items!6QS4fQlVGNtgDiGW",
+  "effects": []
+}

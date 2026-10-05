@@ -1,0 +1,30 @@
+{
+  "name": "Lingua (Inglese)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "skillName": "Inglese",
+    "specialization": "Lingua",
+    "base": "1",
+    "properties": {
+      "push": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.language-english",
+        "lang": "it",
+        "priority": 5,
+        "eras": {}
+      }
+    }
+  },
+  "_id": "tAEViNuiGmy5WsWa",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/skoll/talk.svg",
+  "_key": "!items!tAEViNuiGmy5WsWa",
+  "effects": []
+}

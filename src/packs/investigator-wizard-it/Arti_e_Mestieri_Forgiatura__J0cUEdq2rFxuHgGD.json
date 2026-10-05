@@ -1,0 +1,35 @@
+{
+  "name": "Arti e Mestieri (Forgiatura)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "skillName": "Forgiatura",
+    "specialization": "Arti e Mestieri",
+    "base": "5",
+    "properties": {
+      "push": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.art-craft-blacksmithing",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "gasLight": true,
+          "gasLightPulp": true,
+          "regencyPulp": true,
+          "regency": true
+        }
+      }
+    }
+  },
+  "_id": "J0cUEdq2rFxuHgGD",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/anvil-impact.svg",
+  "_key": "!items!J0cUEdq2rFxuHgGD",
+  "effects": []
+}

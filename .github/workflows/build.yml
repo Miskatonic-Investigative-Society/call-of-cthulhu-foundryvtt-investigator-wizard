@@ -1,0 +1,114 @@
+name: Build
+
+# A ogni push: controlla che il compendio italiano sia allineato al dizionario, lo compila e
+# costruisce module.zip partendo dal modulo originale (icone e compendio inglese).
+# Sul ramo di rilascio crea o aggiorna anche la release della versione indicata in module.json.
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  RELEASE_BRANCH: docs/readme-it
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Read versions
+        id: meta
+        run: |
+          echo "version=$(jq -r .version module.json)" >> "$GITHUB_OUTPUT"
+          echo "upstream_repo=$(jq -r .upstream.repo package.json)" >> "$GITHUB_OUTPUT"
+          echo "upstream_version=$(jq -r .upstream.version package.json)" >> "$GITHUB_OUTPUT"
+
+      - name: Download upstream module
+        id: upstream
+        env:
+          UPSTREAM_REPO: ${{ steps.meta.outputs.upstream_repo }}
+          UPSTREAM_VERSION: ${{ steps.meta.outputs.upstream_version }}
+        run: |
+          mkdir -p build/upstream
+          curl -fsSL -o build/upstream.zip "https://github.com/$UPSTREAM_REPO/releases/download/$UPSTREAM_VERSION/module.zip"
+          unzip -q build/upstream.zip -d build/upstream
+          # Lo zip originale può avere i file nella radice o in una cartella.
+          dir=$(dirname "$(find build/upstream -maxdepth 2 -name module.json | head -n 1)")
+          test -d "$dir/packs/investigator-wizard" || { echo "Compendio inglese non trovato in $dir"; exit 1; }
+          echo "dir=$dir" >> "$GITHUB_OUTPUT"
+
+      - name: Check Italian sources match the dictionary
+        env:
+          UPSTREAM_DIR: ${{ steps.upstream.outputs.dir }}
+        run: |
+          npm run -s extract -- "$UPSTREAM_DIR/packs/investigator-wizard" build/en-json
+          npm run -s translate -- build/en-json build/it-json
+          if ! diff -r build/it-json src/packs/investigator-wizard-it; then
+            echo "::error::src/packs/investigator-wizard-it non corrisponde a tools/translate-it/dict.mjs. Rigenera i sorgenti con npm run translate."
+            exit 1
+          fi
+
+      - name: Compile Italian pack
+        run: npm run -s pack -- src/packs/investigator-wizard-it build/it-pack
+
+      - name: Build module.json and module.zip
+        env:
+          UPSTREAM_DIR: ${{ steps.upstream.outputs.dir }}
+          REPO_URL: https://github.com/${{ github.repository }}
+          TAG: ${{ steps.meta.outputs.version }}
+        run: |
+          mkdir -p dist build/module
+          # Manifest e download puntano sempre a questo repository e alla release di questa versione.
+          jq --arg url "$REPO_URL" --arg tag "$TAG" '
+            .url = $url
+            | .manifest = "\($url)/releases/latest/download/module.json"
+            | .download = "\($url)/releases/download/\($tag)/module.zip"
+          ' module.json > dist/module.json
+          cp -r "$UPSTREAM_DIR"/. build/module/
+          rm -rf build/module/packs/investigator-wizard-it
+          cp -r build/it-pack build/module/packs/investigator-wizard-it
+          rm -f build/module/packs/*/LOCK build/module/packs/*/LOG*
+          cp dist/module.json build/module/module.json
+          # Ogni compendio dichiarato deve esistere nello zip.
+          for p in $(jq -r '.packs[].path' dist/module.json); do
+            test -d "build/module/$p" || { echo "::error::Compendio dichiarato ma assente: $p"; exit 1; }
+          done
+          (cd build/module && zip -qr ../../dist/module.zip .)
+          unzip -l dist/module.zip | tail -n 1
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: module-${{ steps.meta.outputs.version }}
+          path: dist/
+
+      - name: Create or update release
+        if: github.event_name == 'push' && github.ref_name == env.RELEASE_BRANCH
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.meta.outputs.version }}
+        run: |
+          if gh release view "$TAG" > /dev/null 2>&1; then
+            gh release upload "$TAG" dist/module.json dist/module.zip --clobber
+          else
+            gh release create "$TAG" dist/module.json dist/module.zip \
+              --target "$GITHUB_SHA" \
+              --title "$TAG - Compendio in italiano" \
+              --notes "Manifest: https://github.com/${{ github.repository }}/releases/latest/download/module.json"
+          fi

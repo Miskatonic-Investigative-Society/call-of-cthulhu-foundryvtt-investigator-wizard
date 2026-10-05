@@ -1,0 +1,45 @@
+{
+  "name": "Miti di Cthulhu",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 61 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 103 (edizione inglese)</p><p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 90 (edizione inglese)</p><p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 75 (edizione inglese)</p><p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 36 (edizione inglese)</p>"
+    },
+    "skillName": "Miti di Cthulhu",
+    "specialization": "",
+    "base": "0",
+    "properties": {
+      "noxpgain": true,
+      "noadjustments": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.cthulhu-mythos",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "gasLight": true,
+          "gasLightPulp": true,
+          "darkAgesPulp": true,
+          "darkAges": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "invictus": true,
+          "modernPulp": true,
+          "modern": true,
+          "pulp": true,
+          "regencyPulp": true,
+          "regency": true,
+          "reignOfTerror": true
+        }
+      }
+    }
+  },
+  "_id": "00WbzC52YzE3oA8m",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/fish-monster.svg",
+  "_key": "!items!00WbzC52YzE3oA8m",
+  "effects": []
+}

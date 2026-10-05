@@ -1,0 +1,34 @@
+{
+  "name": "Combattere (Pala)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "skillName": "Pala",
+    "specialization": "Combattere",
+    "base": "25",
+    "properties": {
+      "fighting": true,
+      "combat": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.fighting-shovel",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "gasLight": true,
+          "gasLightPulp": true
+        }
+      }
+    }
+  },
+  "_id": "0Ya7EATJew2tyXwP",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/spade.svg",
+  "_key": "!items!0Ya7EATJew2tyXwP",
+  "effects": []
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Acrobata",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 70 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 9,
+      "max": 20
+    },
+    "groups": [],
+    "personal": 2,
+    "skills": [
+      "i.skill.climb",
+      "i.skill.dodge",
+      "i.skill.jump",
+      "i.skill.throw",
+      "i.skill.spot-hidden",
+      "i.skill.swim"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.acrobat",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "investigators": true,
+          "darkAges": true,
+          "darkAgesPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "invictus": true,
+          "modern": true,
+          "modernPulp": true,
+          "pulp": true
+        }
+      }
+    }
+  },
+  "_id": "evMx3f1HXx6rNyru",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!evMx3f1HXx6rNyru",
+  "effects": []
+}

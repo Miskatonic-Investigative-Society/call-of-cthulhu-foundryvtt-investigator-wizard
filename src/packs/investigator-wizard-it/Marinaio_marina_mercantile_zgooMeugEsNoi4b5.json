@@ -1,0 +1,77 @@
+{
+  "name": "Marinaio, marina mercantile",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 89 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "str": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      },
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      }
+    },
+    "creditRating": {
+      "min": 20,
+      "max": 40
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.charm",
+          "i.skill.fast-talk",
+          "i.skill.intimidate",
+          "i.skill.persuade"
+        ]
+      }
+    ],
+    "personal": 0,
+    "skills": [
+      "i.skill.first-aid",
+      "i.skill.mechanical-repair",
+      "i.skill.natural-world",
+      "i.skill.navigate",
+      "i.skill.pilot-boat",
+      "i.skill.spot-hidden",
+      "i.skill.swim"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.sailor-commercial",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "investigators": true,
+          "darkAges": true,
+          "darkAgesPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "invictus": true,
+          "modern": true,
+          "modernPulp": true,
+          "pulp": true
+        }
+      }
+    }
+  },
+  "_id": "zgooMeugEsNoi4b5",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!zgooMeugEsNoi4b5",
+  "effects": []
+}

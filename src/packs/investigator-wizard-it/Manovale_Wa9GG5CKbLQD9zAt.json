@@ -1,0 +1,63 @@
+{
+  "name": "Manovale",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Down Darker Trails», pagina 25 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "str": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 5,
+      "max": 20
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.charm",
+          "i.skill.fast-talk",
+          "i.skill.intimidate",
+          "i.skill.persuade"
+        ]
+      }
+    ],
+    "personal": 1,
+    "skills": [
+      "i.skill.climb",
+      "i.skill.fighting-brawl",
+      "i.skill.jump",
+      "i.skill.natural-world",
+      "i.skill.stealth",
+      "i.skill.throw"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.unskilled-laborer",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true
+        }
+      }
+    }
+  },
+  "_id": "Wa9GG5CKbLQD9zAt",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!Wa9GG5CKbLQD9zAt",
+  "effects": []
+}

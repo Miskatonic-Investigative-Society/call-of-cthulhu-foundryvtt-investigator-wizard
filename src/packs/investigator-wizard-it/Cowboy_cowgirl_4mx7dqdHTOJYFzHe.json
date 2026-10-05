@@ -1,0 +1,79 @@
+{
+  "name": "Cowboy/cowgirl",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 74 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "str": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      },
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      }
+    },
+    "creditRating": {
+      "min": 9,
+      "max": 20
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.fighting-any",
+          "i.skill.firearms-any"
+        ]
+      },
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.first-aid",
+          "i.skill.natural-world"
+        ]
+      }
+    ],
+    "personal": 0,
+    "skills": [
+      "i.skill.dodge",
+      "i.skill.jump",
+      "i.skill.ride",
+      "i.skill.survival-any",
+      "i.skill.throw",
+      "i.skill.track"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.cowboy-girl",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "investigators": true,
+          "darkAges": true,
+          "darkAgesPulp": true,
+          "invictus": true,
+          "modern": true,
+          "modernPulp": true,
+          "pulp": true
+        }
+      }
+    }
+  },
+  "_id": "4mx7dqdHTOJYFzHe",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!4mx7dqdHTOJYFzHe",
+  "effects": []
+}

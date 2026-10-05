@@ -1,0 +1,64 @@
+{
+  "name": "Hobo",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Down Darker Trails», pagina 20 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "app": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      },
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      },
+      "str": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      }
+    },
+    "creditRating": {
+      "min": 0,
+      "max": 6
+    },
+    "groups": [],
+    "personal": 1,
+    "skills": [
+      "i.skill.climb",
+      "i.skill.fast-talk",
+      "i.skill.jump",
+      "i.skill.listen",
+      "i.skill.natural-world",
+      "i.skill.navigate",
+      "i.skill.stealth"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.hobo",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true
+        }
+      }
+    }
+  },
+  "_id": "AMKFskaHjQeiHGhC",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!AMKFskaHjQeiHGhC",
+  "effects": []
+}

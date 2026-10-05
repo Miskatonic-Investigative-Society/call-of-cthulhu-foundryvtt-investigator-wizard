@@ -1,0 +1,59 @@
+{
+  "name": "Artigiano",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 59 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "str": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      },
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      }
+    },
+    "creditRating": {
+      "min": 9,
+      "max": 60
+    },
+    "groups": [],
+    "personal": 1,
+    "skills": [
+      "i.skill.accounting",
+      "i.skill.charm",
+      "i.skill.art-craft-any",
+      "i.skill.fast-talk",
+      "i.skill.insight",
+      "i.skill.natural-world",
+      "i.skill.kingdom-own"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.craftsperson",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAges": true,
+          "darkAgesPulp": true
+        }
+      }
+    }
+  },
+  "_id": "sb62ZG2BIT4iT7og",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!sb62ZG2BIT4iT7og",
+  "effects": []
+}

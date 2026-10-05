@@ -1,0 +1,38 @@
+{
+  "name": "Mistico",
+  "type": "archetype",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 20 (edizione inglese)</p>"
+    },
+    "coreCharacteristics": {
+      "pow": true
+    },
+    "skills": [
+      "i.skill.art-craft-any",
+      "i.skill.science-astronomy",
+      "i.skill.disguise",
+      "i.skill.history",
+      "i.skill.hypnosis",
+      "i.skill.language-any",
+      "i.skill.natural-world",
+      "i.skill.occult",
+      "i.skill.psychology",
+      "i.skill.sleight-of-hand",
+      "i.skill.stealth"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.archetype.mystic",
+        "lang": "it",
+        "priority": 5
+      }
+    }
+  },
+  "_id": "fdTkwGtUbRtolVZw",
+  "img": "icons/svg/invisible.svg",
+  "_key": "!items!fdTkwGtUbRtolVZw",
+  "effects": []
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Scienziato",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 86 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "pow": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      },
+      "int": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      }
+    },
+    "creditRating": {
+      "min": 10,
+      "max": 50
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.fast-talk",
+          "i.skill.persuade"
+        ]
+      }
+    ],
+    "personal": 3,
+    "skills": [
+      "i.skill.electrical-repair",
+      "i.skill.language-any",
+      "i.skill.library-use",
+      "i.skill.mechanical-repair"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.scientist",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "gasLight": true,
+          "gasLightPulp": true
+        }
+      }
+    }
+  },
+  "_id": "5aq2FwkeLHFGJM0R",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!5aq2FwkeLHFGJM0R",
+  "effects": []
+}

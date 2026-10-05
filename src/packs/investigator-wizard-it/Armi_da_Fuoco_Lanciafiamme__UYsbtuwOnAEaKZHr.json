@@ -1,0 +1,36 @@
+{
+  "name": "Armi da Fuoco (Lanciafiamme)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 64 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 107 (edizione inglese)</p>"
+    },
+    "skillName": "Lanciafiamme",
+    "specialization": "Armi da Fuoco",
+    "base": "10",
+    "properties": {
+      "firearm": true,
+      "combat": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.firearms-flamethrower",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "modernPulp": true,
+          "modern": true,
+          "pulp": true
+        }
+      }
+    }
+  },
+  "_id": "UYsbtuwOnAEaKZHr",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/flamethrower.svg",
+  "_key": "!items!UYsbtuwOnAEaKZHr",
+  "effects": []
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Soldato in servizio, ufficiale",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 82 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "pow": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      },
+      "app": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      }
+    },
+    "creditRating": {
+      "min": 40,
+      "max": 80
+    },
+    "personal": 0,
+    "skills": [
+      "i.skill.fighting-sword",
+      "i.skill.firearms-handgun",
+      "i.skill.navigate",
+      "i.skill.persuade",
+      "i.skill.psychology",
+      "i.skill.ride",
+      "i.skill.spot-hidden",
+      "i.skill.swim"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.serving-soldier-officer",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "gasLight": true,
+          "gasLightPulp": true
+        }
+      }
+    }
+  },
+  "_id": "a80kEyAMRzAq7mIh",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!a80kEyAMRzAq7mIh",
+  "effects": []
+}

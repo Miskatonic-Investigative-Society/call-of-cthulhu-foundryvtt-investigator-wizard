@@ -1,0 +1,36 @@
+{
+  "name": "Combattere (Motosega)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 64 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 106 (edizione inglese)</p>"
+    },
+    "skillName": "Motosega",
+    "specialization": "Combattere",
+    "base": "10",
+    "properties": {
+      "fighting": true,
+      "combat": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.fighting-chainsaw",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "modernPulp": true,
+          "modern": true,
+          "pulp": true
+        }
+      }
+    }
+  },
+  "_id": "7VNmiOThYW1Ab353",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/chainsaw.svg",
+  "_key": "!items!7VNmiOThYW1Ab353",
+  "effects": []
+}

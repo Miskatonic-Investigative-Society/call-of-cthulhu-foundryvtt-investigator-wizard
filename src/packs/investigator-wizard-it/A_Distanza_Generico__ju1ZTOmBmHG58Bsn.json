@@ -1,0 +1,35 @@
+{
+  "name": "A Distanza (Generico)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 76 (edizione inglese)</p>"
+    },
+    "skillName": "Generico",
+    "specialization": "A Distanza",
+    "base": "0",
+    "properties": {
+      "ranged": true,
+      "combat": true,
+      "picknameonly": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.ranged-any",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAgesPulp": true,
+          "darkAges": true
+        }
+      }
+    }
+  },
+  "_id": "ju1ZTOmBmHG58Bsn",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/pocket-bow.svg",
+  "_key": "!items!ju1ZTOmBmHG58Bsn",
+  "effects": []
+}

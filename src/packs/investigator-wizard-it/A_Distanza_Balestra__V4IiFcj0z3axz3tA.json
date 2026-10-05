@@ -1,0 +1,33 @@
+{
+  "name": "A Distanza (Balestra)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Through the Ages - Invictus», pagina 11 (edizione inglese)</p>"
+    },
+    "skillName": "Balestra",
+    "specialization": "A Distanza",
+    "base": "20",
+    "properties": {
+      "ranged": true,
+      "combat": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.ranged-crossbow",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "invictus": true
+        }
+      }
+    }
+  },
+  "_id": "V4IiFcj0z3axz3tA",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/carl-olsen/crossbow.svg",
+  "_key": "!items!V4IiFcj0z3axz3tA",
+  "effects": []
+}

@@ -1,0 +1,68 @@
+{
+  "name": "Vigile del fuoco",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 80 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "str": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      },
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      }
+    },
+    "creditRating": {
+      "min": 9,
+      "max": 30
+    },
+    "groups": [],
+    "personal": 0,
+    "skills": [
+      "i.skill.climb",
+      "i.skill.dodge",
+      "i.skill.drive-auto",
+      "i.skill.first-aid",
+      "i.skill.jump",
+      "i.skill.mechanical-repair",
+      "i.skill.operate-heavy-machinery",
+      "i.skill.throw"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.firefighter",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "investigators": true,
+          "darkAges": true,
+          "darkAgesPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "invictus": true,
+          "modern": true,
+          "modernPulp": true,
+          "pulp": true
+        }
+      }
+    }
+  },
+  "_id": "7BNFrRJAFE1rTQ7c",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!7BNFrRJAFE1rTQ7c",
+  "effects": []
+}

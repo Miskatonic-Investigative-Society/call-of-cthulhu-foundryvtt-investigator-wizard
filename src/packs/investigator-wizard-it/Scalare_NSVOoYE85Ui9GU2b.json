@@ -1,0 +1,43 @@
+{
+  "name": "Scalare",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 59 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 102 (edizione inglese)</p><p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 90 (edizione inglese)</p><p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 75 (edizione inglese)</p>"
+    },
+    "skillName": "Scalare",
+    "specialization": "",
+    "base": "20",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.climb",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "gasLight": true,
+          "gasLightPulp": true,
+          "darkAgesPulp": true,
+          "darkAges": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "modernPulp": true,
+          "modern": true,
+          "pulp": true,
+          "regencyPulp": true,
+          "regency": true,
+          "reignOfTerror": true
+        }
+      }
+    }
+  },
+  "_id": "NSVOoYE85Ui9GU2b",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/mountain-road.svg",
+  "_key": "!items!NSVOoYE85Ui9GU2b",
+  "effects": []
+}

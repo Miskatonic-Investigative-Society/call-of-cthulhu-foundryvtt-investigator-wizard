@@ -1,0 +1,44 @@
+{
+  "name": "Combattere (Spada)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 64 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 106 (edizione inglese)</p><p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 90 (edizione inglese)</p><p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 76 (edizione inglese)</p>"
+    },
+    "skillName": "Spada",
+    "specialization": "Combattere",
+    "base": "20",
+    "properties": {
+      "fighting": true,
+      "combat": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.fighting-sword",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "gasLight": true,
+          "gasLightPulp": true,
+          "darkAgesPulp": true,
+          "darkAges": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "modernPulp": true,
+          "modern": true,
+          "pulp": true,
+          "regencyPulp": true,
+          "regency": true
+        }
+      }
+    }
+  },
+  "_id": "Bi47eEvO75pKPDcL",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/sword-clash.svg",
+  "_key": "!items!Bi47eEvO75pKPDcL",
+  "effects": []
+}

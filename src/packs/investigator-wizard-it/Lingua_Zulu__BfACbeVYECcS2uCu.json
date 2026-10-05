@@ -1,0 +1,30 @@
+{
+  "name": "Lingua (Zulu)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "skillName": "Zulu",
+    "specialization": "Lingua",
+    "base": "1",
+    "properties": {
+      "push": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.language-zulu",
+        "lang": "it",
+        "priority": 5,
+        "eras": {}
+      }
+    }
+  },
+  "_id": "BfACbeVYECcS2uCu",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/skoll/talk.svg",
+  "_key": "!items!BfACbeVYECcS2uCu",
+  "effects": []
+}

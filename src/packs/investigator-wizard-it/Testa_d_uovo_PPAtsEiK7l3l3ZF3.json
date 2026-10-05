@@ -1,0 +1,37 @@
+{
+  "name": "Testa d'uovo",
+  "type": "archetype",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 17 (edizione inglese)</p>"
+    },
+    "coreCharacteristics": {
+      "edu": true,
+      "int": true
+    },
+    "skills": [
+      "i.skill.anthropology",
+      "i.skill.appraise",
+      "i.skill.computer-use",
+      "i.skill.electrical-repair",
+      "i.skill.language-any",
+      "i.skill.library-use",
+      "i.skill.mechanical-repair",
+      "i.skill.operate-heavy-machinery",
+      "i.skill.science-any"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.archetype.egghead",
+        "lang": "it",
+        "priority": 5
+      }
+    }
+  },
+  "_id": "PPAtsEiK7l3l3ZF3",
+  "img": "icons/svg/invisible.svg",
+  "_key": "!items!PPAtsEiK7l3l3ZF3",
+  "effects": []
+}

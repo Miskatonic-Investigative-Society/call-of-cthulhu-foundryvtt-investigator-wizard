@@ -1,0 +1,34 @@
+{
+  "name": "Combattere (Lancia da Cavaliere)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 76 (edizione inglese)</p>"
+    },
+    "skillName": "Lancia da Cavaliere",
+    "specialization": "Combattere",
+    "base": "15",
+    "properties": {
+      "fighting": true,
+      "combat": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.fighting-lance",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAgesPulp": true,
+          "darkAges": true
+        }
+      }
+    }
+  },
+  "_id": "dD37wv0WXuxm6ukC",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/skoll/telescopic-baton.svg",
+  "_key": "!items!dD37wv0WXuxm6ukC",
+  "effects": []
+}

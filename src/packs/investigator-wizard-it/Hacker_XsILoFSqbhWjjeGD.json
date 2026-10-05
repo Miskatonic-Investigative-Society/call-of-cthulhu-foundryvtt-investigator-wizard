@@ -1,0 +1,59 @@
+{
+  "name": "Hacker",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 41 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 74 (edizione inglese)</p>"
+    },
+    "type": {
+      "modern": true
+    },
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 4,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 10,
+      "max": 70
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.charm",
+          "i.skill.fast-talk",
+          "i.skill.intimidate",
+          "i.skill.persuade"
+        ]
+      }
+    ],
+    "personal": 2,
+    "skills": [
+      "i.skill.computer-use",
+      "i.skill.electrical-repair",
+      "i.skill.electronics",
+      "i.skill.library-use",
+      "i.skill.spot-hidden"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.hacker",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "modern": true,
+          "modernPulp": true
+        }
+      }
+    }
+  },
+  "_id": "XsILoFSqbhWjjeGD",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!XsILoFSqbhWjjeGD",
+  "effects": []
+}

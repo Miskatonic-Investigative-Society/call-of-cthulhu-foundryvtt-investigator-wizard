@@ -1,0 +1,74 @@
+{
+  "name": "Scassinatore",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 76 (edizione inglese)</p><p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 27 (edizione inglese)</p>"
+    },
+    "type": {
+      "pulp": true
+    },
+    "occupationSkillPoints": {
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 5,
+      "max": 40
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.electrical-repair",
+          "i.skill.mechanical-repair"
+        ]
+      }
+    ],
+    "personal": 0,
+    "skills": [
+      "i.skill.appraise",
+      "i.skill.climb",
+      "i.skill.listen",
+      "i.skill.locksmith",
+      "i.skill.sleight-of-hand",
+      "i.skill.stealth",
+      "i.skill.spot-hidden"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.burglar",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "investigators": true,
+          "darkAges": true,
+          "darkAgesPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "invictus": true,
+          "modern": true,
+          "modernPulp": true,
+          "pulp": true,
+          "regency": true,
+          "regencyPulp": true
+        }
+      }
+    }
+  },
+  "_id": "k26vwXiGcri69ehg",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!k26vwXiGcri69ehg",
+  "effects": []
+}

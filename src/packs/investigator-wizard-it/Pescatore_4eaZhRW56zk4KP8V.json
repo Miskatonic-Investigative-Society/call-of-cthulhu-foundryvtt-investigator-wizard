@@ -1,0 +1,73 @@
+{
+  "name": "Pescatore",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 66 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "int": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 0,
+      "max": 25
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.listen",
+          "i.skill.spot-hidden"
+        ]
+      },
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.pilot-boat",
+          "i.skill.track"
+        ]
+      },
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.swim",
+          "i.skill.stealth"
+        ]
+      }
+    ],
+    "personal": 1,
+    "skills": [
+      "i.skill.art-craft-any",
+      "i.skill.natural-world",
+      "i.skill.navigate",
+      "i.skill.throw"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.fisherman",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAges": true,
+          "darkAgesPulp": true
+        }
+      }
+    }
+  },
+  "_id": "4eaZhRW56zk4KP8V",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!4eaZhRW56zk4KP8V",
+  "effects": []
+}

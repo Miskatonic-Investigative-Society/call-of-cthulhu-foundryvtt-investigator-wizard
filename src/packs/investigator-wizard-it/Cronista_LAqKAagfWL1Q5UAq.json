@@ -1,0 +1,70 @@
+{
+  "name": "Cronista",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 82 (edizione inglese)</p><p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 32 (edizione inglese)</p>"
+    },
+    "type": {
+      "lovecraftian": true,
+      "pulp": true
+    },
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 4,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 9,
+      "max": 30
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.charm",
+          "i.skill.fast-talk",
+          "i.skill.intimidate",
+          "i.skill.persuade"
+        ]
+      }
+    ],
+    "personal": 0,
+    "skills": [
+      "i.skill.art-craft-acting",
+      "i.skill.history",
+      "i.skill.listen",
+      "i.skill.language-own",
+      "i.skill.psychology",
+      "i.skill.stealth",
+      "i.skill.spot-hidden"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.reporter",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "investigators": true,
+          "darkAges": true,
+          "darkAgesPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "invictus": true,
+          "modern": true,
+          "modernPulp": true,
+          "pulp": true
+        }
+      }
+    }
+  },
+  "_id": "LAqKAagfWL1Q5UAq",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!LAqKAagfWL1Q5UAq",
+  "effects": []
+}

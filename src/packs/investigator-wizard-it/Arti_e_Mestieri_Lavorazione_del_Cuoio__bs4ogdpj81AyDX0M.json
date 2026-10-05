@@ -1,0 +1,33 @@
+{
+  "name": "Arti e Mestieri (Lavorazione del Cuoio)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 74 (edizione inglese)</p>"
+    },
+    "skillName": "Lavorazione del Cuoio",
+    "specialization": "Arti e Mestieri",
+    "base": "5",
+    "properties": {
+      "push": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.art-craft-leather-worker",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAgesPulp": true,
+          "darkAges": true
+        }
+      }
+    }
+  },
+  "_id": "bs4ogdpj81AyDX0M",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/animal-hide.svg",
+  "_key": "!items!bs4ogdpj81AyDX0M",
+  "effects": []
+}

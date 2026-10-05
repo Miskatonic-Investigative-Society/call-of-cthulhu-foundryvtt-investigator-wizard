@@ -1,0 +1,33 @@
+{
+  "name": "Guida Auto",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 63 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 105 (edizione inglese)</p><p>Vedi «Down Darker Trails», pagina 25 (edizione inglese)</p>"
+    },
+    "skillName": "Guida Auto",
+    "specialization": "",
+    "base": "0",
+    "properties": {
+      "push": true,
+      "rarity": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.drive-auto",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true
+        }
+      }
+    }
+  },
+  "_id": "3qP8yCDRGjN4QBvc",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/skoll/race-car.svg",
+  "_key": "!items!3qP8yCDRGjN4QBvc",
+  "effects": []
+}

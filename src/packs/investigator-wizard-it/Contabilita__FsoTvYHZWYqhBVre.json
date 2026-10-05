@@ -1,0 +1,35 @@
+{
+  "name": "Contabilità",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 57 (edizione inglese)</p><p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 89 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 98 (edizione inglese)</p><p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 74 (edizione inglese)</p>"
+    },
+    "skillName": "Contabilità",
+    "specialization": "",
+    "base": "10",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.accounting",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "gasLight": true,
+          "gasLightPulp": true,
+          "darkAgesPulp": true,
+          "darkAges": true,
+          "invictus": true
+        }
+      }
+    }
+  },
+  "_id": "FsoTvYHZWYqhBVre",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/money-stack.svg",
+  "_key": "!items!FsoTvYHZWYqhBVre",
+  "effects": []
+}

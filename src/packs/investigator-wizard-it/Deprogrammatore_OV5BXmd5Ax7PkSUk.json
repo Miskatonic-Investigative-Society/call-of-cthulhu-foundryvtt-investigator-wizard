@@ -1,0 +1,65 @@
+{
+  "name": "Deprogrammatore",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 77 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 4,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 20,
+      "max": 50
+    },
+    "groups": [
+      {
+        "options": 2,
+        "skills": [
+          "i.skill.charm",
+          "i.skill.fast-talk",
+          "i.skill.intimidate",
+          "i.skill.persuade"
+        ]
+      },
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.fighting-brawl",
+          "i.skill.firearms-any"
+        ]
+      }
+    ],
+    "personal": 0,
+    "skills": [
+      "i.skill.drive-auto",
+      "i.skill.history",
+      "i.skill.occult",
+      "i.skill.psychology",
+      "i.skill.stealth"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.deprogrammer",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "investigators": true,
+          "modern": true,
+          "modernPulp": true
+        }
+      }
+    }
+  },
+  "_id": "OV5BXmd5Ax7PkSUk",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!OV5BXmd5Ax7PkSUk",
+  "effects": []
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Ingegnere",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Down Darker Trails», pagina 23 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 4,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 20,
+      "max": 80
+    },
+    "groups": [],
+    "personal": 3,
+    "skills": [
+      "i.skill.history",
+      "i.skill.law",
+      "i.skill.library-use",
+      "i.skill.mechanical-repair",
+      "i.skill.operate-heavy-machinery"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.engineer",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true
+        }
+      }
+    }
+  },
+  "_id": "pRXnrTUSteNDBWmz",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!pRXnrTUSteNDBWmz",
+  "effects": []
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Informatica",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 60 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 102 (edizione inglese)</p><p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 35 (edizione inglese)</p>"
+    },
+    "skillName": "Informatica",
+    "specialization": "",
+    "base": "0",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.computer-use",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "pulp": true
+        }
+      }
+    }
+  },
+  "_id": "GYjpxYAkzUsoGLc8",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lord-berandas/computing.svg",
+  "_key": "!items!GYjpxYAkzUsoGLc8",
+  "effects": []
+}

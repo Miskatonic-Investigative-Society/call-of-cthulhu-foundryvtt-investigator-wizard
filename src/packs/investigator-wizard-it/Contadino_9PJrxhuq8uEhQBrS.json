@@ -1,0 +1,66 @@
+{
+  "name": "Contadino",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Reign of Terror», pagina 104 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "str": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      },
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      }
+    },
+    "creditRating": {
+      "min": 1,
+      "max": 30
+    },
+    "groups": [
+      {
+        "options": 2,
+        "skills": [
+          "i.skill.charm",
+          "i.skill.fast-talk",
+          "i.skill.intimidate",
+          "i.skill.persuade"
+        ]
+      }
+    ],
+    "personal": 1,
+    "skills": [
+      "i.skill.art-craft-farmer",
+      "i.skill.art-craft-any",
+      "i.skill.drive-auto",
+      "i.skill.natural-world",
+      "i.skill.track"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.peasant",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "reignOfTerror": true
+        }
+      }
+    }
+  },
+  "_id": "9PJrxhuq8uEhQBrS",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!9PJrxhuq8uEhQBrS",
+  "effects": []
+}

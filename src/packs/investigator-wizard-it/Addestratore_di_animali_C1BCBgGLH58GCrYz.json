@@ -1,0 +1,67 @@
+{
+  "name": "Addestratore di animali",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 71 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "app": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      },
+      "pow": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      }
+    },
+    "creditRating": {
+      "min": 10,
+      "max": 40
+    },
+    "groups": [],
+    "personal": 1,
+    "skills": [
+      "i.skill.animal-handling",
+      "i.skill.jump",
+      "i.skill.listen",
+      "i.skill.natural-world",
+      "i.skill.science-zoology",
+      "i.skill.stealth",
+      "i.skill.track"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.animal-trainer",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "investigators": true,
+          "darkAges": true,
+          "darkAgesPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "invictus": true,
+          "modern": true,
+          "modernPulp": true,
+          "pulp": true
+        }
+      }
+    }
+  },
+  "_id": "C1BCBgGLH58GCrYz",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!C1BCBgGLH58GCrYz",
+  "effects": []
+}

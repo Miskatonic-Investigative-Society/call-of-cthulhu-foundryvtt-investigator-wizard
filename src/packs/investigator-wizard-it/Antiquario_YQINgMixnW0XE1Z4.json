@@ -1,0 +1,62 @@
+{
+  "name": "Antiquario",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 78 (edizione inglese)</p>"
+    },
+    "type": {
+      "lovecraftian": true
+    },
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "int": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 10,
+      "max": 70
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.archaeology",
+          "i.skill.history"
+        ]
+      }
+    ],
+    "personal": 1,
+    "skills": [
+      "i.skill.art-craft-any",
+      "i.skill.library-use",
+      "i.skill.language-any",
+      "i.skill.persuade",
+      "i.skill.spot-hidden"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.antiquarian",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "gasLight": true,
+          "gasLightPulp": true
+        }
+      }
+    }
+  },
+  "_id": "YQINgMixnW0XE1Z4",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!YQINgMixnW0XE1Z4",
+  "effects": []
+}

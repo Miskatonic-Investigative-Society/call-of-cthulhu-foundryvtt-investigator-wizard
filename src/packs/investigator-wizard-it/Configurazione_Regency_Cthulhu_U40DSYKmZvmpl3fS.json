@@ -1,0 +1,188 @@
+{
+  "name": "Configurazione Regency Cthulhu",
+  "type": "setup",
+  "system": {
+    "description": {
+      "value": "<p>Configurazione predefinita per i personaggi di Regency Cthulhu.</p>"
+    },
+    "items": [
+      "i.skill.accounting",
+      "i.skill.anthropology",
+      "i.skill.appraise",
+      "i.skill.archaeology",
+      "i.skill.art-craft-any",
+      "i.skill.astronomy",
+      "i.skill.charm",
+      "i.skill.climb",
+      "i.skill.credit-rating",
+      "i.skill.cthulhu-mythos",
+      "i.skill.dancing",
+      "i.skill.disguise",
+      "i.skill.dodge",
+      "i.skill.drive-auto",
+      "i.skill.etiquette",
+      "i.skill.fashion",
+      "i.skill.fast-talk",
+      "i.skill.fighting-any",
+      "i.skill.fighting-brawl",
+      "i.skill.throw",
+      "i.skill.firearms-any",
+      "i.skill.firearms-handgun",
+      "i.skill.firearms-rifle-shotgun",
+      "i.skill.first-aid",
+      "i.skill.gaming",
+      "i.skill.history",
+      "i.skill.intimidate",
+      "i.skill.jump",
+      "i.skill.language-own",
+      "i.skill.language-any",
+      "i.skill.law",
+      "i.skill.library-use",
+      "i.skill.listen",
+      "i.skill.locksmith",
+      "i.skill.mechanical-repair",
+      "i.skill.medicine",
+      "i.skill.natural-philosophy",
+      "i.skill.natural-world",
+      "i.skill.navigate",
+      "i.skill.occult",
+      "i.skill.persuade",
+      "i.skill.psychology",
+      "i.skill.reassure",
+      "i.skill.religion",
+      "i.skill.reputation",
+      "i.skill.ride",
+      "i.skill.sleight-of-hand",
+      "i.skill.spot-hidden",
+      "i.skill.stealth",
+      "i.skill.survival-any",
+      "i.skill.swim",
+      "i.skill.track",
+      "i.weapon.brawl"
+    ],
+    "bioSections": [
+      "CoC7.InvestigatorWizard.PersonalDescription",
+      "CoC7.CoCIDFlag.keys.rt..backstory-ideology-and-beliefs",
+      "CoC7.CoCIDFlag.keys.rt..backstory-significant-people",
+      "CoC7.CoCIDFlag.keys.rt..backstory-meaningful-locations",
+      "CoC7.CoCIDFlag.keys.rt..backstory-treasured-possessions",
+      "CoC7.CoCIDFlag.keys.rt..backstory-traits",
+      "CoC7.CoCIDFlag.keys.rt..backstory-injuries-and-scars"
+    ],
+    "monetary": {
+      "format": "lsd",
+      "symbol": "$",
+      "values": [
+        {
+          "name": "CoC7.MonetaryDefaultDestitute",
+          "min": null,
+          "max": 0,
+          "cashType": "s",
+          "cashValue": 1,
+          "assetsType": "none",
+          "assetsValue": 0,
+          "spendingType": "s",
+          "spendingValue": 1
+        },
+        {
+          "name": "CoC7.MonetaryDefaultPoor",
+          "min": 1,
+          "max": 9,
+          "cashType": "multiplier",
+          "cashValue": 1,
+          "assetsType": "multiplier",
+          "assetsValue": 2,
+          "spendingType": "s",
+          "spendingValue": 5
+        },
+        {
+          "name": "CoC7.MonetaryDefaultLower",
+          "min": 10,
+          "max": 29,
+          "cashType": "multiplier",
+          "cashValue": 2,
+          "assetsType": "multiplier",
+          "assetsValue": 5,
+          "spendingType": "value",
+          "spendingValue": 2
+        },
+        {
+          "name": "CoC7.MonetaryDefaultMiddle",
+          "min": 30,
+          "max": 49,
+          "cashType": "multiplier",
+          "cashValue": 4,
+          "assetsType": "multiplier",
+          "assetsValue": 25,
+          "spendingType": "value",
+          "spendingValue": 10
+        },
+        {
+          "name": "CoC7.MonetaryDefaultEstablished",
+          "min": 50,
+          "max": 69,
+          "cashType": "multiplier",
+          "cashValue": 6,
+          "assetsType": "multiplier",
+          "assetsValue": 120,
+          "spendingType": "value",
+          "spendingValue": 25
+        },
+        {
+          "name": "CoC7.MonetaryDefaultProfessional",
+          "min": 70,
+          "max": 82,
+          "cashType": "multiplier",
+          "cashValue": 20,
+          "assetsType": "multiplier",
+          "assetsValue": 400,
+          "spendingType": "value",
+          "spendingValue": 50
+        },
+        {
+          "name": "CoC7.MonetaryDefaultGentry",
+          "min": 83,
+          "max": 89,
+          "cashType": "multiplier",
+          "cashValue": 120,
+          "assetsType": "multiplier",
+          "assetsValue": 2400,
+          "spendingType": "value",
+          "spendingValue": 500
+        },
+        {
+          "name": "Aristocrazia",
+          "min": 90,
+          "max": null,
+          "cashType": "multiplier",
+          "cashValue": 500,
+          "assetsType": "value",
+          "assetsValue": 900000,
+          "spendingType": "value",
+          "spendingValue": 5000
+        }
+      ],
+      "spent": "",
+      "assetsDetails": "",
+      "spendingLevel": "",
+      "cash": "",
+      "assets": ""
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.setup.regency-cthulhu-setup",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "regency": true
+        }
+      }
+    }
+  },
+  "_id": "U40DSYKmZvmpl3fS",
+  "img": "icons/svg/item-bag.svg",
+  "_key": "!items!U40DSYKmZvmpl3fS",
+  "effects": []
+}

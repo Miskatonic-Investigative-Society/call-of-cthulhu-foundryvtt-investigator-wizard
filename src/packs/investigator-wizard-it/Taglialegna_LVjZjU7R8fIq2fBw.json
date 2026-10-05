@@ -1,0 +1,76 @@
+{
+  "name": "Taglialegna",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 83 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "str": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      },
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      }
+    },
+    "creditRating": {
+      "min": 9,
+      "max": 30
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.natural-world",
+          "i.skill.science-biology",
+          "i.skill.science-botany"
+        ]
+      }
+    ],
+    "personal": 0,
+    "skills": [
+      "i.skill.climb",
+      "i.skill.dodge",
+      "i.skill.fighting-chainsaw",
+      "i.skill.first-aid",
+      "i.skill.jump",
+      "i.skill.mechanical-repair",
+      "i.skill.throw"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.lumberjack",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "investigators": true,
+          "darkAges": true,
+          "darkAgesPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "invictus": true,
+          "modern": true,
+          "modernPulp": true,
+          "pulp": true
+        }
+      }
+    }
+  },
+  "_id": "LVjZjU7R8fIq2fBw",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!LVjZjU7R8fIq2fBw",
+  "effects": []
+}

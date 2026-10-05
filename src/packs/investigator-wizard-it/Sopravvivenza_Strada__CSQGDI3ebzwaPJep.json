@@ -1,0 +1,33 @@
+{
+  "name": "Sopravvivenza (Strada)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "skillName": "Strada",
+    "specialization": "Sopravvivenza",
+    "base": "10",
+    "properties": {
+      "push": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.survival-street",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "gasLight": true,
+          "gasLightPulp": true
+        }
+      }
+    }
+  },
+  "_id": "CSQGDI3ebzwaPJep",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/campfire.svg",
+  "_key": "!items!CSQGDI3ebzwaPJep",
+  "effects": []
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Contrabbandiere",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 76 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "str": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      },
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      }
+    },
+    "creditRating": {
+      "min": 30,
+      "max": 60
+    },
+    "groups": [],
+    "personal": 0,
+    "skills": [
+      "i.skill.disguise",
+      "i.skill.electrical-repair",
+      "i.skill.fighting-any",
+      "i.skill.firearms-any",
+      "i.skill.locksmith",
+      "i.skill.mechanical-repair",
+      "i.skill.stealth",
+      "i.skill.psychology"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.smuggler",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "investigators": true,
+          "darkAges": true,
+          "darkAgesPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "invictus": true,
+          "modern": true,
+          "modernPulp": true,
+          "pulp": true,
+          "regency": true,
+          "regencyPulp": true
+        }
+      }
+    }
+  },
+  "_id": "ZQdZp7j3PxjnWUyT",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!ZQdZp7j3PxjnWUyT",
+  "effects": []
+}

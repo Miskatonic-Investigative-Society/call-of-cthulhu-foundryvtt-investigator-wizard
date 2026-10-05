@@ -1,0 +1,60 @@
+{
+  "name": "Curatore di museo",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 84 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 4,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 10,
+      "max": 30
+    },
+    "groups": [],
+    "personal": 0,
+    "skills": [
+      "i.skill.accounting",
+      "i.skill.appraise",
+      "i.skill.archaeology",
+      "i.skill.history",
+      "i.skill.library-use",
+      "i.skill.occult",
+      "i.skill.language-any",
+      "i.skill.spot-hidden"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.museum-curator",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "investigators": true,
+          "darkAges": true,
+          "darkAgesPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "invictus": true,
+          "modern": true,
+          "modernPulp": true,
+          "pulp": true,
+          "regency": true,
+          "regencyPulp": true
+        }
+      }
+    }
+  },
+  "_id": "96P0fuU1m54xufI1",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!96P0fuU1m54xufI1",
+  "effects": []
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Cavalcare",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 73 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 115 (edizione inglese)</p><p>Vedi «Down Darker Trails», pagina 26 (edizione inglese)</p>"
+    },
+    "skillName": "Cavalcare",
+    "specialization": "",
+    "base": "15",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.ride",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "reignOfTerror": true
+        }
+      }
+    }
+  },
+  "_id": "Z8CAMxCgPX03Km5w",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/horse-head.svg",
+  "_key": "!items!Z8CAMxCgPX03Km5w",
+  "effects": []
+}

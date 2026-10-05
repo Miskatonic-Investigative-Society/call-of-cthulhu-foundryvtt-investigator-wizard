@@ -1,0 +1,32 @@
+{
+  "name": "Usare Biblioteche",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 67 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 109 (edizione inglese)</p><p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 77 (edizione inglese)</p>"
+    },
+    "skillName": "Usare Biblioteche",
+    "specialization": "",
+    "base": "5",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.library-use",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAgesPulp": true,
+          "darkAges": true
+        }
+      }
+    }
+  },
+  "_id": "7kHnCe5iHOKJ9OcP",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/archive-research.svg",
+  "_key": "!items!7kHnCe5iHOKJ9OcP",
+  "effects": []
+}

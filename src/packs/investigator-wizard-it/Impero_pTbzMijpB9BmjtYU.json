@@ -1,0 +1,31 @@
+{
+  "name": "Impero",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Through the Ages - Invictus», pagina 11 (edizione inglese)</p>"
+    },
+    "skillName": "Impero",
+    "specialization": "",
+    "base": "25",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.empire",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "invictus": true
+        }
+      }
+    }
+  },
+  "_id": "pTbzMijpB9BmjtYU",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/laurel-crown.svg",
+  "_key": "!items!pTbzMijpB9BmjtYU",
+  "effects": []
+}

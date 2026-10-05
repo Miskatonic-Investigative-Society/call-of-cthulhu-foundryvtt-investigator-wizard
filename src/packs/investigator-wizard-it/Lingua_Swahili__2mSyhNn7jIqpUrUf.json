@@ -1,0 +1,30 @@
+{
+  "name": "Lingua (Swahili)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "skillName": "Swahili",
+    "specialization": "Lingua",
+    "base": "1",
+    "properties": {
+      "push": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.language-swahili",
+        "lang": "it",
+        "priority": 5,
+        "eras": {}
+      }
+    }
+  },
+  "_id": "2mSyhNn7jIqpUrUf",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/skoll/talk.svg",
+  "_key": "!items!2mSyhNn7jIqpUrUf",
+  "effects": []
+}

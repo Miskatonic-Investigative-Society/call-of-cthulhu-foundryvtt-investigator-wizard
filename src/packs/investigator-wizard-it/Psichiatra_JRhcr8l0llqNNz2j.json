@@ -1,0 +1,58 @@
+{
+  "name": "Psichiatra",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 88 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 4,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 30,
+      "max": 80
+    },
+    "groups": [],
+    "personal": 0,
+    "skills": [
+      "i.skill.language-any",
+      "i.skill.listen",
+      "i.skill.medicine",
+      "i.skill.persuade",
+      "i.skill.psychoanalysis",
+      "i.skill.psychology",
+      "i.skill.science-biology",
+      "i.skill.science-chemistry"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.psychiatrist",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "investigators": true,
+          "darkAges": true,
+          "darkAgesPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "invictus": true,
+          "modern": true,
+          "modernPulp": true,
+          "pulp": true
+        }
+      }
+    }
+  },
+  "_id": "JRhcr8l0llqNNz2j",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!JRhcr8l0llqNNz2j",
+  "effects": []
+}

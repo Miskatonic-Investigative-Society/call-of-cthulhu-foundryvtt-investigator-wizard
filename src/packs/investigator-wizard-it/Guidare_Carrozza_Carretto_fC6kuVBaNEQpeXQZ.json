@@ -1,0 +1,34 @@
+{
+  "name": "Guidare Carrozza / Carretto",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 90 (edizione inglese)</p><p>Vedi «Regency Cthulhu», pagina 36 (edizione inglese)</p>"
+    },
+    "skillName": "Guidare Carrozza / Carretto",
+    "specialization": "",
+    "base": "20",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.drive-auto",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "gasLight": true,
+          "gasLightPulp": true,
+          "regencyPulp": true,
+          "regency": true
+        }
+      }
+    }
+  },
+  "_id": "fC6kuVBaNEQpeXQZ",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/cartwheel.svg",
+  "_key": "!items!fC6kuVBaNEQpeXQZ",
+  "effects": []
+}

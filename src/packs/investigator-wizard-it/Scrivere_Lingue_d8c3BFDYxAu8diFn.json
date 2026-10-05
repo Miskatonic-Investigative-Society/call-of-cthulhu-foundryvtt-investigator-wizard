@@ -1,0 +1,28 @@
+{
+  "name": "Scrivere Lingue",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "skillName": "Scrivere Lingue",
+    "specialization": "",
+    "base": "10"
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.write-language",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "invictus": true
+        }
+      }
+    }
+  },
+  "_id": "d8c3BFDYxAu8diFn",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/quill-ink.svg",
+  "_key": "!items!d8c3BFDYxAu8diFn",
+  "effects": []
+}

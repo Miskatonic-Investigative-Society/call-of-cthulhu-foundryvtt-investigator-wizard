@@ -1,0 +1,33 @@
+{
+  "name": "Arti e Mestieri (Poesia)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "skillName": "Poesia",
+    "specialization": "Arti e Mestieri",
+    "base": "5",
+    "properties": {
+      "push": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.art-craft-poetry",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "regencyPulp": true,
+          "regency": true
+        }
+      }
+    }
+  },
+  "_id": "jdeLMBhEjZMNvyi8",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/classical-knowledge.svg",
+  "_key": "!items!jdeLMBhEjZMNvyi8",
+  "effects": []
+}

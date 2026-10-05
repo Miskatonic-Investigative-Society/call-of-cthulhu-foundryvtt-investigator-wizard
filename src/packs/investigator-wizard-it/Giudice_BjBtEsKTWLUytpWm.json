@@ -1,0 +1,56 @@
+{
+  "name": "Giudice",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 82 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 4,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 50,
+      "max": 80
+    },
+    "groups": [],
+    "personal": 0,
+    "skills": [
+      "i.skill.history",
+      "i.skill.intimidate",
+      "i.skill.law",
+      "i.skill.library-use",
+      "i.skill.listen",
+      "i.skill.language-own",
+      "i.skill.persuade",
+      "i.skill.psychology"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.judge",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "investigators": true,
+          "darkAges": true,
+          "darkAgesPulp": true,
+          "invictus": true,
+          "modern": true,
+          "modernPulp": true,
+          "pulp": true
+        }
+      }
+    }
+  },
+  "_id": "BjBtEsKTWLUytpWm",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!BjBtEsKTWLUytpWm",
+  "effects": []
+}

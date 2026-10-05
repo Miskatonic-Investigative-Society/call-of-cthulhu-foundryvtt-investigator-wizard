@@ -1,0 +1,31 @@
+{
+  "name": "Ammaestrare Animali",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "skillName": "Ammaestrare Animali",
+    "specialization": "",
+    "base": "10",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.animal-training",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "invictus": true
+        }
+      }
+    }
+  },
+  "_id": "RuqIdpimvwmVaB4k",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/jumping-dog.svg",
+  "_key": "!items!RuqIdpimvwmVaB4k",
+  "effects": []
+}

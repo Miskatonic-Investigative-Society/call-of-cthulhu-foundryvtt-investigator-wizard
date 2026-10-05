@@ -1,0 +1,37 @@
+{
+  "name": "Picchiatore",
+  "type": "archetype",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 22 (edizione inglese)</p>"
+    },
+    "coreCharacteristics": {
+      "str": true,
+      "siz": true
+    },
+    "skills": [
+      "i.skill.drive-auto",
+      "i.skill.fighting-brawl",
+      "i.skill.firearms-any",
+      "i.skill.intimidate",
+      "i.skill.listen",
+      "i.skill.mechanical-repair",
+      "i.skill.spot-hidden",
+      "i.skill.swim",
+      "i.skill.throw"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.archetype.two-fisted",
+        "lang": "it",
+        "priority": 5
+      }
+    }
+  },
+  "_id": "GSs9BTXbZXo4i7Vo",
+  "img": "icons/svg/invisible.svg",
+  "_key": "!items!GSs9BTXbZXo4i7Vo",
+  "effects": []
+}

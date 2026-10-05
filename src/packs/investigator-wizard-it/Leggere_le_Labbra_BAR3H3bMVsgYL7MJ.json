@@ -1,0 +1,31 @@
+{
+  "name": "Leggere le Labbra",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 73 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 115 (edizione inglese)</p>"
+    },
+    "skillName": "Leggere le Labbra",
+    "specialization": "",
+    "base": "1",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.read-lips",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "pulp": true
+        }
+      }
+    }
+  },
+  "_id": "BAR3H3bMVsgYL7MJ",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/lips.svg",
+  "_key": "!items!BAR3H3bMVsgYL7MJ",
+  "effects": []
+}

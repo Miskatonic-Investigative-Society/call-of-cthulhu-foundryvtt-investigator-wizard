@@ -1,0 +1,160 @@
+{
+  "name": "Configurazione Regno del Terrore",
+  "type": "setup",
+  "system": {
+    "description": {
+      "value": "<p>Configurazione predefinita per i personaggi del Regno del Terrore.</p>"
+    },
+    "items": [
+      "i.skill.accounting",
+      "i.skill.animal-handling",
+      "i.skill.anthropology",
+      "i.skill.appraise",
+      "i.skill.art-craft-any",
+      "i.skill.charm",
+      "i.skill.climb",
+      "i.skill.credit-rating",
+      "i.skill.cthulhu-mythos",
+      "i.skill.disguise",
+      "i.skill.dodge",
+      "i.skill.drive-auto",
+      "i.skill.fast-talk",
+      "i.skill.fighting-any",
+      "i.skill.fighting-brawl",
+      "i.skill.throw",
+      "i.skill.firearms-any",
+      "i.skill.firearms-artillery",
+      "i.skill.firearms-handgun",
+      "i.skill.firearms-rifle-shotgun",
+      "i.skill.first-aid",
+      "i.skill.history",
+      "i.skill.intimidate",
+      "i.skill.jump",
+      "i.skill.language-own",
+      "i.skill.language-any",
+      "i.skill.law",
+      "i.skill.library-use",
+      "i.skill.listen",
+      "i.skill.locksmith",
+      "i.skill.medicine",
+      "i.skill.natural-world",
+      "i.skill.navigate",
+      "i.skill.occult",
+      "i.skill.persuade",
+      "i.skill.pilot-boat",
+      "i.skill.psychology",
+      "i.skill.repair",
+      "i.skill.ride",
+      "i.skill.science-any",
+      "i.skill.sleight-of-hand",
+      "i.skill.spot-hidden",
+      "i.skill.stealth",
+      "i.skill.survival-any",
+      "i.skill.swim",
+      "i.skill.track",
+      "i.weapon.brawl"
+    ],
+    "bioSections": [
+      "CoC7.InvestigatorWizard.PersonalDescription",
+      "CoC7.CoCIDFlag.keys.rt..backstory-ideology-and-beliefs",
+      "CoC7.CoCIDFlag.keys.rt..backstory-significant-people",
+      "CoC7.CoCIDFlag.keys.rt..backstory-meaningful-locations",
+      "CoC7.CoCIDFlag.keys.rt..backstory-treasured-possessions",
+      "CoC7.CoCIDFlag.keys.rt..backstory-traits",
+      "CoC7.CoCIDFlag.keys.rt..backstory-injuries-and-scars"
+    ],
+    "monetary": {
+      "format": "lsd",
+      "symbol": "$",
+      "values": [
+        {
+          "name": "CoC7.MonetaryDefaultPenniless",
+          "min": null,
+          "max": 0,
+          "cashType": "s",
+          "cashValue": 10,
+          "assetsType": "none",
+          "assetsValue": 0,
+          "spendingType": "s",
+          "spendingValue": 1
+        },
+        {
+          "name": "CoC7.MonetaryDefaultPoor",
+          "min": 1,
+          "max": 9,
+          "cashType": "multiplier",
+          "cashValue": 1,
+          "assetsType": "multiplier",
+          "assetsValue": 5,
+          "spendingType": "s",
+          "spendingValue": 13
+        },
+        {
+          "name": "CoC7.MonetaryDefaultAverage",
+          "min": 10,
+          "max": 49,
+          "cashType": "multiplier",
+          "cashValue": 2,
+          "assetsType": "multiplier",
+          "assetsValue": 10,
+          "spendingType": "value",
+          "spendingValue": 2
+        },
+        {
+          "name": "CoC7.MonetaryDefaultWealthy",
+          "min": 50,
+          "max": 89,
+          "cashType": "multiplier",
+          "cashValue": 10,
+          "assetsType": "multiplier",
+          "assetsValue": 100,
+          "spendingType": "value",
+          "spendingValue": 20
+        },
+        {
+          "name": "CoC7.MonetaryDefaultRich",
+          "min": 90,
+          "max": 98,
+          "cashType": "multiplier",
+          "cashValue": 50,
+          "assetsType": "multiplier",
+          "assetsValue": 500,
+          "spendingType": "value",
+          "spendingValue": 250
+        },
+        {
+          "name": "CoC7.MonetaryDefaultSuperRich",
+          "min": 99,
+          "max": null,
+          "cashType": "value",
+          "cashValue": 20000,
+          "assetsType": "value",
+          "assetsValue": 1000000,
+          "spendingType": "value",
+          "spendingValue": 500
+        }
+      ],
+      "spent": "",
+      "assetsDetails": "",
+      "spendingLevel": "",
+      "cash": "",
+      "assets": ""
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.setup.reign-of-terror-setup",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "reignOfTerror": true
+        }
+      }
+    }
+  },
+  "_id": "rDliGL38nhAqXH03",
+  "img": "icons/svg/item-bag.svg",
+  "_key": "!items!rDliGL38nhAqXH03",
+  "effects": []
+}

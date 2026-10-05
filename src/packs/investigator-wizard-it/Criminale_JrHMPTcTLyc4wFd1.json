@@ -1,0 +1,66 @@
+{
+  "name": "Criminale",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Reign of Terror», pagina 103 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      },
+      "app": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      }
+    },
+    "creditRating": {
+      "min": 5,
+      "max": 49
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.art-craft-forgery",
+          "i.skill.locksmith"
+        ]
+      }
+    ],
+    "personal": 0,
+    "skills": [
+      "i.skill.appraise",
+      "i.skill.disguise",
+      "i.skill.fighting-brawl",
+      "i.skill.fast-talk",
+      "i.skill.intimidate",
+      "i.skill.stealth",
+      "i.skill.sleight-of-hand"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.criminal",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "reignOfTerror": true
+        }
+      }
+    }
+  },
+  "_id": "JrHMPTcTLyc4wFd1",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!JrHMPTcTLyc4wFd1",
+  "effects": []
+}

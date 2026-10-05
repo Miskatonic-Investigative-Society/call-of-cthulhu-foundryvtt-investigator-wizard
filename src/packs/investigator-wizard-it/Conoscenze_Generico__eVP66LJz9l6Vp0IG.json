@@ -1,0 +1,41 @@
+{
+  "name": "Conoscenze (Generico)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 68 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 109 (edizione inglese)</p><p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 91 (edizione inglese)</p>"
+    },
+    "skillName": "Generico",
+    "specialization": "Conoscenze",
+    "base": "1",
+    "properties": {
+      "push": true,
+      "rarity": true,
+      "requiresname": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.lore-any",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "gasLight": true,
+          "gasLightPulp": true,
+          "modernPulp": true,
+          "modern": true,
+          "pulp": true,
+          "regencyPulp": true,
+          "regency": true
+        }
+      }
+    }
+  },
+  "_id": "eVP66LJz9l6Vp0IG",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/classical-knowledge.svg",
+  "_key": "!items!eVP66LJz9l6Vp0IG",
+  "effects": []
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Psicanalisi",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 72 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 114 (edizione inglese)</p><p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 38 (edizione inglese)</p>"
+    },
+    "skillName": "Psicanalisi",
+    "specialization": "",
+    "base": "1",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.psychoanalysis",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "modernPulp": true,
+          "modern": true,
+          "pulp": true
+        }
+      }
+    }
+  },
+  "_id": "3CAFB7EhWzhxo0cs",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/psychic-waves.svg",
+  "_key": "!items!3CAFB7EhWzhxo0cs",
+  "effects": []
+}

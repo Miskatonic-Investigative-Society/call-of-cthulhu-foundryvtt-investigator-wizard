@@ -1,0 +1,31 @@
+{
+  "name": "Riparare",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "skillName": "Riparare",
+    "specialization": "",
+    "base": "10",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.repair",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "reignOfTerror": true
+        }
+      }
+    }
+  },
+  "_id": "84eUDOiqPdpRi9rv",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/auto-repair.svg",
+  "_key": "!items!84eUDOiqPdpRi9rv",
+  "effects": []
+}

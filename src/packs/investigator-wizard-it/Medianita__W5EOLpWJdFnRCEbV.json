@@ -1,0 +1,36 @@
+{
+  "name": "Medianità",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "skillName": "Medianità",
+    "specialization": "",
+    "base": "0",
+    "properties": {
+      "push": true,
+      "rarity": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.medium",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAgesPulp": true,
+          "downDarkerTrailsPulp": true,
+          "modernPulp": true,
+          "pulp": true,
+          "regencyPulp": true
+        }
+      }
+    }
+  },
+  "_id": "W5EOLpWJdFnRCEbV",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/round-table.svg",
+  "_key": "!items!W5EOLpWJdFnRCEbV",
+  "effects": []
+}

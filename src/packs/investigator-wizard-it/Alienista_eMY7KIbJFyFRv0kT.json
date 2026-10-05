@@ -1,0 +1,60 @@
+{
+  "name": "Alienista",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 71 (edizione inglese)</p>"
+    },
+    "type": {
+      "classic": true
+    },
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 4,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 10,
+      "max": 60
+    },
+    "groups": [],
+    "personal": 0,
+    "skills": [
+      "i.skill.law",
+      "i.skill.listen",
+      "i.skill.medicine",
+      "i.skill.language-any",
+      "i.skill.psychoanalysis",
+      "i.skill.psychology",
+      "i.skill.science-biology",
+      "i.skill.science-chemistry"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.alienist",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "investigators": true,
+          "darkAges": true,
+          "darkAgesPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "invictus": true,
+          "modern": true,
+          "modernPulp": true,
+          "pulp": true
+        }
+      }
+    }
+  },
+  "_id": "eMY7KIbJFyFRv0kT",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!eMY7KIbJFyFRv0kT",
+  "effects": []
+}

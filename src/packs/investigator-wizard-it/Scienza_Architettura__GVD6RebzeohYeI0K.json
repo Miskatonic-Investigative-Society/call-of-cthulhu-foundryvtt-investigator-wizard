@@ -1,0 +1,32 @@
+{
+  "name": "Scienza (Architettura)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "skillName": "Architettura",
+    "specialization": "Scienza",
+    "base": "1",
+    "properties": {
+      "push": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.science-architecture",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "invictus": true
+        }
+      }
+    }
+  },
+  "_id": "GVD6RebzeohYeI0K",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/coliseum.svg",
+  "_key": "!items!GVD6RebzeohYeI0K",
+  "effects": []
+}

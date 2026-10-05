@@ -1,0 +1,28 @@
+{
+  "name": "Schivare",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "skillName": "Schivare",
+    "specialization": "",
+    "base": "@DEX/2.5"
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.dodge",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "invictus": true
+        }
+      }
+    }
+  },
+  "_id": "R53qB3SAT4I87mH6",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/dodging.svg",
+  "_key": "!items!R53qB3SAT4I87mH6",
+  "effects": []
+}

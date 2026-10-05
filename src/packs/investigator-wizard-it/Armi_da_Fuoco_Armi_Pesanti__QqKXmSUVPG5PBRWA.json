@@ -1,0 +1,36 @@
+{
+  "name": "Armi da Fuoco (Armi Pesanti)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 64 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 107 (edizione inglese)</p>"
+    },
+    "skillName": "Armi Pesanti",
+    "specialization": "Armi da Fuoco",
+    "base": "10",
+    "properties": {
+      "firearm": true,
+      "combat": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.firearms-heavy-weapons",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "modernPulp": true,
+          "modern": true,
+          "pulp": true
+        }
+      }
+    }
+  },
+  "_id": "QqKXmSUVPG5PBRWA",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/missile-pod.svg",
+  "_key": "!items!QqKXmSUVPG5PBRWA",
+  "effects": []
+}

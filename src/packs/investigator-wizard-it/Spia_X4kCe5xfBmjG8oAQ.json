@@ -1,0 +1,74 @@
+{
+  "name": "Spia",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Reign of Terror», pagina 105 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "app": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      },
+      "int": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      }
+    },
+    "creditRating": {
+      "min": 10,
+      "max": 80
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.locksmith",
+          "i.skill.sleight-of-hand"
+        ]
+      },
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.charm",
+          "i.skill.fast-talk",
+          "i.skill.intimidate",
+          "i.skill.persuade"
+        ]
+      }
+    ],
+    "personal": 0,
+    "skills": [
+      "i.skill.disguise",
+      "i.skill.firearms-handgun",
+      "i.skill.listen",
+      "i.skill.psychology",
+      "i.skill.spot-hidden",
+      "i.skill.stealth"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.spy",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "reignOfTerror": true
+        }
+      }
+    }
+  },
+  "_id": "X4kCe5xfBmjG8oAQ",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!X4kCe5xfBmjG8oAQ",
+  "effects": []
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Bon vivant",
+  "type": "archetype",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 16 (edizione inglese)</p>"
+    },
+    "coreCharacteristics": {
+      "siz": true
+    },
+    "skills": [
+      "i.skill.appraise",
+      "i.skill.art-craft-any",
+      "i.skill.charm",
+      "i.skill.fast-talk",
+      "i.skill.language-any",
+      "i.skill.listen",
+      "i.skill.spot-hidden",
+      "i.skill.psychology"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.archetype.bon-vivant",
+        "lang": "it",
+        "priority": 5
+      }
+    }
+  },
+  "_id": "pEIHnZwoAE0Qppdq",
+  "img": "icons/svg/invisible.svg",
+  "_key": "!items!pEIHnZwoAE0Qppdq",
+  "effects": []
+}

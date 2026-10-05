@@ -1,0 +1,57 @@
+{
+  "name": "Nobile",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Reign of Terror», pagina 104 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "app": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      },
+      "int": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      }
+    },
+    "creditRating": {
+      "min": 50,
+      "max": 99
+    },
+    "groups": [],
+    "personal": 2,
+    "skills": [
+      "i.skill.firearms-rifle-shotgun",
+      "i.skill.firearms-handgun",
+      "i.skill.history",
+      "i.skill.language-latin",
+      "i.skill.law",
+      "i.skill.ride"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.noble",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "reignOfTerror": true
+        }
+      }
+    }
+  },
+  "_id": "HgMPquNNwZgXs8J4",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!HgMPquNNwZgXs8J4",
+  "effects": []
+}

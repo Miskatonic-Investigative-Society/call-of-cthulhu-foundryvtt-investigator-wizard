@@ -1,0 +1,34 @@
+{
+  "name": "Lingua (Latino)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "skillName": "Latino",
+    "specialization": "Lingua",
+    "base": "1",
+    "properties": {
+      "push": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.language-latin",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "gasLight": true,
+          "gasLightPulp": true
+        }
+      }
+    }
+  },
+  "_id": "GEmE7NwZ7wczTPtz",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/skoll/talk.svg",
+  "_key": "!items!GEmE7NwZ7wczTPtz",
+  "effects": []
+}

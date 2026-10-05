@@ -1,0 +1,62 @@
+{
+  "name": "Palombaro",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 77 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 9,
+      "max": 30
+    },
+    "groups": [],
+    "personal": 1,
+    "skills": [
+      "i.skill.diving",
+      "i.skill.first-aid",
+      "i.skill.mechanical-repair",
+      "i.skill.pilot-boat",
+      "i.skill.science-biology",
+      "i.skill.spot-hidden",
+      "i.skill.swim"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.diver",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "investigators": true,
+          "darkAges": true,
+          "darkAgesPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "invictus": true,
+          "modern": true,
+          "modernPulp": true,
+          "pulp": true
+        }
+      }
+    }
+  },
+  "_id": "ZXd86y3LpIfhXvYO",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!ZXd86y3LpIfhXvYO",
+  "effects": []
+}

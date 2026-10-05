@@ -1,0 +1,54 @@
+{
+  "name": "Pellegrino",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 64 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "pow": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 0,
+      "max": 45
+    },
+    "groups": [],
+    "personal": 1,
+    "skills": [
+      "i.skill.charm",
+      "i.skill.natural-world",
+      "i.skill.navigate",
+      "i.skill.language-any",
+      "i.skill.kingdom-any",
+      "i.skill.religion",
+      "i.skill.stealth"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.pilgrim",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAges": true,
+          "darkAgesPulp": true
+        }
+      }
+    }
+  },
+  "_id": "AJkrN9K6IjxpHz9k",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!AJkrN9K6IjxpHz9k",
+  "effects": []
+}

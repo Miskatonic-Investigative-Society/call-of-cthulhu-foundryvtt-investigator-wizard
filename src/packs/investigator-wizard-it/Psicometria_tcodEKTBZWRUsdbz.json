@@ -1,0 +1,36 @@
+{
+  "name": "Psicometria",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "skillName": "Psicometria",
+    "specialization": "",
+    "base": "0",
+    "properties": {
+      "push": true,
+      "rarity": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.psychometry",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAgesPulp": true,
+          "downDarkerTrailsPulp": true,
+          "modernPulp": true,
+          "pulp": true,
+          "regencyPulp": true
+        }
+      }
+    }
+  },
+  "_id": "tcodEKTBZWRUsdbz",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/sbed/usable.svg",
+  "_key": "!items!tcodEKTBZWRUsdbz",
+  "effects": []
+}

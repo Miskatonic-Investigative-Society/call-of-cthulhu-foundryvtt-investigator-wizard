@@ -1,0 +1,37 @@
+{
+  "name": "Ipnosi",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 65 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 107 (edizione inglese)</p><p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 37 (edizione inglese)</p>"
+    },
+    "skillName": "Ipnosi",
+    "specialization": "",
+    "base": "1",
+    "properties": {
+      "push": true,
+      "rarity": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.hypnosis",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "modernPulp": true,
+          "modern": true,
+          "pulp": true
+        }
+      }
+    }
+  },
+  "_id": "vo2d915uU3Ee7klz",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/twirl-center.svg",
+  "_key": "!items!vo2d915uU3Ee7klz",
+  "effects": []
+}

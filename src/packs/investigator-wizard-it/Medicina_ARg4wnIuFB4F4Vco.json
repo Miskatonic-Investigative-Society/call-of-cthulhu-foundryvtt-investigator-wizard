@@ -1,0 +1,31 @@
+{
+  "name": "Medicina",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "skillName": "Medicina",
+    "specialization": "",
+    "base": "5",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.medicine",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "invictus": true
+        }
+      }
+    }
+  },
+  "_id": "ARg4wnIuFB4F4Vco",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/plague-doctor-profile.svg",
+  "_key": "!items!ARg4wnIuFB4F4Vco",
+  "effects": []
+}

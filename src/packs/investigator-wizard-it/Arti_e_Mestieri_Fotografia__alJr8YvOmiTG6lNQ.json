@@ -1,0 +1,39 @@
+{
+  "name": "Arti e Mestieri (Fotografia)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 59 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 100 (edizione inglese)</p><p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 89 (edizione inglese)</p>"
+    },
+    "skillName": "Fotografia",
+    "specialization": "Arti e Mestieri",
+    "base": "5",
+    "properties": {
+      "push": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.art-craft-photography",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "gasLight": true,
+          "gasLightPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "modernPulp": true,
+          "modern": true,
+          "pulp": true
+        }
+      }
+    }
+  },
+  "_id": "alJr8YvOmiTG6lNQ",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/photo-camera.svg",
+  "_key": "!items!alJr8YvOmiTG6lNQ",
+  "effects": []
+}

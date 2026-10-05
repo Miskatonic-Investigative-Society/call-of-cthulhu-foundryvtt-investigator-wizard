@@ -1,0 +1,35 @@
+{
+  "name": "Regno (Proprio)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 78 (edizione inglese)</p>"
+    },
+    "skillName": "Proprio",
+    "specialization": "Regno",
+    "base": "20",
+    "properties": {
+      "push": true,
+      "requiresname": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.kingdom-own",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAgesPulp": true,
+          "darkAges": true,
+          "invictus": true
+        }
+      }
+    }
+  },
+  "_id": "DSOMwF1G5blPFgNN",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/coronation.svg",
+  "_key": "!items!DSOMwF1G5blPFgNN",
+  "effects": []
+}

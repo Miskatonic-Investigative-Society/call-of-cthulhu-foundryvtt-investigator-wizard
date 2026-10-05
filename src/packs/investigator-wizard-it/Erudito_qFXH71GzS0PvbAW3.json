@@ -1,0 +1,49 @@
+{
+  "name": "Erudito",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 65 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 4,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 9,
+      "max": 45
+    },
+    "groups": [],
+    "personal": 1,
+    "skills": [
+      "i.skill.library-use",
+      "i.skill.occult",
+      "i.skill.language-latin",
+      "i.skill.kingdom-own",
+      "i.skill.persuade",
+      "i.skill.science-any",
+      "i.skill.read-and-write-latin"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.scholar",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAges": true,
+          "darkAgesPulp": true
+        }
+      }
+    }
+  },
+  "_id": "qFXH71GzS0PvbAW3",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!qFXH71GzS0PvbAW3",
+  "effects": []
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Riparazioni Meccaniche",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 91 (edizione inglese)</p>"
+    },
+    "skillName": "Riparazioni Meccaniche",
+    "specialization": "",
+    "base": "20",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.mechanical-repair",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "gasLight": true,
+          "gasLightPulp": true
+        }
+      }
+    }
+  },
+  "_id": "1K3F4YtD2R6fVTNw",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/mechanical-arm.svg",
+  "_key": "!items!1K3F4YtD2R6fVTNw",
+  "effects": []
+}

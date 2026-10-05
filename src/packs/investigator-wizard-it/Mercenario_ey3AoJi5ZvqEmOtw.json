@@ -1,0 +1,54 @@
+{
+  "name": "Mercenario",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 64 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "con": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "str": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 0,
+      "max": 20
+    },
+    "groups": [],
+    "personal": 1,
+    "skills": [
+      "i.skill.fighting-brawl",
+      "i.skill.fighting-any",
+      "i.skill.natural-world",
+      "i.skill.navigate",
+      "i.skill.track",
+      "i.skill.stealth",
+      "i.skill.throw"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.mercenary",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAges": true,
+          "darkAgesPulp": true
+        }
+      }
+    }
+  },
+  "_id": "ey3AoJi5ZvqEmOtw",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!ey3AoJi5ZvqEmOtw",
+  "effects": []
+}

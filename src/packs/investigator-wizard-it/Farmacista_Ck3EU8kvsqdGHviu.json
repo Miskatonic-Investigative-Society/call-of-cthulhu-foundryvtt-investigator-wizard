@@ -1,0 +1,69 @@
+{
+  "name": "Farmacista",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 86 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 4,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 35,
+      "max": 75
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.charm",
+          "i.skill.fast-talk",
+          "i.skill.intimidate",
+          "i.skill.persuade"
+        ]
+      }
+    ],
+    "personal": 0,
+    "skills": [
+      "i.skill.accounting",
+      "i.skill.first-aid",
+      "i.skill.language-latin",
+      "i.skill.library-use",
+      "i.skill.psychology",
+      "i.skill.science-pharmacy",
+      "i.skill.science-chemistry"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.pharmacist",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "investigators": true,
+          "darkAges": true,
+          "darkAgesPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "invictus": true,
+          "modern": true,
+          "modernPulp": true,
+          "pulp": true,
+          "regency": true,
+          "regencyPulp": true
+        }
+      }
+    }
+  },
+  "_id": "Ck3EU8kvsqdGHviu",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!Ck3EU8kvsqdGHviu",
+  "effects": []
+}

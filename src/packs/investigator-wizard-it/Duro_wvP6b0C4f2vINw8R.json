@@ -1,0 +1,40 @@
+{
+  "name": "Duro",
+  "type": "archetype",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 19 (edizione inglese)</p>"
+    },
+    "coreCharacteristics": {
+      "con": true
+    },
+    "skills": [
+      "i.skill.art-craft-any",
+      "i.skill.fighting-brawl",
+      "i.skill.throw",
+      "i.skill.firearms-any",
+      "i.skill.drive-auto",
+      "i.skill.fast-talk",
+      "i.skill.intimidate",
+      "i.skill.law",
+      "i.skill.listen",
+      "i.skill.locksmith",
+      "i.skill.sleight-of-hand",
+      "i.skill.spot-hidden",
+      "i.skill.stealth"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.archetype.hard-boiled",
+        "lang": "it",
+        "priority": 5
+      }
+    }
+  },
+  "_id": "wvP6b0C4f2vINw8R",
+  "img": "icons/svg/invisible.svg",
+  "_key": "!items!wvP6b0C4f2vINw8R",
+  "effects": []
+}

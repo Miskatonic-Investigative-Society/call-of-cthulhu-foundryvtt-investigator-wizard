@@ -1,0 +1,49 @@
+{
+  "name": "Dottore",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Down Darker Trails», pagina 19 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 4,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 30,
+      "max": 80
+    },
+    "groups": [],
+    "personal": 1,
+    "skills": [
+      "i.skill.accounting",
+      "i.skill.first-aid",
+      "i.skill.medicine",
+      "i.skill.language-latin",
+      "i.skill.psychology",
+      "i.skill.science-biology",
+      "i.skill.science-pharmacy"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.doctor",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true
+        }
+      }
+    }
+  },
+  "_id": "F7sBFKSc4Co5pTA8",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!F7sBFKSc4Co5pTA8",
+  "effects": []
+}

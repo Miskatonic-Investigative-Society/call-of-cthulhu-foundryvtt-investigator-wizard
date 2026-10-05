@@ -1,0 +1,32 @@
+{
+  "name": "Cavalcare",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 92 (edizione inglese)</p>"
+    },
+    "skillName": "Cavalcare",
+    "specialization": "",
+    "base": "20",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.ride",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "gasLight": true,
+          "gasLightPulp": true
+        }
+      }
+    }
+  },
+  "_id": "04Qnp8NyokUsm00g",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/horse-head.svg",
+  "_key": "!items!04Qnp8NyokUsm00g",
+  "effects": []
+}

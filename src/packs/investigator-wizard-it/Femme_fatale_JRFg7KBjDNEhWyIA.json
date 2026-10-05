@@ -1,0 +1,40 @@
+{
+  "name": "Femme fatale",
+  "type": "archetype",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 18 (edizione inglese)</p>"
+    },
+    "coreCharacteristics": {
+      "app": true,
+      "int": true
+    },
+    "skills": [
+      "i.skill.art-craft-acting",
+      "i.skill.appraise",
+      "i.skill.charm",
+      "i.skill.disguise",
+      "i.skill.drive-auto",
+      "i.skill.fast-talk",
+      "i.skill.fighting-brawl",
+      "i.skill.firearms-handgun",
+      "i.skill.listen",
+      "i.skill.psychology",
+      "i.skill.sleight-of-hand",
+      "i.skill.stealth"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.archetype.femme-fatale",
+        "lang": "it",
+        "priority": 5
+      }
+    }
+  },
+  "_id": "JRFg7KBjDNEhWyIA",
+  "img": "icons/svg/invisible.svg",
+  "_key": "!items!JRFg7KBjDNEhWyIA",
+  "effects": []
+}

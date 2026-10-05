@@ -1,0 +1,79 @@
+{
+  "name": "Pupa del gangster",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 76 (edizione inglese)</p><p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 30 (edizione inglese)</p>"
+    },
+    "type": {
+      "classic": true,
+      "pulp": true
+    },
+    "occupationSkillPoints": {
+      "app": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 10,
+      "max": 80
+    },
+    "groups": [
+      {
+        "options": 2,
+        "skills": [
+          "i.skill.charm",
+          "i.skill.fast-talk",
+          "i.skill.intimidate",
+          "i.skill.persuade"
+        ]
+      },
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.fighting-brawl",
+          "i.skill.firearms-handgun"
+        ]
+      }
+    ],
+    "personal": 1,
+    "skills": [
+      "i.skill.art-craft-any",
+      "i.skill.drive-auto",
+      "i.skill.listen",
+      "i.skill.stealth"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.gun-moll",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "investigators": true,
+          "darkAges": true,
+          "darkAgesPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "invictus": true,
+          "modern": true,
+          "modernPulp": true,
+          "pulp": true
+        }
+      }
+    }
+  },
+  "_id": "9ZlHp1sbG7SsYnVa",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!9ZlHp1sbG7SsYnVa",
+  "effects": []
+}

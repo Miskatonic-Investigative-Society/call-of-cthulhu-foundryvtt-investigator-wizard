@@ -1,0 +1,61 @@
+{
+  "name": "Pilota",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 41 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 86 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 20,
+      "max": 70
+    },
+    "groups": [],
+    "personal": 2,
+    "skills": [
+      "i.skill.electrical-repair",
+      "i.skill.mechanical-repair",
+      "i.skill.navigate",
+      "i.skill.operate-heavy-machinery",
+      "i.skill.pilot-aircraft",
+      "i.skill.science-astronomy"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.pilot",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "investigators": true,
+          "darkAges": true,
+          "darkAgesPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "invictus": true,
+          "modern": true,
+          "modernPulp": true,
+          "pulp": true
+        }
+      }
+    }
+  },
+  "_id": "vZnbtcO66BGPcDmT",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!vZnbtcO66BGPcDmT",
+  "effects": []
+}

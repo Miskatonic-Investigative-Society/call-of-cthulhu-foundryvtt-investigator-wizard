@@ -1,0 +1,34 @@
+{
+  "name": "Combattere (Mazza)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 76 (edizione inglese)</p>"
+    },
+    "skillName": "Mazza",
+    "specialization": "Combattere",
+    "base": "25",
+    "properties": {
+      "fighting": true,
+      "combat": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.fighting-mace",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAgesPulp": true,
+          "darkAges": true
+        }
+      }
+    }
+  },
+  "_id": "qLDXJBj5kaIcF1Zz",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/mace-head.svg",
+  "_key": "!items!qLDXJBj5kaIcF1Zz",
+  "effects": []
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Smanettone",
+  "type": "archetype",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 19 (edizione inglese)</p>"
+    },
+    "coreCharacteristics": {
+      "int": true
+    },
+    "skills": [
+      "i.skill.appraise",
+      "i.skill.art-craft-any",
+      "i.skill.drive-auto",
+      "i.skill.fighting-brawl",
+      "i.skill.throw",
+      "i.skill.electrical-repair",
+      "i.skill.locksmith",
+      "i.skill.mechanical-repair",
+      "i.skill.operate-heavy-machinery",
+      "i.skill.spot-hidden"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.archetype.grease-monkey",
+        "lang": "it",
+        "priority": 5
+      }
+    }
+  },
+  "_id": "yXeP2064dXDnHPSp",
+  "img": "icons/svg/invisible.svg",
+  "_key": "!items!yXeP2064dXDnHPSp",
+  "effects": []
+}

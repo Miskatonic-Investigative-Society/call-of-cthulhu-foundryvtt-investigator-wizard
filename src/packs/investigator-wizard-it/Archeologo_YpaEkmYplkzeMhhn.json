@@ -1,0 +1,84 @@
+{
+  "name": "Archeologo",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 71 (edizione inglese)</p><p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 88 (edizione inglese)</p><p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 26 (edizione inglese)</p>"
+    },
+    "type": {
+      "lovecraftian": true,
+      "pulp": true
+    },
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 4,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 10,
+      "max": 40
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.navigate",
+          "i.skill.science-astronomy",
+          "i.skill.science-biology",
+          "i.skill.science-botany",
+          "i.skill.science-chemistry",
+          "i.skill.science-cryptography",
+          "i.skill.science-engineering",
+          "i.skill.science-forensics",
+          "i.skill.science-geology",
+          "i.skill.science-mathematics",
+          "i.skill.science-meteorology",
+          "i.skill.science-pharmacy",
+          "i.skill.science-physics",
+          "i.skill.science-zoology"
+        ]
+      }
+    ],
+    "personal": 0,
+    "skills": [
+      "i.skill.appraise",
+      "i.skill.archaeology",
+      "i.skill.history",
+      "i.skill.language-any",
+      "i.skill.library-use",
+      "i.skill.spot-hidden",
+      "i.skill.mechanical-repair"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.archaeologist",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "investigators": true,
+          "gasLight": true,
+          "gasLightPulp": true,
+          "darkAges": true,
+          "darkAgesPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "invictus": true,
+          "modern": true,
+          "modernPulp": true,
+          "pulp": true,
+          "regency": true,
+          "regencyPulp": true
+        }
+      }
+    }
+  },
+  "_id": "YpaEkmYplkzeMhhn",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!YpaEkmYplkzeMhhn",
+  "effects": []
+}

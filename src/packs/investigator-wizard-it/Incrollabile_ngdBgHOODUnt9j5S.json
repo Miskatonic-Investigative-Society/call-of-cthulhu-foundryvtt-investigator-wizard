@@ -1,0 +1,42 @@
+{
+  "name": "Incrollabile",
+  "type": "archetype",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 22 (edizione inglese)</p>"
+    },
+    "coreCharacteristics": {
+      "con": true
+    },
+    "skills": [
+      "i.skill.accounting",
+      "i.skill.drive-auto",
+      "i.skill.fighting-any",
+      "i.skill.firearms-handgun",
+      "i.skill.first-aid",
+      "i.skill.history",
+      "i.skill.intimidate",
+      "i.skill.law",
+      "i.skill.natural-world",
+      "i.skill.navigate",
+      "i.skill.persuade",
+      "i.skill.psychology",
+      "i.skill.ride",
+      "i.skill.spot-hidden",
+      "i.skill.survival-any"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.archetype.steadfast",
+        "lang": "it",
+        "priority": 5
+      }
+    }
+  },
+  "_id": "ngdBgHOODUnt9j5S",
+  "img": "icons/svg/invisible.svg",
+  "_key": "!items!ngdBgHOODUnt9j5S",
+  "effects": []
+}

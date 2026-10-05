@@ -1,0 +1,33 @@
+{
+  "name": "Scienza (Musica)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 80 (edizione inglese)</p>"
+    },
+    "skillName": "Musica",
+    "specialization": "Scienza",
+    "base": "1",
+    "properties": {
+      "push": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.science-music",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAgesPulp": true,
+          "darkAges": true
+        }
+      }
+    }
+  },
+  "_id": "0uKk1ZBqW4L9pLgI",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/musical-score.svg",
+  "_key": "!items!0uKk1ZBqW4L9pLgI",
+  "effects": []
+}

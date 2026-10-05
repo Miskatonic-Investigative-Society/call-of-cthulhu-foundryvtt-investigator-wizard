@@ -1,0 +1,52 @@
+{
+  "name": "Sacerdote",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 65 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "int": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 9,
+      "max": 99
+    },
+    "groups": [],
+    "personal": 3,
+    "skills": [
+      "i.skill.insight",
+      "i.skill.language-latin",
+      "i.skill.occult",
+      "i.skill.persuade",
+      "i.skill.religion"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.priest",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAges": true,
+          "darkAgesPulp": true
+        }
+      }
+    }
+  },
+  "_id": "uNsvaqklSeVsD4bZ",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!uNsvaqklSeVsD4bZ",
+  "effects": []
+}

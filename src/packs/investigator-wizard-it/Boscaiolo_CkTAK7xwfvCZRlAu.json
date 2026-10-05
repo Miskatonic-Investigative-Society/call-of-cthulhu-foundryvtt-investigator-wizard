@@ -1,0 +1,73 @@
+{
+  "name": "Boscaiolo",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 66 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "int": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 0,
+      "max": 25
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.listen",
+          "i.skill.spot-hidden"
+        ]
+      },
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.pilot-boat",
+          "i.skill.track"
+        ]
+      },
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.swim",
+          "i.skill.stealth"
+        ]
+      }
+    ],
+    "personal": 1,
+    "skills": [
+      "i.skill.art-craft-any",
+      "i.skill.natural-world",
+      "i.skill.navigate",
+      "i.skill.throw"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.woodsman",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAges": true,
+          "darkAgesPulp": true
+        }
+      }
+    }
+  },
+  "_id": "CkTAK7xwfvCZRlAu",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!CkTAK7xwfvCZRlAu",
+  "effects": []
+}

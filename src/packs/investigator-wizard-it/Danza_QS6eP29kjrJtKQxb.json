@@ -1,0 +1,32 @@
+{
+  "name": "Danza",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Regency Cthulhu», pagina 36 (edizione inglese)</p>"
+    },
+    "skillName": "Danza",
+    "specialization": "",
+    "base": "@DEX/5",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.dancing",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "regencyPulp": true,
+          "regency": true
+        }
+      }
+    }
+  },
+  "_id": "QS6eP29kjrJtKQxb",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/ballerina-shoes.svg",
+  "_key": "!items!QS6eP29kjrJtKQxb",
+  "effects": []
+}

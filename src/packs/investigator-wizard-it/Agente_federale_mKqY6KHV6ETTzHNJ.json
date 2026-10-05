@@ -1,0 +1,59 @@
+{
+  "name": "Agente federale",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 80 (edizione inglese)</p><p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 29 (edizione inglese)</p>"
+    },
+    "type": {
+      "pulp": true
+    },
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 4,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 20,
+      "max": 40
+    },
+    "groups": [],
+    "personal": 1,
+    "skills": [
+      "i.skill.drive-auto",
+      "i.skill.fighting-brawl",
+      "i.skill.firearms-any",
+      "i.skill.law",
+      "i.skill.persuade",
+      "i.skill.stealth",
+      "i.skill.spot-hidden"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.federal-agent",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "investigators": true,
+          "darkAges": true,
+          "darkAgesPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "invictus": true,
+          "modern": true,
+          "modernPulp": true,
+          "pulp": true
+        }
+      }
+    }
+  },
+  "_id": "mKqY6KHV6ETTzHNJ",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!mKqY6KHV6ETTzHNJ",
+  "effects": []
+}

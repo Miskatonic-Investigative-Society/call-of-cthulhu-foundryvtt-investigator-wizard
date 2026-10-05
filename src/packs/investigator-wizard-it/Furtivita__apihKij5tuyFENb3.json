@@ -1,0 +1,44 @@
+{
+  "name": "Furtività",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 76 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 118 (edizione inglese)</p><p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 92 (edizione inglese)</p><p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 81 (edizione inglese)</p>"
+    },
+    "skillName": "Furtività",
+    "specialization": "",
+    "base": "20",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.stealth",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "gasLight": true,
+          "gasLightPulp": true,
+          "darkAgesPulp": true,
+          "darkAges": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "invictus": true,
+          "modernPulp": true,
+          "modern": true,
+          "pulp": true,
+          "regencyPulp": true,
+          "regency": true,
+          "reignOfTerror": true
+        }
+      }
+    }
+  },
+  "_id": "apihKij5tuyFENb3",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/hidden.svg",
+  "_key": "!items!apihKij5tuyFENb3",
+  "effects": []
+}

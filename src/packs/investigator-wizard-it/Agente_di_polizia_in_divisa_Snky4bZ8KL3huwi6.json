@@ -1,0 +1,86 @@
+{
+  "name": "Agente di polizia in divisa",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 41 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 87 (edizione inglese)</p><p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 27 (edizione inglese)</p>"
+    },
+    "type": {
+      "lovecraftian": true,
+      "pulp": true
+    },
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "str": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      },
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      }
+    },
+    "creditRating": {
+      "min": 9,
+      "max": 30
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.charm",
+          "i.skill.fast-talk",
+          "i.skill.intimidate",
+          "i.skill.persuade"
+        ]
+      },
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.drive-auto",
+          "i.skill.ride"
+        ]
+      }
+    ],
+    "personal": 0,
+    "skills": [
+      "i.skill.fighting-brawl",
+      "i.skill.firearms-any",
+      "i.skill.first-aid",
+      "i.skill.law",
+      "i.skill.psychology",
+      "i.skill.spot-hidden"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.uniformed-police-officer",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "investigators": true,
+          "darkAges": true,
+          "darkAgesPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "invictus": true,
+          "modern": true,
+          "modernPulp": true,
+          "pulp": true
+        }
+      }
+    }
+  },
+  "_id": "Snky4bZ8KL3huwi6",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!Snky4bZ8KL3huwi6",
+  "effects": []
+}

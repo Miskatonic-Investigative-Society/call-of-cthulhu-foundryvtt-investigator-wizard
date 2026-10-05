@@ -1,0 +1,34 @@
+{
+  "name": "A Distanza (Fionda)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 79 (edizione inglese)</p>"
+    },
+    "skillName": "Fionda",
+    "specialization": "A Distanza",
+    "base": "20",
+    "properties": {
+      "ranged": true,
+      "combat": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.ranged-sling",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAgesPulp": true,
+          "darkAges": true
+        }
+      }
+    }
+  },
+  "_id": "k65RMEJTmb3qUxmB",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/sling.svg",
+  "_key": "!items!k65RMEJTmb3qUxmB",
+  "effects": []
+}

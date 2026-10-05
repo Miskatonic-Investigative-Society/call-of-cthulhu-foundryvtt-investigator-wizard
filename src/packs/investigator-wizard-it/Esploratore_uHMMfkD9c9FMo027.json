@@ -1,0 +1,43 @@
+{
+  "name": "Esploratore",
+  "type": "archetype",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 18 (edizione inglese)</p>"
+    },
+    "coreCharacteristics": {
+      "dex": true,
+      "pow": true
+    },
+    "skills": [
+      "i.skill.animal-handling",
+      "i.skill.anthropology",
+      "i.skill.archaeology",
+      "i.skill.climb",
+      "i.skill.fighting-brawl",
+      "i.skill.first-aid",
+      "i.skill.jump",
+      "i.skill.language-any",
+      "i.skill.natural-world",
+      "i.skill.navigate",
+      "i.skill.pilot-any",
+      "i.skill.ride",
+      "i.skill.stealth",
+      "i.skill.survival-any",
+      "i.skill.track"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.archetype.explorer",
+        "lang": "it",
+        "priority": 5
+      }
+    }
+  },
+  "_id": "uHMMfkD9c9FMo027",
+  "img": "icons/svg/invisible.svg",
+  "_key": "!items!uHMMfkD9c9FMo027",
+  "effects": []
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Persuadere",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 71 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 113 (edizione inglese)</p><p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 78 (edizione inglese)</p>"
+    },
+    "skillName": "Persuadere",
+    "specialization": "",
+    "base": "15",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.persuade",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAgesPulp": true,
+          "darkAges": true,
+          "invictus": true
+        }
+      }
+    }
+  },
+  "_id": "RAuow1GmXBlQDBBx",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/conversation.svg",
+  "_key": "!items!RAuow1GmXBlQDBBx",
+  "effects": []
+}

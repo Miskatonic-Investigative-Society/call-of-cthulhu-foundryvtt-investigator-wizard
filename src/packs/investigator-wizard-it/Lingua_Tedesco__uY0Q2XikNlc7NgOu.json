@@ -1,0 +1,30 @@
+{
+  "name": "Lingua (Tedesco)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "skillName": "Tedesco",
+    "specialization": "Lingua",
+    "base": "1",
+    "properties": {
+      "push": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.language-german,",
+        "lang": "it",
+        "priority": 5,
+        "eras": {}
+      }
+    }
+  },
+  "_id": "uY0Q2XikNlc7NgOu",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/skoll/talk.svg",
+  "_key": "!items!uY0Q2XikNlc7NgOu",
+  "effects": []
+}

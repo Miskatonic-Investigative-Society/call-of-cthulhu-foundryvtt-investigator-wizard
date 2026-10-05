@@ -1,0 +1,33 @@
+{
+  "name": "Status",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 80 (edizione inglese)</p>"
+    },
+    "skillName": "Status",
+    "specialization": "",
+    "base": "0",
+    "properties": {
+      "push": true,
+      "noxpgain": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.credit-rating",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAgesPulp": true,
+          "darkAges": true
+        }
+      }
+    }
+  },
+  "_id": "oT7Lwguse3u1XZZ9",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/credits-currency.svg",
+  "_key": "!items!oT7Lwguse3u1XZZ9",
+  "effects": []
+}

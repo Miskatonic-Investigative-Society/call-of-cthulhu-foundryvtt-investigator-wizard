@@ -1,0 +1,54 @@
+{
+  "name": "Insegnante",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Down Darker Trails», pagina 23 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 4,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 10,
+      "max": 50
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.persuade",
+          "i.skill.intimidate"
+        ]
+      }
+    ],
+    "personal": 3,
+    "skills": [
+      "i.skill.library-use",
+      "i.skill.language-any",
+      "i.skill.psychology",
+      "i.skill.science-any"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.teacher",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true
+        }
+      }
+    }
+  },
+  "_id": "TcFy64SyuNkasXvl",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!TcFy64SyuNkasXvl",
+  "effects": []
+}

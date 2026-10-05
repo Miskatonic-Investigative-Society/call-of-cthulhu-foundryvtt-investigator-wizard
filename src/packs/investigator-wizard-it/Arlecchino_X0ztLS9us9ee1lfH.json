@@ -1,0 +1,39 @@
+{
+  "name": "Arlecchino",
+  "type": "archetype",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 19 (edizione inglese)</p>"
+    },
+    "coreCharacteristics": {
+      "app": true
+    },
+    "skills": [
+      "i.skill.art-craft-acting",
+      "i.skill.charm",
+      "i.skill.climb",
+      "i.skill.disguise",
+      "i.skill.fast-talk",
+      "i.skill.jump",
+      "i.skill.language-any",
+      "i.skill.listen",
+      "i.skill.persuade",
+      "i.skill.psychology",
+      "i.skill.sleight-of-hand",
+      "i.skill.stealth"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.archetype.harlequin",
+        "lang": "it",
+        "priority": 5
+      }
+    }
+  },
+  "_id": "X0ztLS9us9ee1lfH",
+  "img": "icons/svg/invisible.svg",
+  "_key": "!items!X0ztLS9us9ee1lfH",
+  "effects": []
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Agricoltore (libero)",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 59 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "str": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "con": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 9,
+      "max": 30
+    },
+    "groups": [],
+    "personal": 1,
+    "skills": [
+      "i.skill.animal-handling",
+      "i.skill.art-craft-any",
+      "i.skill.drive-auto",
+      "i.skill.listen",
+      "i.skill.natural-world",
+      "i.skill.navigate",
+      "i.skill.track-any"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.farmer-free",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAges": true,
+          "darkAgesPulp": true
+        }
+      }
+    }
+  },
+  "_id": "Q4XTaxgER2OrCGlb",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!Q4XTaxgER2OrCGlb",
+  "effects": []
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Guardiano dello zoo",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 93 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 4,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 9,
+      "max": 40
+    },
+    "groups": [],
+    "personal": 0,
+    "skills": [
+      "i.skill.animal-handling",
+      "i.skill.accounting",
+      "i.skill.dodge",
+      "i.skill.first-aid",
+      "i.skill.natural-world",
+      "i.skill.medicine",
+      "i.skill.science-pharmacy",
+      "i.skill.science-zoology"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.zookeeper",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "investigators": true,
+          "darkAges": true,
+          "darkAgesPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "invictus": true,
+          "modern": true,
+          "modernPulp": true,
+          "pulp": true,
+          "regency": true,
+          "regencyPulp": true
+        }
+      }
+    }
+  },
+  "_id": "6JtFhPYkqF9FJnf2",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!6JtFhPYkqF9FJnf2",
+  "effects": []
+}

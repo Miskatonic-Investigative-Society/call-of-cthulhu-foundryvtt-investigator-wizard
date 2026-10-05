@@ -1,0 +1,28 @@
+{
+  "name": "Tattica",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "skillName": "Tattica",
+    "specialization": "",
+    "base": "1"
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.tactics",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "invictus": true
+        }
+      }
+    }
+  },
+  "_id": "a4juCVSI4FxaS1Bd",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/tabletop-players.svg",
+  "_key": "!items!a4juCVSI4FxaS1Bd",
+  "effects": []
+}

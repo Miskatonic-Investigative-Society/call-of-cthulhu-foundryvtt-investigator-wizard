@@ -1,0 +1,33 @@
+{
+  "name": "Scienze Naturali",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 69 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 111 (edizione inglese)</p><p>Vedi «Down Darker Trails», pagina 26 (edizione inglese)</p>"
+    },
+    "skillName": "Scienze Naturali",
+    "specialization": "",
+    "base": "20",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.natural-world",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "reignOfTerror": true
+        }
+      }
+    }
+  },
+  "_id": "K4vpFMlarvORJyQM",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/forest.svg",
+  "_key": "!items!K4vpFMlarvORJyQM",
+  "effects": []
+}

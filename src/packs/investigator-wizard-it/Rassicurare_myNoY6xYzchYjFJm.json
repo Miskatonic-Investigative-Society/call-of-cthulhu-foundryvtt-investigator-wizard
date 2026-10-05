@@ -1,0 +1,34 @@
+{
+  "name": "Rassicurare",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 95 (edizione inglese)</p><p>Vedi «Regency Cthulhu», pagina 40 (edizione inglese)</p>"
+    },
+    "skillName": "Rassicurare",
+    "specialization": "",
+    "base": "@APP/5",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.reassure",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "gasLight": true,
+          "gasLightPulp": true,
+          "regencyPulp": true,
+          "regency": true
+        }
+      }
+    }
+  },
+  "_id": "myNoY6xYzchYjFJm",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/meditation.svg",
+  "_key": "!items!myNoY6xYzchYjFJm",
+  "effects": []
+}

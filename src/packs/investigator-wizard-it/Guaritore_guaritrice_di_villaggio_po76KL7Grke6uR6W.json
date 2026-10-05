@@ -1,0 +1,60 @@
+{
+  "name": "Guaritore/guaritrice di villaggio",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 60 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 4,
+        "selected": true,
+        "optional": true
+      },
+      "pow": {
+        "multiplier": 4,
+        "selected": true,
+        "optional": true
+      }
+    },
+    "creditRating": {
+      "min": 9,
+      "max": 45
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.listen",
+          "i.skill.spot-hidden"
+        ]
+      }
+    ],
+    "personal": 2,
+    "skills": [
+      "i.skill.art-craft-potions",
+      "i.skill.first-aid",
+      "i.skill.insight",
+      "i.skill.natural-world",
+      "i.skill.occult"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.cunning-man-woman",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAges": true,
+          "darkAgesPulp": true
+        }
+      }
+    }
+  },
+  "_id": "po76KL7Grke6uR6W",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!po76KL7Grke6uR6W",
+  "effects": []
+}

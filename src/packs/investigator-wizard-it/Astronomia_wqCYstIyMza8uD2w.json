@@ -1,0 +1,32 @@
+{
+  "name": "Astronomia",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Regency Cthulhu», pagina 33 (edizione inglese)</p>"
+    },
+    "skillName": "Astronomia",
+    "specialization": "",
+    "base": "1",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.astronomy",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "regencyPulp": true,
+          "regency": true
+        }
+      }
+    }
+  },
+  "_id": "wqCYstIyMza8uD2w",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/ringed-planet.svg",
+  "_key": "!items!wqCYstIyMza8uD2w",
+  "effects": []
+}

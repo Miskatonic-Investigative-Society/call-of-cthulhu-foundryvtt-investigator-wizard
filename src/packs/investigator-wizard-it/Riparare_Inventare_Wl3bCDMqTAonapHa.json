@@ -1,0 +1,33 @@
+{
+  "name": "Riparare/Inventare",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 79 (edizione inglese)</p><p>Vedi «Cthulhu Through the Ages - Invictus», pagina 11 (edizione inglese)</p>"
+    },
+    "skillName": "Riparare/Inventare",
+    "specialization": "",
+    "base": "20",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.repair-devise",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAgesPulp": true,
+          "darkAges": true,
+          "invictus": true
+        }
+      }
+    }
+  },
+  "_id": "Wl3bCDMqTAonapHa",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/auto-repair.svg",
+  "_key": "!items!Wl3bCDMqTAonapHa",
+  "effects": []
+}

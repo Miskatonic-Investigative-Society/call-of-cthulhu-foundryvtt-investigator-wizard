@@ -1,0 +1,32 @@
+{
+  "name": "Rapidità di Mano",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 80 (edizione inglese)</p>"
+    },
+    "skillName": "Rapidità di Mano",
+    "specialization": "",
+    "base": "25",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.sleight-of-hand",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAgesPulp": true,
+          "darkAges": true
+        }
+      }
+    }
+  },
+  "_id": "VzS0JUnnA47G2sFL",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/hand.svg",
+  "_key": "!items!VzS0JUnnA47G2sFL",
+  "effects": []
+}

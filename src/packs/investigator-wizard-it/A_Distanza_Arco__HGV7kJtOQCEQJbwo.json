@@ -1,0 +1,35 @@
+{
+  "name": "A Distanza (Arco)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 79 (edizione inglese)</p><p>Vedi «Cthulhu Through the Ages - Invictus», pagina 11 (edizione inglese)</p>"
+    },
+    "skillName": "Arco",
+    "specialization": "A Distanza",
+    "base": "10",
+    "properties": {
+      "ranged": true,
+      "combat": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.ranged-bow",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAgesPulp": true,
+          "darkAges": true,
+          "invictus": true
+        }
+      }
+    }
+  },
+  "_id": "HGV7kJtOQCEQJbwo",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/pocket-bow.svg",
+  "_key": "!items!HGV7kJtOQCEQJbwo",
+  "effects": []
+}

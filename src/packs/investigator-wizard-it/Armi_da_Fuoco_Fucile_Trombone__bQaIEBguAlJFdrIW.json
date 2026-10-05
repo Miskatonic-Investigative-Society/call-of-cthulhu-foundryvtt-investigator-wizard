@@ -1,0 +1,34 @@
+{
+  "name": "Armi da Fuoco (Fucile/Trombone)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "skillName": "Fucile/Trombone",
+    "specialization": "Armi da Fuoco",
+    "base": "25",
+    "properties": {
+      "firearm": true,
+      "combat": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.firearms-rifle-shotgun",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "regencyPulp": true,
+          "regency": true
+        }
+      }
+    }
+  },
+  "_id": "bQaIEBguAlJFdrIW",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/blunderbuss.svg",
+  "_key": "!items!bQaIEBguAlJFdrIW",
+  "effects": []
+}

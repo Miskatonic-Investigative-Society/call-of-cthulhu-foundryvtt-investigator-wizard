@@ -1,0 +1,38 @@
+{
+  "name": "Scienza (Ingegneria)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 75 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 117 (edizione inglese)</p><p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 92 (edizione inglese)</p>"
+    },
+    "skillName": "Ingegneria",
+    "specialization": "Scienza",
+    "base": "1",
+    "properties": {
+      "push": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.science-engineering",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "gasLight": true,
+          "gasLightPulp": true,
+          "invictus": true,
+          "modernPulp": true,
+          "modern": true,
+          "pulp": true
+        }
+      }
+    }
+  },
+  "_id": "QGpAIBOmcQKKIHlG",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/spanner.svg",
+  "_key": "!items!QGpAIBOmcQKKIHlG",
+  "effects": []
+}

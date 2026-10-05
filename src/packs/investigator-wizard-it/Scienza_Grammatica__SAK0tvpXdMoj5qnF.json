@@ -1,0 +1,33 @@
+{
+  "name": "Scienza (Grammatica)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 80 (edizione inglese)</p>"
+    },
+    "skillName": "Grammatica",
+    "specialization": "Scienza",
+    "base": "1",
+    "properties": {
+      "push": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.science-grammar",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAgesPulp": true,
+          "darkAges": true
+        }
+      }
+    }
+  },
+  "_id": "SAK0tvpXdMoj5qnF",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/quill-ink.svg",
+  "_key": "!items!SAK0tvpXdMoj5qnF",
+  "effects": []
+}

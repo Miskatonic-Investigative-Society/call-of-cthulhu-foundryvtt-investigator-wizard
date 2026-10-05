@@ -1,0 +1,43 @@
+{
+  "name": "Combattere (Lanciare)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 77 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 119 (edizione inglese)</p><p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 96 (edizione inglese)</p>"
+    },
+    "skillName": "Lanciare",
+    "specialization": "Combattere",
+    "base": "20",
+    "properties": {
+      "fighting": true,
+      "combat": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.fighting-throw",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "gasLight": true,
+          "gasLightPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "modernPulp": true,
+          "modern": true,
+          "pulp": true,
+          "regencyPulp": true,
+          "regency": true,
+          "reignOfTerror": true
+        }
+      }
+    }
+  },
+  "_id": "0k8h8wXNnwlrhAYZ",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/throwing-ball.svg",
+  "_key": "!items!0k8h8wXNnwlrhAYZ",
+  "effects": []
+}

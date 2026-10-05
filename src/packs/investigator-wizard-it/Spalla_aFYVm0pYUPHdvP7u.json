@@ -1,0 +1,41 @@
+{
+  "name": "Spalla",
+  "type": "archetype",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 21 (edizione inglese)</p>"
+    },
+    "coreCharacteristics": {
+      "con": true,
+      "dex": true
+    },
+    "skills": [
+      "i.skill.animal-handling",
+      "i.skill.art-craft-photography",
+      "i.skill.climb",
+      "i.skill.electrical-repair",
+      "i.skill.fast-talk",
+      "i.skill.first-aid",
+      "i.skill.jump",
+      "i.skill.library-use",
+      "i.skill.listen",
+      "i.skill.navigate",
+      "i.skill.science-any",
+      "i.skill.stealth",
+      "i.skill.track"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.archetype.sidekick",
+        "lang": "it",
+        "priority": 5
+      }
+    }
+  },
+  "_id": "aFYVm0pYUPHdvP7u",
+  "img": "icons/svg/invisible.svg",
+  "_key": "!items!aFYVm0pYUPHdvP7u",
+  "effects": []
+}

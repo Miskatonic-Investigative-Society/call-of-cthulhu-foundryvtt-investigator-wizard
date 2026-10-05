@@ -1,0 +1,32 @@
+{
+  "name": "Reputazione",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "skillName": "Reputazione",
+    "specialization": "",
+    "base": "(@i.skill.credit-rating+@i.skill.etiquette)/2",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.reputation",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "regencyPulp": true,
+          "regency": true
+        }
+      }
+    }
+  },
+  "_id": "hAmYKy5PnF00VY5a",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/thumb-up.svg",
+  "_key": "!items!hAmYKy5PnF00VY5a",
+  "effects": []
+}

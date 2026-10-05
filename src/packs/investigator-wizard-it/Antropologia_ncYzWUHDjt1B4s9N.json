@@ -1,0 +1,33 @@
+{
+  "name": "Antropologia",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 57 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 99 (edizione inglese)</p>"
+    },
+    "skillName": "Antropologia",
+    "specialization": "",
+    "base": "1",
+    "properties": {
+      "push": true,
+      "rarity": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.anthropology",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "pulp": true,
+          "reignOfTerror": true
+        }
+      }
+    }
+  },
+  "_id": "ncYzWUHDjt1B4s9N",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/human-pyramid.svg",
+  "_key": "!items!ncYzWUHDjt1B4s9N",
+  "effects": []
+}

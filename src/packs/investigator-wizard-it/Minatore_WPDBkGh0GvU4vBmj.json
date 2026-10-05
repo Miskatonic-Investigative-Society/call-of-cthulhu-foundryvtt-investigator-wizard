@@ -1,0 +1,59 @@
+{
+  "name": "Minatore",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Down Darker Trails», pagina 22 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "str": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      },
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      }
+    },
+    "creditRating": {
+      "min": 5,
+      "max": 60
+    },
+    "groups": [],
+    "personal": 1,
+    "skills": [
+      "i.skill.climb",
+      "i.skill.first-aid",
+      "i.skill.mechanical-repair",
+      "i.skill.natural-world",
+      "i.skill.navigate",
+      "i.skill.science-geology",
+      "i.skill.spot-hidden"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.miner",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true
+        }
+      }
+    }
+  },
+  "_id": "WPDBkGh0GvU4vBmj",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!WPDBkGh0GvU4vBmj",
+  "effects": []
+}

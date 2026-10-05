@@ -1,7 +1,7 @@
 {
   "id": "call-of-cthulhu-foundryvtt-investigator-wizard",
   "title": "Call of Cthulhu - FoundryVTT - Investigator Wizard",
-  "version": "1.0.6",
+  "version": "1.0.6.3",
   "compatibility": {
     "minimum": "12",
     "verified": "14"
@@ -22,6 +22,17 @@
       "name": "investigator-wizard",
       "label": "Investigator Wizard",
       "path": "packs/investigator-wizard",
+      "type": "Item",
+      "system": "CoC7",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "investigator-wizard-it",
+      "label": "Investigator Wizard (Italiano)",
+      "path": "packs/investigator-wizard-it",
       "type": "Item",
       "system": "CoC7",
       "ownership": {

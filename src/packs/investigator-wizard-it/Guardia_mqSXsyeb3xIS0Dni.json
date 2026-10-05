@@ -1,0 +1,54 @@
+{
+  "name": "Guardia",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 59 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "str": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 9,
+      "max": 30
+    },
+    "groups": [],
+    "personal": 1,
+    "skills": [
+      "i.skill.fighting-brawl",
+      "i.skill.fighting-spear",
+      "i.skill.listen",
+      "i.skill.kingdom-own",
+      "i.skill.ride",
+      "i.skill.spot-hidden",
+      "i.skill.throw"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.guard",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAges": true,
+          "darkAgesPulp": true
+        }
+      }
+    }
+  },
+  "_id": "mqSXsyeb3xIS0Dni",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!mqSXsyeb3xIS0Dni",
+  "effects": []
+}

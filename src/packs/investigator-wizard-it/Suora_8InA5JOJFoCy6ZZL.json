@@ -1,0 +1,55 @@
+{
+  "name": "Suora",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 64 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 4,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 9,
+      "max": 45
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.art-craft-any",
+          "i.skill.science-any"
+        ]
+      }
+    ],
+    "personal": 2,
+    "skills": [
+      "i.skill.library-use",
+      "i.skill.listen",
+      "i.skill.language-latin",
+      "i.skill.religion",
+      "i.skill.read-and-write-latin"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.nun",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAges": true,
+          "darkAgesPulp": true
+        }
+      }
+    }
+  },
+  "_id": "8InA5JOJFoCy6ZZL",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!8InA5JOJFoCy6ZZL",
+  "effects": []
+}

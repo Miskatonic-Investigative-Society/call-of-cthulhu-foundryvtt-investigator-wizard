@@ -1,0 +1,65 @@
+{
+  "name": "Esploratore militare",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Down Darker Trails», pagina 24 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "str": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      },
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      },
+      "con": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      }
+    },
+    "creditRating": {
+      "min": 0,
+      "max": 20
+    },
+    "groups": [],
+    "personal": 3,
+    "skills": [
+      "i.skill.firearms-any",
+      "i.skill.first-aid",
+      "i.skill.natural-world",
+      "i.skill.navigate",
+      "i.skill.ride",
+      "i.skill.stealth",
+      "i.skill.track",
+      "i.skill.trap"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.scout",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true
+        }
+      }
+    }
+  },
+  "_id": "SG6rXW1xjBCE12j0",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!SG6rXW1xjBCE12j0",
+  "effects": []
+}

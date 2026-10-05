@@ -1,0 +1,32 @@
+{
+  "name": "Guidare Carro / Diligenza",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Down Darker Trails», pagina 26 (edizione inglese)</p>"
+    },
+    "skillName": "Guidare Carro / Diligenza",
+    "specialization": "",
+    "base": "20",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.drive-wagon-coach",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true
+        }
+      }
+    }
+  },
+  "_id": "spXiReTkbf8UVrLJ",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/cartwheel.svg",
+  "_key": "!items!spXiReTkbf8UVrLJ",
+  "effects": []
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Lavoratore itinerante",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 30 (edizione inglese)</p>"
+    },
+    "type": {
+      "pulp": true
+    },
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "str": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      },
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      }
+    },
+    "creditRating": {
+      "min": 0,
+      "max": 10
+    },
+    "groups": [],
+    "personal": 2,
+    "skills": [
+      "i.skill.art-craft-any",
+      "i.skill.climb",
+      "i.skill.sleight-of-hand",
+      "i.skill.mechanical-repair",
+      "i.skill.natural-world",
+      "i.skill.navigate"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.itinerant-worker",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "pulpModern": true,
+          "pulp": true
+        }
+      }
+    }
+  },
+  "_id": "9xgKTHKJ6BjVQwQh",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!9xgKTHKJ6BjVQwQh",
+  "effects": []
+}

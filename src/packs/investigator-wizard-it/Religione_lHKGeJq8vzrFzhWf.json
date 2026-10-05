@@ -1,0 +1,34 @@
+{
+  "name": "Religione",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 95 (edizione inglese)</p><p>Vedi «Regency Cthulhu», pagina 40 (edizione inglese)</p>"
+    },
+    "skillName": "Religione",
+    "specialization": "",
+    "base": "10",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.religion",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "gasLight": true,
+          "gasLightPulp": true,
+          "regencyPulp": true,
+          "regency": true
+        }
+      }
+    }
+  },
+  "_id": "lHKGeJq8vzrFzhWf",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/incense.svg",
+  "_key": "!items!lHKGeJq8vzrFzhWf",
+  "effects": []
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Gestione Animali",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 57 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 99 (edizione inglese)</p><p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 89 (edizione inglese)</p>"
+    },
+    "skillName": "Gestione Animali",
+    "specialization": "",
+    "base": "5",
+    "properties": {
+      "push": true,
+      "rarity": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.animal-handling",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "gasLight": true,
+          "gasLightPulp": true,
+          "modernPulp": true,
+          "modern": true,
+          "pulp": true,
+          "regencyPulp": true,
+          "regency": true,
+          "reignOfTerror": true
+        }
+      }
+    }
+  },
+  "_id": "O23DEECEpMHGAk6j",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/jumping-dog.svg",
+  "_key": "!items!O23DEECEpMHGAk6j",
+  "effects": []
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Criminale, membro di una banda elegante («Swell-mob»)",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 82 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "int": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 5,
+      "max": 20
+    },
+    "personal": 1,
+    "skills": [
+      "i.skill.charm",
+      "i.skill.disguise",
+      "i.skill.fast-talk",
+      "i.skill.fighting-brawl",
+      "i.skill.intimidate",
+      "i.skill.sleight-of-hand",
+      "i.skill.spot-hidden"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.criminal-swell-mob-member-of-street-gang",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "gasLight": true,
+          "gasLightPulp": true
+        }
+      }
+    }
+  },
+  "_id": "fHiDMRbOeTHsIALq",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!fHiDMRbOeTHsIALq",
+  "effects": []
+}

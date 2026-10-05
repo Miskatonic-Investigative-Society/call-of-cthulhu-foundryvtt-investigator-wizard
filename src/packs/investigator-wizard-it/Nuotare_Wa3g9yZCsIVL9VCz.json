@@ -1,0 +1,39 @@
+{
+  "name": "Nuotare",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 77 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 119 (edizione inglese)</p>"
+    },
+    "skillName": "Nuotare",
+    "specialization": "",
+    "base": "20",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.swim",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "modernPulp": true,
+          "modern": true,
+          "pulp": true,
+          "regencyPulp": true,
+          "regency": true,
+          "reignOfTerror": true
+        }
+      }
+    }
+  },
+  "_id": "Wa3g9yZCsIVL9VCz",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/swimfins.svg",
+  "_key": "!items!Wa3g9yZCsIVL9VCz",
+  "effects": []
+}

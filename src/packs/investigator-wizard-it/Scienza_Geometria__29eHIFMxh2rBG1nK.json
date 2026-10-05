@@ -1,0 +1,33 @@
+{
+  "name": "Scienza (Geometria)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 80 (edizione inglese)</p>"
+    },
+    "skillName": "Geometria",
+    "specialization": "Scienza",
+    "base": "1",
+    "properties": {
+      "push": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.science-geometry",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAgesPulp": true,
+          "darkAges": true
+        }
+      }
+    }
+  },
+  "_id": "29eHIFMxh2rBG1nK",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/viscious-speed/abstract-026.svg",
+  "_key": "!items!29eHIFMxh2rBG1nK",
+  "effects": []
+}

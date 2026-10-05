@@ -1,0 +1,68 @@
+{
+  "name": "Poliziotto (a cavallo)",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Reign of Terror», pagina 104 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "str": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      },
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      }
+    },
+    "creditRating": {
+      "min": 10,
+      "max": 60
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.charm",
+          "i.skill.fast-talk",
+          "i.skill.intimidate",
+          "i.skill.persuade"
+        ]
+      }
+    ],
+    "personal": 0,
+    "skills": [
+      "i.skill.fighting-sword",
+      "i.skill.firearms-rifle-shotgun",
+      "i.skill.firearms-handgun",
+      "i.skill.law",
+      "i.skill.psychology",
+      "i.skill.ride",
+      "i.skill.spot-hidden"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.policeman-mounted",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "reignOfTerror": true
+        }
+      }
+    }
+  },
+  "_id": "CZ4J9CTKhAq4fzkP",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!CZ4J9CTKhAq4fzkP",
+  "effects": []
+}

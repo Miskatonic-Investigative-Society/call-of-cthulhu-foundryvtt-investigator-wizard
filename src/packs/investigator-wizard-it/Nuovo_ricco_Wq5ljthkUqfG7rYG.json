@@ -1,0 +1,57 @@
+{
+  "name": "Nuovo ricco",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Regency Cthulhu», pagina 32 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 4,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 50,
+      "max": 90
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.fighting-any",
+          "i.skill.firearms-any"
+        ]
+      }
+    ],
+    "personal": 0,
+    "skills": [
+      "i.skill.accounting",
+      "i.skill.appraise",
+      "i.skill.art-craft-business",
+      "i.skill.dancing",
+      "i.skill.fast-talk",
+      "i.skill.persuade",
+      "i.skill.ride"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.nouveau-riche",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "regency": true,
+          "regencyPulp": true
+        }
+      }
+    }
+  },
+  "_id": "Wq5ljthkUqfG7rYG",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!Wq5ljthkUqfG7rYG",
+  "effects": []
+}

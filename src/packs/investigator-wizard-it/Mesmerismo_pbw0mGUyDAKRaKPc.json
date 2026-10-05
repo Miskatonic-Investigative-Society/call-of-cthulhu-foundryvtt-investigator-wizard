@@ -1,0 +1,35 @@
+{
+  "name": "Mesmerismo",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 94 (edizione inglese)</p><p>Vedi «Regency Cthulhu», pagina 39 (edizione inglese)</p>"
+    },
+    "skillName": "Mesmerismo",
+    "specialization": "",
+    "base": "1",
+    "properties": {
+      "push": true,
+      "rarity": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.hypnosis",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "gasLight": true,
+          "gasLightPulp": true,
+          "regencyPulp": true,
+          "regency": true
+        }
+      }
+    }
+  },
+  "_id": "pbw0mGUyDAKRaKPc",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/twirl-center.svg",
+  "_key": "!items!pbw0mGUyDAKRaKPc",
+  "effects": []
+}

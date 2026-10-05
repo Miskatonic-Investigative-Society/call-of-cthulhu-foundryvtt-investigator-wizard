@@ -1,0 +1,69 @@
+{
+  "name": "Operaio",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 83 (edizione inglese)</p><p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 31 (edizione inglese)</p>"
+    },
+    "type": {
+      "pulp": true
+    },
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "str": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      },
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      }
+    },
+    "creditRating": {
+      "min": 5,
+      "max": 20
+    },
+    "groups": [],
+    "personal": 1,
+    "skills": [
+      "i.skill.drive-auto",
+      "i.skill.electrical-repair",
+      "i.skill.fighting-any",
+      "i.skill.first-aid",
+      "i.skill.mechanical-repair",
+      "i.skill.operate-heavy-machinery",
+      "i.skill.throw"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.laborer",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "investigators": true,
+          "darkAges": true,
+          "darkAgesPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "invictus": true,
+          "modern": true,
+          "modernPulp": true,
+          "pulp": true
+        }
+      }
+    }
+  },
+  "_id": "fBs2Nt7vm1bMBx4O",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!fBs2Nt7vm1bMBx4O",
+  "effects": []
+}

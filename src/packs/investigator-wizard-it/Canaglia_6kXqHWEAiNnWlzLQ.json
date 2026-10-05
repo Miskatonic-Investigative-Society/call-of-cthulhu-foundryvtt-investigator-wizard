@@ -1,0 +1,39 @@
+{
+  "name": "Canaglia",
+  "type": "archetype",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 20 (edizione inglese)</p>"
+    },
+    "coreCharacteristics": {
+      "app": true,
+      "dex": true
+    },
+    "skills": [
+      "i.skill.appraise",
+      "i.skill.art-craft-any",
+      "i.skill.charm",
+      "i.skill.disguise",
+      "i.skill.fast-talk",
+      "i.skill.law",
+      "i.skill.locksmith",
+      "i.skill.psychology",
+      "i.skill.read-lips",
+      "i.skill.spot-hidden",
+      "i.skill.stealth"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.archetype.rogue",
+        "lang": "it",
+        "priority": 5
+      }
+    }
+  },
+  "_id": "6kXqHWEAiNnWlzLQ",
+  "img": "icons/svg/invisible.svg",
+  "_key": "!items!6kXqHWEAiNnWlzLQ",
+  "effects": []
+}

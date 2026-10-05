@@ -1,0 +1,32 @@
+{
+  "name": "Arti e Mestieri (Mosaico)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "skillName": "Mosaico",
+    "specialization": "Arti e Mestieri",
+    "base": "5",
+    "properties": {
+      "push": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.art-craft-mosaic",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "invictus": true
+        }
+      }
+    }
+  },
+  "_id": "N71Wd4HlyVFR2zDD",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/viscious-speed/abstract-026.svg",
+  "_key": "!items!N71Wd4HlyVFR2zDD",
+  "effects": []
+}

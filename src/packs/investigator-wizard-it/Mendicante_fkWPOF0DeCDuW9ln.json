@@ -1,0 +1,67 @@
+{
+  "name": "Mendicante",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 59 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "pow": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "app": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 0,
+      "max": 10
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.listen",
+          "i.skill.spot-hidden"
+        ]
+      },
+      {
+        "options": 2,
+        "skills": [
+          "i.skill.charm",
+          "i.skill.fast-talk",
+          "i.skill.intimidate",
+          "i.skill.persuade"
+        ]
+      }
+    ],
+    "personal": 2,
+    "skills": [
+      "i.skill.art-craft-acting",
+      "i.skill.insight",
+      "i.skill.sleight-of-hand"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.beggar",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAges": true,
+          "darkAgesPulp": true
+        }
+      }
+    }
+  },
+  "_id": "fkWPOF0DeCDuW9ln",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!fkWPOF0DeCDuW9ln",
+  "effects": []
+}

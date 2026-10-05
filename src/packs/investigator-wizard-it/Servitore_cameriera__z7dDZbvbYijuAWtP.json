@@ -1,0 +1,62 @@
+{
+  "name": "Servitore (cameriera)",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Regency Cthulhu», pagina 32 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "int": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "pow": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 10,
+      "max": 30
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.art-craft-cooking",
+          "i.skill.art-craft-sewing"
+        ]
+      }
+    ],
+    "personal": 0,
+    "skills": [
+      "i.skill.dodge",
+      "i.skill.etiquette",
+      "i.skill.fashion",
+      "i.skill.fast-talk",
+      "i.skill.listen",
+      "i.skill.spot-hidden",
+      "i.skill.stealth"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.servant-housemaid",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "regency": true,
+          "regencyPulp": true
+        }
+      }
+    }
+  },
+  "_id": "z7dDZbvbYijuAWtP",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!z7dDZbvbYijuAWtP",
+  "effects": []
+}

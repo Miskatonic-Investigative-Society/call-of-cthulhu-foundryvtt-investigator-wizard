@@ -1,0 +1,31 @@
+{
+  "name": "Status",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Through the Ages - Invictus», pagina 12 (edizione inglese)</p>"
+    },
+    "skillName": "Status",
+    "specialization": "",
+    "base": "15",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.status",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "invictus": true
+        }
+      }
+    }
+  },
+  "_id": "iQqxBA15uBrYTqts",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/credits-currency.svg",
+  "_key": "!items!iQqxBA15uBrYTqts",
+  "effects": []
+}

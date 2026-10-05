@@ -1,0 +1,35 @@
+{
+  "name": "Armi da Fuoco (Pistola ad Avancarica)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "skillName": "Pistola ad Avancarica",
+    "specialization": "Armi da Fuoco",
+    "base": "20",
+    "properties": {
+      "firearm": true,
+      "combat": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.firearms-handgun",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "regencyPulp": true,
+          "regency": true,
+          "reignOfTerror": true
+        }
+      }
+    }
+  },
+  "_id": "vxOrH9m4ACth9mlQ",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/john-colburn/pistol-gun.svg",
+  "_key": "!items!vxOrH9m4ACth9mlQ",
+  "effects": []
+}

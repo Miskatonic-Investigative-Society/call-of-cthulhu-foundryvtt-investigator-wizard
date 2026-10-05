@@ -1,0 +1,32 @@
+{
+  "name": "Etichetta",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Regency Cthulhu», pagina 37 (edizione inglese)</p>"
+    },
+    "skillName": "Etichetta",
+    "specialization": "",
+    "base": "@INT/5",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.etiquette",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "regencyPulp": true,
+          "regency": true
+        }
+      }
+    }
+  },
+  "_id": "UXV9pgMZ5lmVszLl",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/shaking-hands.svg",
+  "_key": "!items!UXV9pgMZ5lmVszLl",
+  "effects": []
+}

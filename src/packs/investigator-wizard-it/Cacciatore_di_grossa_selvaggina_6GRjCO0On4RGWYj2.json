@@ -1,0 +1,91 @@
+{
+  "name": "Cacciatore di grossa selvaggina",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 73 (edizione inglese)</p><p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 88 (edizione inglese)</p><p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 27 (edizione inglese)</p>"
+    },
+    "type": {
+      "pulp": true
+    },
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "str": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      },
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      }
+    },
+    "creditRating": {
+      "min": 20,
+      "max": 50
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.listen",
+          "i.skill.spot-hidden"
+        ]
+      },
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.language-any",
+          "i.skill.survival-any"
+        ]
+      },
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.science-biology",
+          "i.skill.science-botany"
+        ]
+      }
+    ],
+    "personal": 0,
+    "skills": [
+      "i.skill.firearms-any",
+      "i.skill.natural-world",
+      "i.skill.navigate",
+      "i.skill.stealth",
+      "i.skill.track"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.big-game-hunter",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "investigators": true,
+          "gasLight": true,
+          "gasLightPulp": true,
+          "darkAges": true,
+          "darkAgesPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "invictus": true,
+          "modern": true,
+          "modernPulp": true,
+          "pulp": true
+        }
+      }
+    }
+  },
+  "_id": "6GRjCO0On4RGWYj2",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!6GRjCO0On4RGWYj2",
+  "effects": []
+}

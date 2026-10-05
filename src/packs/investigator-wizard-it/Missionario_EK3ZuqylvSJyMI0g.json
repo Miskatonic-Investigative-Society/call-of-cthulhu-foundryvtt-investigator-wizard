@@ -1,0 +1,56 @@
+{
+  "name": "Missionario",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 41 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 4,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 0,
+      "max": 30
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.charm",
+          "i.skill.fast-talk",
+          "i.skill.intimidate",
+          "i.skill.persuade"
+        ]
+      }
+    ],
+    "personal": 2,
+    "skills": [
+      "i.skill.art-craft-any",
+      "i.skill.first-aid",
+      "i.skill.mechanical-repair",
+      "i.skill.medicine",
+      "i.skill.natural-world"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.missionary",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true
+        }
+      }
+    }
+  },
+  "_id": "EK3ZuqylvSJyMI0g",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!EK3ZuqylvSJyMI0g",
+  "effects": []
+}

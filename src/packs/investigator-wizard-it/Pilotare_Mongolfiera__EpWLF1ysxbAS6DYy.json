@@ -1,0 +1,33 @@
+{
+  "name": "Pilotare (Mongolfiera)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 92 (edizione inglese)</p>"
+    },
+    "skillName": "Mongolfiera",
+    "specialization": "Pilotare",
+    "base": "1",
+    "properties": {
+      "push": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.pilot-balloon",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "gasLight": true,
+          "gasLightPulp": true
+        }
+      }
+    }
+  },
+  "_id": "EpWLF1ysxbAS6DYy",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/air-balloon.svg",
+  "_key": "!items!EpWLF1ysxbAS6DYy",
+  "effects": []
+}

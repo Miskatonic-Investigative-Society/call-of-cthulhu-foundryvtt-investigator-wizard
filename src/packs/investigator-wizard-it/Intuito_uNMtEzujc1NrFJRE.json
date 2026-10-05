@@ -1,0 +1,33 @@
+{
+  "name": "Intuito",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 76 (edizione inglese)</p><p>Vedi «Cthulhu Through the Ages - Invictus», pagina 11 (edizione inglese)</p>"
+    },
+    "skillName": "Intuito",
+    "specialization": "",
+    "base": "5",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.insight",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAgesPulp": true,
+          "darkAges": true,
+          "invictus": true
+        }
+      }
+    }
+  },
+  "_id": "uNMtEzujc1NrFJRE",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/mailed-fist.svg",
+  "_key": "!items!uNMtEzujc1NrFJRE",
+  "effects": []
+}

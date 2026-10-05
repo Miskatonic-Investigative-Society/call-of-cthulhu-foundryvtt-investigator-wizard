@@ -1,0 +1,58 @@
+{
+  "name": "Contabile",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 70 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 4,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 30,
+      "max": 70
+    },
+    "groups": [],
+    "personal": 2,
+    "skills": [
+      "i.skill.accounting",
+      "i.skill.law",
+      "i.skill.library-use",
+      "i.skill.listen",
+      "i.skill.persuade",
+      "i.skill.spot-hidden"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.accountant",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "investigators": true,
+          "darkAges": true,
+          "darkAgesPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "invictus": true,
+          "modern": true,
+          "modernPulp": true,
+          "pulp": true,
+          "regency": true,
+          "regencyPulp": true
+        }
+      }
+    }
+  },
+  "_id": "9XqcA7rP5ZHO4LUK",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!9XqcA7rP5ZHO4LUK",
+  "effects": []
+}

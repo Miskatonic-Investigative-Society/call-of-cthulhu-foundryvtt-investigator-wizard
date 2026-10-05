@@ -1,0 +1,85 @@
+{
+  "name": "Esploratore",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 80 (edizione inglese)</p><p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 29 (edizione inglese)</p>"
+    },
+    "type": {
+      "classic": true,
+      "pulp": true
+    },
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "str": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      },
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      },
+      "app": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      }
+    },
+    "creditRating": {
+      "min": 55,
+      "max": 80
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.climb",
+          "i.skill.swim"
+        ]
+      }
+    ],
+    "personal": 0,
+    "skills": [
+      "i.skill.firearms-any",
+      "i.skill.history",
+      "i.skill.jump",
+      "i.skill.natural-world",
+      "i.skill.navigate",
+      "i.skill.language-any",
+      "i.skill.survival-any"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.explorer",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "investigators": true,
+          "darkAges": true,
+          "darkAgesPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "invictus": true,
+          "modern": true,
+          "modernPulp": true,
+          "pulp": true,
+          "regency": true,
+          "regencyPulp": true
+        }
+      }
+    }
+  },
+  "_id": "WaiFVS8fSv46Lgsf",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!WaiFVS8fSv46Lgsf",
+  "effects": []
+}

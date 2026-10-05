@@ -1,0 +1,58 @@
+{
+  "name": "Menestrello",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 64 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "app": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      },
+      "pow": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      }
+    },
+    "creditRating": {
+      "min": 0,
+      "max": 65
+    },
+    "groups": [],
+    "personal": 2,
+    "skills": [
+      "i.skill.art-craft-any",
+      "i.skill.charm",
+      "i.skill.fast-talk",
+      "i.skill.insight",
+      "i.skill.kingdom-own",
+      "i.skill.persuade"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.minstrel",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAges": true,
+          "darkAgesPulp": true
+        }
+      }
+    }
+  },
+  "_id": "ZHABKCJI3SEp6L2L",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!ZHABKCJI3SEp6L2L",
+  "effects": []
+}

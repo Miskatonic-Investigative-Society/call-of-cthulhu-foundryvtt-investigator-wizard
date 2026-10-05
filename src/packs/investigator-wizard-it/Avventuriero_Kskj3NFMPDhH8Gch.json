@@ -1,0 +1,42 @@
+{
+  "name": "Avventuriero",
+  "type": "archetype",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 15 (edizione inglese)</p>"
+    },
+    "coreCharacteristics": {
+      "dex": true,
+      "app": true
+    },
+    "skills": [
+      "i.skill.climb",
+      "i.skill.diving",
+      "i.skill.drive-auto",
+      "i.skill.first-aid",
+      "i.skill.fighting-any",
+      "i.skill.firearms-any",
+      "i.skill.jump",
+      "i.skill.language-any",
+      "i.skill.mechanical-repair",
+      "i.skill.pilot-any",
+      "i.skill.ride",
+      "i.skill.stealth",
+      "i.skill.survival-any",
+      "i.skill.swim"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.archetype.adventurer",
+        "lang": "it",
+        "priority": 5
+      }
+    }
+  },
+  "_id": "Kskj3NFMPDhH8Gch",
+  "img": "icons/svg/invisible.svg",
+  "_key": "!items!Kskj3NFMPDhH8Gch",
+  "effects": []
+}

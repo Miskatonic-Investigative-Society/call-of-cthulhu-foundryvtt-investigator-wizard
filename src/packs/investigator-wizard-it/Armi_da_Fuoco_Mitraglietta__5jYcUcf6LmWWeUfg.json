@@ -1,0 +1,36 @@
+{
+  "name": "Armi da Fuoco (Mitraglietta)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 65 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 107 (edizione inglese)</p>"
+    },
+    "skillName": "Mitraglietta",
+    "specialization": "Armi da Fuoco",
+    "base": "15",
+    "properties": {
+      "firearm": true,
+      "combat": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.firearms-submachine-gun",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "modernPulp": true,
+          "modern": true,
+          "pulp": true
+        }
+      }
+    }
+  },
+  "_id": "5jYcUcf6LmWWeUfg",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/machine-gun-magazine.svg",
+  "_key": "!items!5jYcUcf6LmWWeUfg",
+  "effects": []
+}

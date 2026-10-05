@@ -1,0 +1,40 @@
+{
+  "name": "Pilotare (Imbarcazioni)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 72 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 114 (edizione inglese)</p><p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 92 (edizione inglese)</p><p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 78 (edizione inglese)</p>"
+    },
+    "skillName": "Imbarcazioni",
+    "specialization": "Pilotare",
+    "base": "1",
+    "properties": {
+      "push": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.pilot-boat",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "gasLight": true,
+          "gasLightPulp": true,
+          "darkAgesPulp": true,
+          "darkAges": true,
+          "invictus": true,
+          "modernPulp": true,
+          "modern": true,
+          "pulp": true
+        }
+      }
+    }
+  },
+  "_id": "KuB2CzwNbQBBa4kD",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/sailboat.svg",
+  "_key": "!items!KuB2CzwNbQBBa4kD",
+  "effects": []
+}

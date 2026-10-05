@@ -1,0 +1,38 @@
+{
+  "name": "Riparazioni Meccaniche",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 69 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 111 (edizione inglese)</p>"
+    },
+    "skillName": "Riparazioni Meccaniche",
+    "specialization": "",
+    "base": "10",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.mechanical-repair",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "modernPulp": true,
+          "modern": true,
+          "pulp": true,
+          "regencyPulp": true,
+          "regency": true
+        }
+      }
+    }
+  },
+  "_id": "28SPgLVBGasLfeVI",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/mechanical-arm.svg",
+  "_key": "!items!28SPgLVBGasLfeVI",
+  "effects": []
+}

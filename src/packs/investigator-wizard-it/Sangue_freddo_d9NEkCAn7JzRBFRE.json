@@ -1,0 +1,41 @@
+{
+  "name": "Sangue freddo",
+  "type": "archetype",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 16 (edizione inglese)</p>"
+    },
+    "coreCharacteristics": {
+      "int": true
+    },
+    "skills": [
+      "i.skill.art-craft-acting",
+      "i.skill.disguise",
+      "i.skill.fighting-any",
+      "i.skill.firearms-any",
+      "i.skill.first-aid",
+      "i.skill.history",
+      "i.skill.intimidate",
+      "i.skill.law",
+      "i.skill.listen",
+      "i.skill.mechanical-repair",
+      "i.skill.psychology",
+      "i.skill.stealth",
+      "i.skill.survival-any",
+      "i.skill.track"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.archetype.cold-blooded",
+        "lang": "it",
+        "priority": 5
+      }
+    }
+  },
+  "_id": "d9NEkCAn7JzRBFRE",
+  "img": "icons/svg/invisible.svg",
+  "_key": "!items!d9NEkCAn7JzRBFRE",
+  "effects": []
+}

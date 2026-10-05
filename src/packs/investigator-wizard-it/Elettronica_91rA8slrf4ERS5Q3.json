@@ -1,0 +1,32 @@
+{
+  "name": "Elettronica",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 63 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 105 (edizione inglese)</p>"
+    },
+    "skillName": "Elettronica",
+    "specialization": "",
+    "base": "1",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.electronics",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "modernPulp": true,
+          "modern": true
+        }
+      }
+    }
+  },
+  "_id": "91rA8slrf4ERS5Q3",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/musical-keyboard.svg",
+  "_key": "!items!91rA8slrf4ERS5Q3",
+  "effects": []
+}

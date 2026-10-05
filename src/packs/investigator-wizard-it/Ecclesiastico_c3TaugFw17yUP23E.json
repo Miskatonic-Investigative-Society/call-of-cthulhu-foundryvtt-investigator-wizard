@@ -1,0 +1,57 @@
+{
+  "name": "Ecclesiastico",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 79 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "pow": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      },
+      "int": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      }
+    },
+    "creditRating": {
+      "min": 9,
+      "max": 60
+    },
+    "personal": 2,
+    "skills": [
+      "i.skill.history",
+      "i.skill.language-latin",
+      "i.skill.library-use",
+      "i.skill.persuade",
+      "i.skill.psychology",
+      "i.skill.religion"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.clergy",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "gasLight": true,
+          "gasLightPulp": true
+        }
+      }
+    }
+  },
+  "_id": "c3TaugFw17yUP23E",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!c3TaugFw17yUP23E",
+  "effects": []
+}

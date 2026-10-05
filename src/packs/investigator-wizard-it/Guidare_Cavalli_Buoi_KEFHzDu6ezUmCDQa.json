@@ -1,0 +1,33 @@
+{
+  "name": "Guidare Cavalli / Buoi",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 75 (edizione inglese)</p><p>Vedi «Cthulhu Through the Ages - Invictus», pagina 10 (edizione inglese)</p>"
+    },
+    "skillName": "Guidare Cavalli / Buoi",
+    "specialization": "",
+    "base": "20",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.drive-auto",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAgesPulp": true,
+          "darkAges": true,
+          "invictus": true
+        }
+      }
+    }
+  },
+  "_id": "KEFHzDu6ezUmCDQa",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/cartwheel.svg",
+  "_key": "!items!KEFHzDu6ezUmCDQa",
+  "effects": []
+}

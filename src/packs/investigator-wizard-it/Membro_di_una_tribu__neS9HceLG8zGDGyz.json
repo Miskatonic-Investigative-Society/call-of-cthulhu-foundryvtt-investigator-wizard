@@ -1,0 +1,77 @@
+{
+  "name": "Membro di una tribù",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 41 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 91 (edizione inglese)</p><p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 32 (edizione inglese)</p>"
+    },
+    "type": {
+      "pulp": true
+    },
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "str": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      },
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      }
+    },
+    "creditRating": {
+      "min": 0,
+      "max": 15
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.fighting-any",
+          "i.skill.throw"
+        ]
+      }
+    ],
+    "personal": 0,
+    "skills": [
+      "i.skill.climb",
+      "i.skill.listen",
+      "i.skill.natural-world",
+      "i.skill.occult",
+      "i.skill.spot-hidden",
+      "i.skill.swim",
+      "i.skill.survival-any"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.tribe-member",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "investigators": true,
+          "darkAges": true,
+          "darkAgesPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "invictus": true,
+          "modern": true,
+          "modernPulp": true,
+          "pulp": true
+        }
+      }
+    }
+  },
+  "_id": "neS9HceLG8zGDGyz",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!neS9HceLG8zGDGyz",
+  "effects": []
+}

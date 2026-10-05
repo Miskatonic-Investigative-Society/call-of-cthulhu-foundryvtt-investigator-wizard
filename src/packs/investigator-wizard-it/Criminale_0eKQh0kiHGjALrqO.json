@@ -1,0 +1,76 @@
+{
+  "name": "Criminale",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 40 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      },
+      "str": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      }
+    },
+    "creditRating": {
+      "min": 5,
+      "max": 65
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.charm",
+          "i.skill.fast-talk",
+          "i.skill.intimidate",
+          "i.skill.persuade"
+        ]
+      },
+      {
+        "options": 4,
+        "skills": [
+          "i.skill.appraise",
+          "i.skill.disguise",
+          "i.skill.fighting-any",
+          "i.skill.firearms-any",
+          "i.skill.locksmith",
+          "i.skill.mechanical-repair",
+          "i.skill.sleight-of-hand"
+        ]
+      }
+    ],
+    "personal": 0,
+    "skills": [
+      "i.skill.psychology",
+      "i.skill.spot-hidden",
+      "i.skill.stealth"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.criminal",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true
+        }
+      }
+    }
+  },
+  "_id": "0eKQh0kiHGjALrqO",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!0eKQh0kiHGjALrqO",
+  "effects": []
+}

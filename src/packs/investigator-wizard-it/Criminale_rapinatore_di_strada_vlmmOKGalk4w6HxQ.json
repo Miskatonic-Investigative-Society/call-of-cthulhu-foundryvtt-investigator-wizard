@@ -1,0 +1,62 @@
+{
+  "name": "Criminale, rapinatore di strada",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 81 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "int": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "str": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 0,
+      "max": 10
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.navigate",
+          "i.skill.track"
+        ]
+      }
+    ],
+    "personal": 1,
+    "skills": [
+      "i.skill.fighting-brawl",
+      "i.skill.intimidate",
+      "i.skill.listen",
+      "i.skill.persuade",
+      "i.skill.psychology",
+      "i.skill.spot-hidden",
+      "i.skill.stealth"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.criminal-footpad",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "gasLight": true,
+          "gasLightPulp": true
+        }
+      }
+    }
+  },
+  "_id": "vlmmOKGalk4w6HxQ",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!vlmmOKGalk4w6HxQ",
+  "effects": []
+}

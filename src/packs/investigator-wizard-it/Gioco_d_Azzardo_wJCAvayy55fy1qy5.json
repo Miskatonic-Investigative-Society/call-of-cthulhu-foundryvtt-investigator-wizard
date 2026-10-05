@@ -1,0 +1,32 @@
+{
+  "name": "Gioco d'Azzardo",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Down Darker Trails», pagina 26 (edizione inglese)</p>"
+    },
+    "skillName": "Gioco d'Azzardo",
+    "specialization": "",
+    "base": "10",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.gambling",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true
+        }
+      }
+    }
+  },
+  "_id": "wJCAvayy55fy1qy5",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/poker-hand.svg",
+  "_key": "!items!wJCAvayy55fy1qy5",
+  "effects": []
+}

@@ -1,0 +1,66 @@
+{
+  "name": "Guerriero",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Down Darker Trails», pagina 24 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "str": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      },
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      }
+    },
+    "creditRating": {
+      "min": 10,
+      "max": 70
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.mechanical-repair",
+          "i.skill.natural-world"
+        ]
+      }
+    ],
+    "personal": 1,
+    "skills": [
+      "i.skill.climb",
+      "i.skill.fighting-any",
+      "i.skill.firearms-rifle-shotgun",
+      "i.skill.first-aid",
+      "i.skill.stealth",
+      "i.skill.throw"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.warrior",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true
+        }
+      }
+    }
+  },
+  "_id": "djNxfj3ef91m9FOv",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!djNxfj3ef91m9FOv",
+  "effects": []
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Regno (Altro)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 78 (edizione inglese)</p><p>Vedi «Cthulhu Through the Ages - Invictus», pagina 11 (edizione inglese)</p>"
+    },
+    "skillName": "Altro",
+    "specialization": "Regno",
+    "base": "20",
+    "properties": {
+      "push": true,
+      "requiresname": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.kingdom-any",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAgesPulp": true,
+          "darkAges": true,
+          "invictus": true
+        }
+      }
+    }
+  },
+  "_id": "ijDqvPOOV9SPMeGJ",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/coronation.svg",
+  "_key": "!items!ijDqvPOOV9SPMeGJ",
+  "effects": []
+}

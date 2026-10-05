@@ -1,0 +1,39 @@
+{
+  "name": "Cercatore",
+  "type": "archetype",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 21 (edizione inglese)</p>"
+    },
+    "coreCharacteristics": {
+      "int": true
+    },
+    "skills": [
+      "i.skill.accounting",
+      "i.skill.appraise",
+      "i.skill.disguise",
+      "i.skill.history",
+      "i.skill.law",
+      "i.skill.library-use",
+      "i.skill.listen",
+      "i.skill.occult",
+      "i.skill.psychology",
+      "i.skill.science-any",
+      "i.skill.spot-hidden",
+      "i.skill.stealth"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.archetype.seeker",
+        "lang": "it",
+        "priority": 5
+      }
+    }
+  },
+  "_id": "KNAX3mvnBFEVFJUe",
+  "img": "icons/svg/invisible.svg",
+  "_key": "!items!KNAX3mvnBFEVFJUe",
+  "effects": []
+}

@@ -1,0 +1,67 @@
+{
+  "name": "Architetto",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 71 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 4,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 30,
+      "max": 70
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.library-use",
+          "i.skill.computer-use"
+        ]
+      }
+    ],
+    "personal": 0,
+    "skills": [
+      "i.skill.accounting",
+      "i.skill.art-craft-technical-drawing",
+      "i.skill.law",
+      "i.skill.language-own",
+      "i.skill.persuade",
+      "i.skill.psychology",
+      "i.skill.science-mathematics"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.architect",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "investigators": true,
+          "darkAges": true,
+          "darkAgesPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "invictus": true,
+          "modern": true,
+          "modernPulp": true,
+          "pulp": true,
+          "regency": true,
+          "regencyPulp": true
+        }
+      }
+    }
+  },
+  "_id": "nhcmsMTKg4b15YDF",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!nhcmsMTKg4b15YDF",
+  "effects": []
+}

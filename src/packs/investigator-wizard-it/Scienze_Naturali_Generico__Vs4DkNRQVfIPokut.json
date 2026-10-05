@@ -1,0 +1,34 @@
+{
+  "name": "Scienze Naturali (Generico)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 78 (edizione inglese)</p>"
+    },
+    "skillName": "Generico",
+    "specialization": "Scienze Naturali",
+    "base": "20",
+    "properties": {
+      "push": true,
+      "requiresname": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.natural-world-any",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAgesPulp": true,
+          "darkAges": true
+        }
+      }
+    }
+  },
+  "_id": "Vs4DkNRQVfIPokut",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/forest.svg",
+  "_key": "!items!Vs4DkNRQVfIPokut",
+  "effects": []
+}

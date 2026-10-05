@@ -1,0 +1,34 @@
+{
+  "name": "Leggere e Scrivere (Generico)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 79 (edizione inglese)</p>"
+    },
+    "skillName": "Generico",
+    "specialization": "Leggere e Scrivere",
+    "base": "1",
+    "properties": {
+      "push": true,
+      "requiresname": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.read-and-write-any",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAgesPulp": true,
+          "darkAges": true
+        }
+      }
+    }
+  },
+  "_id": "98sh6dyCPsCtb7mI",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/quill-ink.svg",
+  "_key": "!items!98sh6dyCPsCtb7mI",
+  "effects": []
+}

@@ -1,0 +1,98 @@
+{
+  "name": "Criminale (indipendente)",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 76 (edizione inglese)</p><p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 28 (edizione inglese)</p>"
+    },
+    "type": {
+      "pulp": true
+    },
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      },
+      "app": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      }
+    },
+    "creditRating": {
+      "min": 5,
+      "max": 65
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.art-craft-any",
+          "i.skill.disguise"
+        ]
+      },
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.charm",
+          "i.skill.fast-talk",
+          "i.skill.intimidate"
+        ]
+      },
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.fighting-any",
+          "i.skill.firearms-any"
+        ]
+      },
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.locksmith",
+          "i.skill.mechanical-repair"
+        ]
+      }
+    ],
+    "personal": 0,
+    "skills": [
+      "i.skill.appraise",
+      "i.skill.stealth",
+      "i.skill.psychology",
+      "i.skill.spot-hidden"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.criminal-freelance-solo",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "investigators": true,
+          "darkAges": true,
+          "darkAgesPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "invictus": true,
+          "modern": true,
+          "modernPulp": true,
+          "pulp": true,
+          "regency": true,
+          "regencyPulp": true
+        }
+      }
+    }
+  },
+  "_id": "Vdrb5xnSxnSYNBFq",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!Vdrb5xnSxnSYNBFq",
+  "effects": []
+}

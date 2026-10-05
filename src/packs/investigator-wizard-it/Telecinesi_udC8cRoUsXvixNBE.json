@@ -1,0 +1,36 @@
+{
+  "name": "Telecinesi",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "skillName": "Telecinesi",
+    "specialization": "",
+    "base": "0",
+    "properties": {
+      "push": true,
+      "rarity": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.telekinesis",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAgesPulp": true,
+          "downDarkerTrailsPulp": true,
+          "modernPulp": true,
+          "pulp": true,
+          "regencyPulp": true
+        }
+      }
+    }
+  },
+  "_id": "udC8cRoUsXvixNBE",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/psychic-waves.svg",
+  "_key": "!items!udC8cRoUsXvixNBE",
+  "effects": []
+}

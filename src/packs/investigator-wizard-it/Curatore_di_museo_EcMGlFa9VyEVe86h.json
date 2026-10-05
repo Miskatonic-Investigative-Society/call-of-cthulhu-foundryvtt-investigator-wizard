@@ -1,0 +1,50 @@
+{
+  "name": "Curatore di museo",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 88 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 4,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 9,
+      "max": 30
+    },
+    "groups": [],
+    "personal": 0,
+    "skills": [
+      "i.skill.accounting",
+      "i.skill.appraise",
+      "i.skill.archaeology",
+      "i.skill.history",
+      "i.skill.library-use",
+      "i.skill.occult",
+      "i.skill.language-any",
+      "i.skill.spot-hidden"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.museum-curator",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "gasLight": true,
+          "gasLightPulp": true
+        }
+      }
+    }
+  },
+  "_id": "EcMGlFa9VyEVe86h",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!EcMGlFa9VyEVe86h",
+  "effects": []
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Scienza (Filosofia/Religione)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "skillName": "Filosofia/Religione",
+    "specialization": "Scienza",
+    "base": "1",
+    "properties": {
+      "push": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.science-philosophy-religion",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "invictus": true
+        }
+      }
+    }
+  },
+  "_id": "nGhY0SvGxj4hD6Tr",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/incense.svg",
+  "_key": "!items!nGhY0SvGxj4hD6Tr",
+  "effects": []
+}

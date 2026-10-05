@@ -1,0 +1,53 @@
+{
+  "name": "Marinaio",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 65 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "con": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 0,
+      "max": 30
+    },
+    "groups": [],
+    "personal": 2,
+    "skills": [
+      "i.skill.climb",
+      "i.skill.fast-talk",
+      "i.skill.natural-world",
+      "i.skill.navigate",
+      "i.skill.kingdom-any",
+      "i.skill.pilot-boat"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.sailor",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAges": true,
+          "darkAgesPulp": true
+        }
+      }
+    }
+  },
+  "_id": "vf0ej8Bxs5p5s3nE",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!vf0ej8Bxs5p5s3nE",
+  "effects": []
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Arti e Mestieri (Disegno a Gesso)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "skillName": "Disegno a Gesso",
+    "specialization": "Arti e Mestieri",
+    "base": "5",
+    "properties": {
+      "push": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.art-craft-chalk-art",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "gasLight": true,
+          "gasLightPulp": true
+        }
+      }
+    }
+  },
+  "_id": "449UElF6VmOb0oqJ",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/chalk-outline-murder.svg",
+  "_key": "!items!449UElF6VmOb0oqJ",
+  "effects": []
+}

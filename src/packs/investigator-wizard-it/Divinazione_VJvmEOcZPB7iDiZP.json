@@ -1,0 +1,36 @@
+{
+  "name": "Divinazione",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "skillName": "Divinazione",
+    "specialization": "",
+    "base": "0",
+    "properties": {
+      "push": true,
+      "rarity": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.divination",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAgesPulp": true,
+          "downDarkerTrailsPulp": true,
+          "modernPulp": true,
+          "pulp": true,
+          "regencyPulp": true
+        }
+      }
+    }
+  },
+  "_id": "VJvmEOcZPB7iDiZP",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/crystal-ball.svg",
+  "_key": "!items!VJvmEOcZPB7iDiZP",
+  "effects": []
+}

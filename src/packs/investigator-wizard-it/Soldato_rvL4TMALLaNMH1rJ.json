@@ -1,0 +1,65 @@
+{
+  "name": "Soldato",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Reign of Terror», pagina 105 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "str": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      },
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      }
+    },
+    "creditRating": {
+      "min": 5,
+      "max": 70
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.firearms-rifle-shotgun",
+          "i.skill.firearms-handgun"
+        ]
+      }
+    ],
+    "personal": 2,
+    "skills": [
+      "i.skill.fighting-sword",
+      "i.skill.fighting-brawl",
+      "i.skill.first-aid",
+      "i.skill.intimidate",
+      "i.skill.navigate",
+      "i.skill.ride"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.soldier",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "reignOfTerror": true
+        }
+      }
+    }
+  },
+  "_id": "rvL4TMALLaNMH1rJ",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!rvL4TMALLaNMH1rJ",
+  "effects": []
+}

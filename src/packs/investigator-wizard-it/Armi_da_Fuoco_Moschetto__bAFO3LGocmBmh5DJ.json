@@ -1,0 +1,33 @@
+{
+  "name": "Armi da Fuoco (Moschetto)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "skillName": "Moschetto",
+    "specialization": "Armi da Fuoco",
+    "base": "20",
+    "properties": {
+      "firearm": true,
+      "combat": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.firearms-rifle-shotgun",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "reignOfTerror": true
+        }
+      }
+    }
+  },
+  "_id": "bAFO3LGocmBmh5DJ",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/skoll/musket.svg",
+  "_key": "!items!bAFO3LGocmBmh5DJ",
+  "effects": []
+}

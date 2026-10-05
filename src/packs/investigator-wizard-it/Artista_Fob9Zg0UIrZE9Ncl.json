@@ -1,0 +1,58 @@
+{
+  "name": "Artista",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Down Darker Trails», pagina 18 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      },
+      "pow": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": true
+      }
+    },
+    "creditRating": {
+      "min": 6,
+      "max": 60
+    },
+    "groups": [],
+    "personal": 2,
+    "skills": [
+      "i.skill.art-craft-any",
+      "i.skill.history",
+      "i.skill.library-use",
+      "i.skill.psychology",
+      "i.skill.spot-hidden",
+      "i.skill.sleight-of-hand"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.artist",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true
+        }
+      }
+    }
+  },
+  "_id": "Fob9Zg0UIrZE9Ncl",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!Fob9Zg0UIrZE9Ncl",
+  "effects": []
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Rapidità di Mano",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu 7th Edition - Keeper's Rulebook», pagina 76 (edizione inglese)</p><p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 118 (edizione inglese)</p><p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 92 (edizione inglese)</p>"
+    },
+    "skillName": "Rapidità di Mano",
+    "specialization": "",
+    "base": "10",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.sleight-of-hand",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "gasLight": true,
+          "gasLightPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "modernPulp": true,
+          "modern": true,
+          "pulp": true,
+          "regencyPulp": true,
+          "regency": true,
+          "reignOfTerror": true
+        }
+      }
+    }
+  },
+  "_id": "2GJ3QVBmD4nu8HDe",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/lorc/hand.svg",
+  "_key": "!items!2GJ3QVBmD4nu8HDe",
+  "effects": []
+}

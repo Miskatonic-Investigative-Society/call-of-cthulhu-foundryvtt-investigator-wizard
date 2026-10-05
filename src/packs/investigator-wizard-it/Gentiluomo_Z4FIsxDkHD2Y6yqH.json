@@ -1,0 +1,61 @@
+{
+  "name": "Gentiluomo",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Regency Cthulhu», pagina 31 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "app": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 50,
+      "max": 90
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.fighting-any",
+          "i.skill.firearms-any"
+        ]
+      }
+    ],
+    "personal": 1,
+    "skills": [
+      "i.skill.charm",
+      "i.skill.dancing",
+      "i.skill.etiquette",
+      "i.skill.fashion",
+      "i.skill.gaming",
+      "i.skill.ride"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.gentleman",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "regency": true,
+          "regencyPulp": true
+        }
+      }
+    }
+  },
+  "_id": "Z4FIsxDkHD2Y6yqH",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!Z4FIsxDkHD2Y6yqH",
+  "effects": []
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Arti e Mestieri (Lavorazione di Osso e Corno)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 74 (edizione inglese)</p>"
+    },
+    "skillName": "Lavorazione di Osso e Corno",
+    "specialization": "Arti e Mestieri",
+    "base": "5",
+    "properties": {
+      "push": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.art-craft-bone-and-horn-worker",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAgesPulp": true,
+          "darkAges": true
+        }
+      }
+    }
+  },
+  "_id": "FJlUvYjSiDPQ2J0H",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/mighty-horn.svg",
+  "_key": "!items!FJlUvYjSiDPQ2J0H",
+  "effects": []
+}

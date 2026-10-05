@@ -1,0 +1,35 @@
+{
+  "name": "Combattere (Scudo)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 76 (edizione inglese)</p><p>Vedi «Cthulhu Through the Ages - Invictus», pagina 11 (edizione inglese)</p>"
+    },
+    "skillName": "Scudo",
+    "specialization": "Combattere",
+    "base": "15",
+    "properties": {
+      "fighting": true,
+      "combat": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.fighting-shield",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAgesPulp": true,
+          "darkAges": true,
+          "invictus": true
+        }
+      }
+    }
+  },
+  "_id": "Q3ZrT1X1DAnx2k6Q",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/sbed/shield.svg",
+  "_key": "!items!Q3ZrT1X1DAnx2k6Q",
+  "effects": []
+}

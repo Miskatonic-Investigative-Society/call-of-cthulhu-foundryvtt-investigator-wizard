@@ -1,0 +1,30 @@
+{
+  "name": "Lingua (Ceco)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "skillName": "Ceco",
+    "specialization": "Lingua",
+    "base": "1",
+    "properties": {
+      "push": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.language-czech",
+        "lang": "it",
+        "priority": 5,
+        "eras": {}
+      }
+    }
+  },
+  "_id": "8ylpHHN8BB7T5nmr",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/skoll/talk.svg",
+  "_key": "!items!8ylpHHN8BB7T5nmr",
+  "effects": []
+}

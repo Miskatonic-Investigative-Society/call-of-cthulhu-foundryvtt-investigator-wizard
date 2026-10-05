@@ -1,0 +1,32 @@
+{
+  "name": "Moda",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Regency Cthulhu», pagina 38 (edizione inglese)</p>"
+    },
+    "skillName": "Moda",
+    "specialization": "",
+    "base": "10",
+    "properties": {
+      "push": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.fashion",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "regencyPulp": true,
+          "regency": true
+        }
+      }
+    }
+  },
+  "_id": "etIVMlvu6HvBXW05",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/travel-dress.svg",
+  "_key": "!items!etIVMlvu6HvBXW05",
+  "effects": []
+}

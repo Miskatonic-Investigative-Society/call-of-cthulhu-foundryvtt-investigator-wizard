@@ -1,0 +1,35 @@
+{
+  "name": "Sognatore",
+  "type": "archetype",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 17 (edizione inglese)</p>"
+    },
+    "coreCharacteristics": {
+      "pow": true
+    },
+    "skills": [
+      "i.skill.art-craft-any",
+      "i.skill.charm",
+      "i.skill.history",
+      "i.skill.language-any",
+      "i.skill.library-use",
+      "i.skill.listen",
+      "i.skill.natural-world",
+      "i.skill.occult"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.archetype.dreamer",
+        "lang": "it",
+        "priority": 5
+      }
+    }
+  },
+  "_id": "OkBZMwCypCpq28wc",
+  "img": "icons/svg/invisible.svg",
+  "_key": "!items!OkBZMwCypCpq28wc",
+  "effects": []
+}

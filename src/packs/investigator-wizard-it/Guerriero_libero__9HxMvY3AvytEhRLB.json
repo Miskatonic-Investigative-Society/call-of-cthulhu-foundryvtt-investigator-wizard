@@ -1,0 +1,54 @@
+{
+  "name": "Guerriero (libero)",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Dark Ages - 3rd Edition», pagina 65 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "str": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 9,
+      "max": 65
+    },
+    "groups": [],
+    "personal": 1,
+    "skills": [
+      "i.skill.fighting-brawl",
+      "i.skill.natural-world",
+      "i.skill.kingdom-own",
+      "i.skill.ride",
+      "i.skill.track",
+      "i.skill.fighting-any",
+      "i.skill.fighting-any"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.warrior-free",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "darkAges": true,
+          "darkAgesPulp": true
+        }
+      }
+    }
+  },
+  "_id": "9HxMvY3AvytEhRLB",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!9HxMvY3AvytEhRLB",
+  "effects": []
+}

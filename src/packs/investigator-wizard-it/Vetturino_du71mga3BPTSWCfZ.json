@@ -1,0 +1,68 @@
+{
+  "name": "Vetturino",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «The Cthulhu by Gaslight Investigators Guide», pagina 79 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 9,
+      "max": 20
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.fighting-brawl",
+          "i.skill.fighting-whip"
+        ]
+      },
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.listen",
+          "i.skill.spot-hidden"
+        ]
+      }
+    ],
+    "personal": 0,
+    "skills": [
+      "i.skill.animal-handling",
+      "i.skill.drive-auto",
+      "i.skill.jump",
+      "i.skill.mechanical-repair",
+      "i.skill.navigate",
+      "i.skill.persuade"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.cabbie",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "gasLight": true,
+          "gasLightPulp": true
+        }
+      }
+    }
+  },
+  "_id": "du71mga3BPTSWCfZ",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!du71mga3BPTSWCfZ",
+  "effects": []
+}

@@ -1,0 +1,33 @@
+{
+  "name": "A Distanza (Fionda)",
+  "type": "skill",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Cthulhu Through the Ages - Invictus», pagina 11 (edizione inglese)</p>"
+    },
+    "skillName": "Fionda",
+    "specialization": "A Distanza",
+    "base": "15",
+    "properties": {
+      "ranged": true,
+      "combat": true,
+      "special": true
+    }
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.skill.ranged-sling",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "invictus": true
+        }
+      }
+    }
+  },
+  "_id": "4b2wwMTxqqM9O9fs",
+  "img": "modules/call-of-cthulhu-foundryvtt-investigator-wizard/assets/game-icons/delapouite/sling.svg",
+  "_key": "!items!4b2wwMTxqqM9O9fs",
+  "effects": []
+}

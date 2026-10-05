@@ -1,0 +1,18 @@
+{
+  "name": "call-of-cthulhu-foundryvtt-investigator-wizard",
+  "private": true,
+  "type": "module",
+  "description": "Build del compendio italiano dell'Investigator Wizard",
+  "upstream": {
+    "repo": "Miskatonic-Investigative-Society/call-of-cthulhu-foundryvtt-investigator-wizard",
+    "version": "1.0.6"
+  },
+  "scripts": {
+    "translate": "node tools/translate-it/build.mjs",
+    "pack": "node tools/packs.mjs compile",
+    "extract": "node tools/packs.mjs extract"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^3.0.0"
+  }
+}

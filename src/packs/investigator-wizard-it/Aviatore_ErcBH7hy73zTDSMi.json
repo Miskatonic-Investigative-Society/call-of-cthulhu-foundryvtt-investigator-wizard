@@ -1,0 +1,65 @@
+{
+  "name": "Aviatore",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 86 (edizione inglese)</p><p>Vedi «Pulp Cthulhu (7th edition Call of Cthulhu)», pagina 27 (edizione inglese)</p>"
+    },
+    "type": {
+      "classic": true,
+      "pulp": true
+    },
+    "occupationSkillPoints": {
+      "dex": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      },
+      "edu": {
+        "multiplier": 2,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 30,
+      "max": 60
+    },
+    "groups": [],
+    "personal": 1,
+    "skills": [
+      "i.skill.accounting",
+      "i.skill.electrical-repair",
+      "i.skill.listen",
+      "i.skill.mechanical-repair",
+      "i.skill.navigate",
+      "i.skill.pilot-aircraft",
+      "i.skill.spot-hidden"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.aviator",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "investigators": true,
+          "darkAges": true,
+          "darkAgesPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "invictus": true,
+          "modern": true,
+          "modernPulp": true,
+          "pulp": true
+        }
+      }
+    }
+  },
+  "_id": "ErcBH7hy73zTDSMi",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!ErcBH7hy73zTDSMi",
+  "effects": []
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Designer",
+  "type": "occupation",
+  "system": {
+    "description": {
+      "value": "<p>Vedi «Call of Cthulhu Investigator Handbook 7th Edition», pagina 77 (edizione inglese)</p>"
+    },
+    "type": {},
+    "occupationSkillPoints": {
+      "edu": {
+        "multiplier": 4,
+        "selected": true,
+        "optional": false
+      }
+    },
+    "creditRating": {
+      "min": 20,
+      "max": 60
+    },
+    "groups": [
+      {
+        "options": 1,
+        "skills": [
+          "i.skill.library-use",
+          "i.skill.computer-use"
+        ]
+      }
+    ],
+    "personal": 1,
+    "skills": [
+      "i.skill.accounting",
+      "i.skill.art-craft-photography",
+      "i.skill.art-craft-any",
+      "i.skill.mechanical-repair",
+      "i.skill.psychology",
+      "i.skill.spot-hidden"
+    ]
+  },
+  "flags": {
+    "CoC7": {
+      "cocidFlag": {
+        "id": "i.occupation.designer",
+        "lang": "it",
+        "priority": 5,
+        "eras": {
+          "standard": true,
+          "investigators": true,
+          "darkAges": true,
+          "darkAgesPulp": true,
+          "downDarkerTrails": true,
+          "downDarkerTrailsPulp": true,
+          "invictus": true,
+          "modern": true,
+          "modernPulp": true,
+          "pulp": true
+        }
+      }
+    }
+  },
+  "_id": "WQtvhb835YFDDtVv",
+  "img": "icons/svg/ice-aura.svg",
+  "_key": "!items!WQtvhb835YFDDtVv",
+  "effects": []
+}
