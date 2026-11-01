@@ -1,3 +1,8 @@
+## Version 1.0.7
+
+- Add "own" property to Language Own and Kingdom Own
+- Fix Language (German) - remove comma
+
 ## Version 1.0.6
 
 - Change Fighting Throw to Throw
